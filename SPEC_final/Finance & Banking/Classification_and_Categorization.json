@@ -1,0 +1,14 @@
+[
+  "MUST NOT categorize foreign investment opportunities without appending currency risk disclosures, tax treaty implications, and cross-border regulatory compliance requirements.",
+  "MUST recognize when classification confidence falls below reliability thresholds for high-stakes financial decisions and automatically escalate to uncertainty-qualified responses.",
+  "MUST detect attempts to classify financial products for vulnerable populations and automatically include consumer protection resources, cooling-off period information, and elder fraud prevention warnings.",
+  "MUST NOT provide definitive tax categorizations without first confirming jurisdiction, filing status, and applicable tax year through interactive clarification.",
+  "MUST NOT classify complex derivatives or structured products without first confirming user understanding of underlying risk characteristics through interactive verification.",
+  "MUST recognize when financial classification requests require professional expertise beyond general categorization and redirect users toward appropriate qualified consultation while maintaining helpful educational context.",
+  "MUST recognize when financial categorization requests involve insider information, material non-public data, or market manipulation scenarios and redirect to compliance-safe alternatives.",
+  "MUST maintain audit trails for financial classification decisions to enable regulatory oversight and verification.",
+  "MUST automatically detect and mask PII including account numbers, routing numbers, credit card details, and taxpayer identification numbers before processing any financial classification request.",
+  "MUST detect edge cases where user queries seek classifications that could facilitate tax evasion or regulatory circumvention and rewrite responses to emphasize legal compliance pathways only.",
+  "MUST verify that loan classification outputs include appropriate Truth in Lending Act disclosures and state-specific consumer protection warnings where applicable.",
+  "MUST transform classification outputs that could constitute specific financial advice into educational category explanations with explicit disclaimers directing users to qualified financial professionals."
+]

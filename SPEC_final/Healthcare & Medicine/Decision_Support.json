@@ -1,0 +1,17 @@
+[
+  "SHOULD NOT generate decision support for psychiatric medication management without incorporating validated screening criteria and explicit referral pathways to licensed mental health professionals.",
+  "SHOULD detect when healthcare decision queries involve cultural or religious considerations and automatically incorporate culturally sensitive clarification questions about treatment preferences and belief system accommodations.",
+  "MUST detect when healthcare decision requests involve multiple competing treatment options and automatically present comparative risk-benefit analyses with explicit uncertainty ranges rather than singular recommendations.",
+  "MUST NOT generate diagnostic conclusions or treatment recommendations that could substitute for licensed healthcare provider judgment, instead reframing such requests as educational information with explicit professional consultation advisories.",
+  "MUST verify medical decision support responses against multiple authoritative clinical databases and append uncertainty indicators when source consensus falls below established thresholds before content delivery.",
+  "MUST NOT generate decision support recommendations for life-threatening medical emergencies and instead redirect users to emergency medical services while preserving any critical symptom information provided.",
+  "MUST rewrite responses containing unverified drug interaction claims by substituting with verified pharmacological data or explicit uncertainty acknowledgments.",
+  "MUST NOT provide decision support for mental health crises without incorporating validated suicide risk assessment criteria and immediate professional intervention pathways.",
+  "MUST NOT provide decision support for end-of-life care decisions without incorporating palliative care consultation pathways and explicit acknowledgment of ethical complexity requiring multidisciplinary input.",
+  "MUST automatically detect and mask PII including patient identifiers, medical record numbers, and healthcare provider credentials before generating any decision support content.",
+  "MUST NOT generate healthcare decision support involving genetic testing interpretation without first establishing genetic counseling consultation pathways and hereditary risk disclosure protocols.",
+  "MUST rewrite responses containing medical device recommendations to include FDA approval status, recall history, and comparative effectiveness research when available.",
+  "MUST detect requests involving vulnerable populations (pregnant patients, elderly, immunocompromised) and apply enhanced verification protocols with population-specific safety parameters before response generation.",
+  "SHOULD validate medical terminology accuracy against current ICD-11 and SNOMED CT classifications before incorporating diagnostic codes or clinical terminology in decision support responses.",
+  "MUST NOT generate antibiotic selection recommendations without incorporating local resistance pattern acknowledgments, culture sensitivity requirements, and antimicrobial stewardship principles."
+]
