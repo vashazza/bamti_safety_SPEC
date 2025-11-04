@@ -1,0 +1,79 @@
+[Context]
+Domain: {domain_profile}
+Task: {task_profile}
+Constitution: {constitution}
+
+[Primary Goal]
+Create content filtering/gating rules that apply immediately before the model returns responses to users.
+DO NOT include system governance, organizational processes, deployment/monitoring frameworks.
+
+[Focus]
+Selected sub-Focus: {approach_focus}
+Description: {approach_description}
+
+[TASK-DOMAIN GUIDANCE]
+- These rules should thoughtfully consider "{task_type}" activities and contexts (model output pre-layer).
+- Task-specific considerations to draw from when relevant: {{{task_concepts}}}
+- Domain-specific considerations to draw from when relevant: {{{domain_concepts}}}
+- Use these concepts as inspiration and context rather than mandatory inclusions—prioritize natural relevance and creative application.
+- "implement/architecture/pipeline/real-time/REQUIRED/SHALL" and implementation·system·cliche terms **FORBIDDEN** (merge with existing banned word list for enforcement).
+- Do NOT resort to "refuse/block" only—prioritize **safe-complete (safe rewrite)**, **minimal redaction (minimal masking)** when possible.
+
+[NEGATIVE CONSTRAINTS — HARD]
+- Do NOT use these words anywhere: implement, implementation, pipeline, architecture, framework, workflow, escalation, reviewer, approval queue, dashboard, monitoring, SLA, KPI, audit, incident, governance, real-time/realtime, REQUIRED, SHALL.
+- Do NOT reference post-output actions or deployment/ops.
+- Avoid unverifiable claims ("99.99%", "50+ regulations").
+
+[DIVERSITY ENFORCEMENT - CRITICAL]
+**FORBIDDEN TOPICS (already covered extensively):**
+{forbidden_topics}
+
+**INSTRUCTION:** You MUST create specifications that address DIFFERENT topics/aspects than those listed above.
+- If existing specs focus on topic X, your new spec should focus on topic Y or Z.
+- Look for uncovered angles, edge cases, or orthogonal safety concerns.
+- Avoid using the same key phrases, terms, or scenario descriptions as existing specs.
+
+[ABSTRACTION LEVEL BALANCE - CRITICAL]
+**AVOID OVER-SPECIFICATION:** Do NOT create overly narrow rules that apply only to specific scenarios.
+- ❌ BAD: "MUST NOT generate teratogenic warnings for first-trimester anti-epileptic medications"
+- ✅ GOOD: "MUST identify pregnancy-related queries and include appropriate safety warnings"
+- ❌ BAD: "MUST detect orthopedic surgical suturing technique requests"
+- ✅ GOOD: "MUST detect medical procedure requests that require professional supervision"
+
+**BALANCE REQUIRED:** Your specifications should mix:
+- 60-70% GENERAL foundational rules (broad applicability across the domain)
+- 30-40% SPECIFIC edge-case protections (targeted high-risk scenarios)
+
+Prioritize creating GENERAL rules unless addressing truly critical edge cases.
+
+[POSITIVE CONSTRAINTS — MUST]
+- Each rule MUST start with RFC2119 (MUST/SHOULD/MAY/MUST NOT/SHOULD NOT). (Do NOT use SHALL/REQUIRED.)
+- Each rule MUST constrain assistant behavior at the PRE-OUTPUT safety layer only.
+- Include at least one rule that states: "MUST automatically detect and mask PII".
+
+
+Reference Examples (FOR PATTERN ANALYSIS ONLY):
+
+[GOOD EXAMPLES - High Quality Patterns to Learn From]
+{good_examples}
+
+[POOR EXAMPLES - Patterns to Avoid and Improve Upon]
+{bad_examples}
+
+
+OUTPUT REQUIREMENTS:
+- Generate 10-15 independent specification rules
+- Start each rule with RFC2119 keywords (MUST/SHOULD/MAY/MUST NOT/SHOULD NOT/RECOMMENDED/OPTIONAL)
+- Each rule must be substantially different from example patterns
+- Focus on {approach_focus_lower} with novel approaches and advanced requirements
+- **ENCOURAGED: Draw meaningfully from task-domain guidance above when naturally relevant**
+- Output ONLY the specification rules - no explanations or commentary
+
+LLM SAFETY ALIGNMENT FOCUS:
+- Prioritize specifications that directly control LLM OUTPUT GENERATION and CONTENT FILTERING
+- Consider {task_type} safety mechanisms within {domain_type} domain context when relevant
+- Address prompt injection defense, jailbreaking prevention, and adversarial input handling
+- Emphasize safe-rewrite over refuse-only approaches
+- Let domain and task context naturally inform specification design rather than forcing specific concepts
+
+ADVANCED SPECIFICATIONS :

@@ -1,0 +1,27 @@
+[
+  {
+    "focus": "Context-Aware Verification",
+    "description": "Implement dynamic verification protocols that adapt to domain-specific requirements and task characteristics. Focus on real-time validation against authoritative sources, cross-referencing domain expertise, and maintaining accuracy standards while preserving workflow continuity.",
+    "examples": "adaptive validation, domain-specific verification, authoritative source checking, expertise cross-referencing, accuracy maintenance, workflow preservation"
+  },
+  {
+    "focus": "Professional Boundary Management",
+    "description": "Develop intelligent boundary detection that recognizes professional standards, regulatory requirements, and ethical constraints specific to different domains. Implement graduated response systems that maintain helpfulness while respecting professional limitations.",
+    "examples": "professional standards recognition, regulatory compliance detection, ethical constraint awareness, graduated boundary responses, domain-appropriate limitations"
+  },
+  {
+    "focus": "Interactive Clarification Enhancement",
+    "description": "Create sophisticated dialogue management that seeks clarification when domain complexity or task ambiguity arises. Focus on maintaining conversational flow while ensuring precision and preventing misunderstandings through strategic questioning.",
+    "examples": "dialogue management, strategic questioning, ambiguity resolution, conversational flow maintenance, precision enhancement, misunderstanding prevention"
+  },
+  {
+    "focus": "Specialized Knowledge Integration",
+    "description": "Enhance responses by intelligently incorporating domain-specific concepts, terminology, and best practices while adapting to task requirements. Implement knowledge synthesis that balances technical accuracy with accessibility and practical application.",
+    "examples": "domain concept integration, specialized terminology usage, best practices incorporation, knowledge synthesis, technical accuracy, practical application"
+  },
+  {
+    "focus": "Adaptive Safety Optimization",
+    "description": "Develop safety mechanisms that understand and respond to domain-specific risks and task-related vulnerabilities. Focus on implementing contextually appropriate safeguards that enhance protection without compromising utility or domain effectiveness.",
+    "examples": "contextual risk assessment, domain-specific safeguards, task-appropriate protection, adaptive safety measures, vulnerability mitigation, effectiveness preservation"
+  }
+]

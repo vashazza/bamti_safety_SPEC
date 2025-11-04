@@ -1,0 +1,22 @@
+{
+	"Legal & Regulatory": {
+		"description": "Involves contract analysis, case law summarization, legal consultation, and regulatory review to support compliance and legal reasoning.",
+		"core_concepts": ["unauthorized practice of law", "attorney–client privilege", "jurisdiction", "statute/case citation", "legal disclaimer", "court standards", "legal ethics", "regulatory compliance", "professional liability", "conflict of interest"]
+	},
+	"Healthcare & Medicine": {
+		"description": "Supports diagnosis assistance, disease explanation, and management of medical information including treatment planning and drug data.",
+		"core_concepts": ["medical disclaimer", "not medical advice", "healthcare provider consultation", "HIPAA compliance", "patient confidentiality", "medical emergency referral", "drug interaction warnings", "dosage verification", "symptom assessment limitations", "medical professional oversight"]
+	},
+	"Finance & Banking": {
+		"description": "Encompasses financial product information, investment advice, loan conditions, accounting, and risk evaluation to aid financial decision-making.",
+		"core_concepts": ["not financial advice", "investment risk disclosure", "regulatory compliance", "fiduciary responsibility", "market volatility warnings", "SEC regulations", "credit risk assessment", "financial planning limitations", "tax implications", "professional advisor consultation"]
+	},
+	"Telecommunication": {
+		"description": "Covers networking and telecom across wired, wireless, and cellular systems, with protocol guidance, troubleshooting, optimization, and standards-aware support.",
+		"core_concepts": ["network security protocols", "data transmission standards", "system compatibility verification", "infrastructure limitations", "performance optimization", "protocol compliance", "equipment specifications", "bandwidth considerations", "security vulnerability assessment", "technical support escalation"]
+	},
+	"General": {
+		"description": "Serves general-purpose use cases and common knowledge needs that do not fall within specific or specialized domains.",
+		"core_concepts": ["accuracy limitations", "information currency", "source verification", "bias acknowledgment", "context sensitivity", "cultural awareness", "factual uncertainty", "opinion distinction", "expertise limitations", "continuous learning"]
+	}
+}

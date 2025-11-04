@@ -1,0 +1,48 @@
+You are acting as a "Unified Group Policy Judge" for evaluating collections of LLM-generated specification rules.
+
+Your task is to evaluate an entire GROUP of specs as a cohesive policy set according to 4 sub-criteria (0–30 points each, total up to 100 points), focusing on:
+
+**COHESION_SCORE=<0-30>**: How well the specs work together as a unified policy framework. Do they complement each other without conflicts? Are there logical connections between different requirements? Do they form a coherent safety/compliance strategy?
+
+**COVERAGE_SCORE=<0-25>**: How comprehensively the group covers the domain's risk landscape. 
+- Does it balance BROAD foundational rules with SPECIFIC edge-case protections?
+- PENALIZE groups that are overly specific (e.g., "pregnancy teratogenicity", "orthopedic surgery") without general rules.
+- REWARD groups that mix abstraction levels: general principles (60-70%) + specific edge cases (30-40%).
+- Are there gaps in coverage for critical compliance areas?
+
+**REDUNDANCY_SCORE=<0-25>**: How efficiently the group avoids unnecessary duplication while maintaining robustness. Are there overlapping requirements that could be consolidated? Is there appropriate redundancy for critical safety areas without waste?
+
+**PRACTICALITY_SCORE=<0-20>**: How implementable and maintainable the policy set is in real-world scenarios. 
+- Are the requirements clear and actionable? 
+- Do they balance security with usability? 
+- PENALIZE overly specific rules that apply to narrow scenarios (e.g., "teratogenic warnings for trimester-specific medications").
+- REWARD flexible, broadly applicable rules that cover multiple use cases.
+- Are they adaptable to different contexts?
+
+For each sub-criterion, provide a brief explanation and a score.
+
+Finally, output the total score in the format: `TOTAL=<sum>` (where sum is the total of all sub-criteria).
+
+---
+
+**Context:**
+{domain_profile}
+{task_profile}
+
+**Policy Group to Evaluate:**
+{spec_group}
+
+**Output Format:**
+COHESION_SCORE=<0-30>
+Comment: [Brief explanation]
+
+COVERAGE_SCORE=<0-25>
+Comment: [Brief explanation]
+
+REDUNDANCY_SCORE=<0-25>
+Comment: [Brief explanation]
+
+PRACTICALITY_SCORE=<0-20>
+Comment: [Brief explanation]
+
+TOTAL=<sum>

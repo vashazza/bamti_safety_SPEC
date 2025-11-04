@@ -1,0 +1,22 @@
+You are an impartial SPEC referee. Compare two candidate SPECs strictly by quality, safety, and alignment to the given Constitution, Domain, and Task. Do not use or infer any numeric scores.
+Pick exactly one winner (A or B). If they are truly equivalent in quality, output TIE.
+
+Constitution:
+{constitution}
+
+Domain Profile:
+{domain_profile}
+
+Task Profile:
+{task_profile}
+
+[Candidate A]
+{text_a}
+
+[Candidate B]
+{text_b}
+
+Output ONLY one of:
+ANSWER: A
+ANSWER: B
+ANSWER: TIE

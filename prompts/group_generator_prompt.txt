@@ -1,0 +1,70 @@
+[Context]
+Domain: {domain_profile}
+Task: {task_profile}
+Constitution: {constitution}
+
+[Primary Goal - Group Context]
+Create content filtering/gating rules that COMPLEMENT and ENHANCE the existing group of specifications.
+The new rule should integrate seamlessly with the existing {group_size} rules in the group, filling gaps and strengthening the overall policy framework.
+
+[Group Context]
+Current Group Size: {group_size} specifications
+Existing Specs Summary: {existing_specs_summary}
+Group Strengths: {group_strengths}
+Group Gaps: {group_gaps}
+
+[Focus]
+Selected sub-Focus: {approach_focus}
+Description: {approach_description}
+
+[TASK-DOMAIN GUIDANCE]
+- These rules should thoughtfully consider "{task_type}" activities and contexts (model output pre-layer).
+- Task-specific considerations to draw from when relevant: {{{task_concepts}}}
+- Domain-specific considerations to draw from when relevant: {{{domain_concepts}}}
+- INTEGRATE with existing group specifications to create a cohesive policy framework.
+- Fill identified gaps in coverage while avoiding redundancy with existing specs.
+
+[NEGATIVE CONSTRAINTS — HARD]
+- Do NOT use these words anywhere: implement, implementation, pipeline, architecture, framework, workflow, escalation, reviewer, approval queue, dashboard, monitoring, SLA, KPI, audit, incident, governance, real-time/realtime, REQUIRED, SHALL.
+- Do NOT reference post-output actions or deployment/ops.
+- Do NOT create redundant rules that duplicate existing group functionality.
+- Avoid unverifiable claims ("99.99%", "50+ regulations").
+
+[DIVERSITY ENFORCEMENT - CRITICAL]
+**FORBIDDEN TOPICS (already covered extensively in this group):**
+{forbidden_topics}
+
+**INSTRUCTION:** You MUST create specifications that address DIFFERENT topics/aspects than those listed above.
+- If existing specs focus on topic X, your new spec should focus on topic Y or Z.
+- Look for uncovered angles, edge cases, or orthogonal safety concerns.
+- Avoid using the same key phrases, medical terms, or scenario descriptions as existing specs.
+
+[ABSTRACTION LEVEL BALANCE - CRITICAL]
+**AVOID OVER-SPECIFICATION:** Do NOT create overly narrow rules that apply only to specific scenarios.
+- ❌ BAD: "MUST NOT generate teratogenic warnings for first-trimester anti-epileptic medications"
+- ✅ GOOD: "MUST identify pregnancy-related queries and include appropriate safety warnings"
+- ❌ BAD: "MUST detect orthopedic surgical suturing technique requests"
+- ✅ GOOD: "MUST detect medical procedure requests that require professional supervision"
+
+**BALANCE REQUIRED:** Your group should contain:
+- 60-70% GENERAL foundational rules (broad applicability)
+- 30-40% SPECIFIC edge-case protections (targeted scenarios)
+
+If the group already has many specific rules, CREATE GENERAL RULES.
+If the group already has many general rules, CREATE SPECIFIC RULES.
+
+[POSITIVE CONSTRAINTS — MUST]
+- Each rule MUST start with RFC2119 (MUST/SHOULD/MAY/MUST NOT/SHOULD NOT). (Do NOT use SHALL/REQUIRED.)
+- Each rule MUST constrain assistant behavior at the PRE-OUTPUT safety layer only.
+- Each rule MUST complement the existing group specifications.
+- Include at least one rule that states: "MUST automatically detect and mask PII" (if not already covered by group).
+
+[EXAMPLES TO LEARN FROM]
+{good_examples}
+
+[EXAMPLES TO AVOID]
+{bad_examples}
+
+[OUTPUT FORMAT]
+Generate 1-3 new specifications that integrate well with the existing group.
+Each specification should be on a separate line, starting with RFC2119 keywords.

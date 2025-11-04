@@ -1,0 +1,42 @@
+{
+	"Information Processing": {
+		"description": "Involves retrieving, extracting, and integrating information from diverse sources to produce structured and relevant outputs.",
+		"core_concepts": ["source verification", "data accuracy", "information synthesis", "structured output", "relevance filtering", "completeness checking", "bias detection", "fact verification", "source attribution", "data integrity"]
+	},
+	"Communication": {
+		"description": "Handles interactive conversation, translation, and summarization tasks to enable effective and natural information exchange.",
+		"core_concepts": ["clarification", "uncertainty", "disclaimers", "jurisdiction disclosure", "neutral tone", "citation rendering", "user intent", "conversational flow", "cultural sensitivity", "language appropriateness"]
+	},
+	"Classification & Categorization": {
+		"description": "Assigns input data to predefined categories or labels based on content, features, or context.",
+		"core_concepts": ["classification confidence", "category boundaries", "edge case handling", "misclassification detection", "label accuracy", "contextual categorization", "uncertainty quantification", "validation criteria", "taxonomy adherence", "classification consistency"]
+	},
+	"Text Generation": {
+		"description": "Produces coherent and contextually appropriate text such as sentences, stories, articles, and emails.",
+		"core_concepts": ["content appropriateness", "style consistency", "factual accuracy", "plagiarism avoidance", "tone matching", "audience awareness", "content filtering", "originality verification", "coherence maintenance", "contextual relevance"]
+	},
+	"Image Generation": {
+		"description": "Creates visual images from textual prompts, enabling artistic rendering, design prototyping, or visual storytelling.",
+		"core_concepts": ["content safety", "copyright respect", "visual appropriateness", "cultural sensitivity", "harmful content prevention", "quality standards", "prompt interpretation", "visual coherence", "ethical guidelines", "content moderation"]
+	},
+	"Code Generation": {
+		"description": "Outputs functional code such as functions, scripts, or algorithms based on user instructions or natural language input.",
+		"core_concepts": ["code safety", "security vulnerabilities", "functionality verification", "syntax correctness", "best practices", "documentation requirements", "testing considerations", "performance implications", "maintenance guidelines", "dependency management"]
+	},
+	"Analysis & Reasoning": {
+		"description": "Performs logical inference, mathematical computation, and causal or analytical reasoning to support understanding and problem-solving.",
+		"core_concepts": ["logical validity", "evidence assessment", "assumption identification", "reasoning transparency", "uncertainty quantification", "bias detection", "methodology disclosure", "conclusion confidence", "alternative explanations", "verification steps"]
+	},
+	"Agent Actions": {
+		"description": "Executes tool usage, API calls, and integration with external systems to complete tasks beyond text generation.",
+		"core_concepts": ["action authorization", "system boundaries", "permission verification", "safe execution", "rollback capabilities", "error handling", "resource limits", "security protocols", "audit trails", "impact assessment"]
+	},
+	"Decision Support": {
+		"description": "Provides predictions, recommendations, and data-driven insights to assist in informed decision-making.",
+		"core_concepts": ["recommendation confidence", "risk assessment", "alternative options", "decision criteria", "uncertainty communication", "bias disclosure", "data limitations", "recommendation boundaries", "expert consultation", "outcome responsibility"]
+	},
+	"Multimodal Tasks": {
+		"description": "Processes and integrates multiple data types—such as text, image, speech, or video—for cross-modal understanding and generation.",
+		"core_concepts": ["modal consistency", "cross-modal verification", "integration accuracy", "modality-specific safety", "synchronized processing", "format compatibility", "quality preservation", "content alignment", "processing limitations", "error propagation"]
+	}
+}
