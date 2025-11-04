@@ -1,0 +1,3478 @@
+🎯 Target Domain: Healthcare_and_Medicine (모든 태스크)
+🚀 도메인 'Healthcare & Medicine'의 모든 태스크 실행 시작
+📊 도메인 설명: Supports diagnosis assistance, disease explanation, and management of medical information including treatment planning and drug data.
+📋 발견된 태스크들: ['Multimodal_Tasks.txt', 'Agent_Actions.txt', 'Information_Processing.txt', 'Code_Generation.txt', 'Decision_Support.txt', 'Classification_and_Categorization.txt', 'Image_Generation.txt', 'Text_Generation.txt', 'Analysis_and_Reasoning.txt', 'Communication.txt']
+
+🎯 태스크 실행: Multimodal Tasks
+  ✅ Found existing spec file: few_shot_examples/Healthcare_and_Medicine/Multimodal_Tasks.txt
+  📁 Output directory: single_spec_result_ver1
+    🔍 필터링 결과: 20줄 → 20개 RFC2119 spec
+💡 초기 seed를 20개 개별 spec으로 분리
+  ⚖️ 개별 spec 평가 중... (총 20개)
+    평가 중: 1/20 - "MUST verify healthcare content integrity and clini..."
+    평가 중: 2/20 - "SHOULD acknowledge and include medical disclaimers..."
+    평가 중: 3/20 - "MUST NOT process multimodal medical content that c..."
+    평가 중: 4/20 - "SHOULD detect and flag potential HIPAA compliance ..."
+    평가 중: 5/20 - "MUST implement secure multimodal protocols when ha..."
+    평가 중: 6/20 - "SHOULD cross-reference multimodal medical content ..."
+    평가 중: 7/20 - "MUST NOT integrate multimodal medical content in w..."
+    평가 중: 8/20 - "SHOULD identify gaps in multimodal medical process..."
+    평가 중: 9/20 - "MUST preserve patient confidentiality when process..."
+    평가 중: 10/20 - "SHOULD detect and flag potentially outdated multim..."
+    평가 중: 11/20 - "MUST NOT process multimodal emergency medical situ..."
+    평가 중: 12/20 - "SHOULD implement bias detection mechanisms when pr..."
+    평가 중: 13/20 - "MUST maintain audit trails for multimodal medical ..."
+    평가 중: 14/20 - "SHOULD identify when multimodal medical requests r..."
+    평가 중: 15/20 - "MUST NOT combine patient-specific multimodal medic..."
+    평가 중: 16/20 - "SHOULD validate multimodal medical integration aga..."
+    평가 중: 17/20 - "MUST implement multimodal medical content retentio..."
+    평가 중: 18/20 - "SHOULD detect when multimodal medical processing i..."
+    평가 중: 19/20 - "MUST NOT create multimodal medical outputs that co..."
+    평가 중: 20/20 - "SHOULD identify and preserve multimodal medical qu..."
+  ✅ 초기 평가 완료! Archive에 20개 spec 저장됨
+  📊 Archive 저장: 20개 (최고 Elo:1500.0, 최저 Elo:1500.0)
+
+🚀 [Multimodal Tasks] Generation 1/5
+============================================================
+  🧬 변이 생성 중... (Archive 20개, parents 10개씩 → 8번)
+    변이 1/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 2/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 3/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 4/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 5/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 6/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 7/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 8/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+  📊 총 120개 후보 spec 생성 완료
+  ⚖️ 평가 중... (120개 spec → 3개 병렬)
+    평가 진행: 30/120 완료 (25.0%)
+    평가 진행: 60/120 완료 (50.0%)
+    평가 진행: 90/120 완료 (75.0%)
+    평가 진행: 120/120 완료 (100.0%)
+  ✅ 평가 완료! 120개 spec 평가됨
+  🎯 우선순위 기반 중복 제거 시작: 120개 spec 분석...
+     📊 상위 5개 점수 분포:
+       #0: Elo=1500.0, Judge=91.0, Norm=N/A
+       #1: Elo=1500.0, Judge=84.0, Norm=N/A
+       #2: Elo=1500.0, Judge=83.0, Norm=N/A
+       #3: Elo=1500.0, Judge=82.0, Norm=N/A
+       #4: Elo=1500.0, Judge=82.0, Norm=N/A
+✅ 임베딩 모델 로드: paraphrase-mpnet-base-v2
+     📊 분석 통계: 총 7140쌍 중
+       - 유사도 0.70 이상: 84쌍 (1.2%)
+       - 품질 차이 있음: 74쌍 (88.1%)
+       - 지배 관계 성립: 75쌍
+     🎯 발견된 지배 관계: 75개
+       #0 → #4 (지배도: 0.97, Judge: 91.0>82.0)
+       #1 → #3 (지배도: 0.88, Judge: 84.0>82.0)
+       #1 → #5 (지배도: 0.86, Judge: 84.0>81.0)
+       #1 → #17 (지배도: 0.87, Judge: 84.0>78.0)
+       #1 → #18 (지배도: 0.89, Judge: 84.0>78.0)
+       ... 외 70개
+  🎯 우선순위 기반 중복 제거: 120개 → 45개 선택 (보존율: 37.5%)
+  🥊 Pairwise-Elo 시작... (mode=DuelingBandit, dynK=True)
+  ✅ Pairwise-Elo 완료
+  🎯 선별/추가 중... (Elo 우선 정렬)
+ [Healthcare & Medicine/Multimodal Tasks] Gen 0: archive_best_elo=1603.5 avg_elo=1500.0 archive_size=65 candidates=45 added=45 mode=DuelingBandit
+
+🚀 [Multimodal Tasks] Generation 2/5
+============================================================
+  🧬 변이 생성 중... (Archive 65개, parents 10개씩 → 8번)
+    변이 1/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 2/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 3/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 4/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 5/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 6/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 7/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 8/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+  📊 총 120개 후보 spec 생성 완료
+  ⚖️ 평가 중... (120개 spec → 3개 병렬)
+    평가 진행: 30/120 완료 (25.0%)
+    평가 진행: 60/120 완료 (50.0%)
+    평가 진행: 90/120 완료 (75.0%)
+    평가 진행: 120/120 완료 (100.0%)
+  ✅ 평가 완료! 120개 spec 평가됨
+  🎯 우선순위 기반 중복 제거 시작: 120개 spec 분석...
+     📊 상위 5개 점수 분포:
+       #0: Elo=1500.0, Judge=87.0, Norm=N/A
+       #1: Elo=1500.0, Judge=86.0, Norm=N/A
+       #2: Elo=1500.0, Judge=85.0, Norm=N/A
+       #3: Elo=1500.0, Judge=82.0, Norm=N/A
+       #4: Elo=1500.0, Judge=82.0, Norm=N/A
+     📊 분석 통계: 총 7140쌍 중
+       - 유사도 0.70 이상: 76쌍 (1.1%)
+       - 품질 차이 있음: 68쌍 (89.5%)
+       - 지배 관계 성립: 64쌍
+     🎯 발견된 지배 관계: 64개
+       #0 → #1 (지배도: 0.88, Judge: 87.0>86.0)
+       #0 → #19 (지배도: 0.94, Judge: 87.0>78.0)
+       #0 → #22 (지배도: 1.01, Judge: 87.0>77.0)
+       #0 → #30 (지배도: 1.00, Judge: 87.0>75.0)
+       #0 → #68 (지배도: 1.02, Judge: 87.0>70.0)
+       ... 외 59개
+  🎯 우선순위 기반 중복 제거: 120개 → 56개 선택 (보존율: 46.7%)
+  🥊 Pairwise-Elo 시작... (mode=DuelingBandit, dynK=True)
+  ✅ Pairwise-Elo 완료
+  🎯 선별/추가 중... (Elo 우선 정렬)
+ [Healthcare & Medicine/Multimodal Tasks] Gen 1: archive_best_elo=1641.9 avg_elo=1500.0 archive_size=100 candidates=56 added=56 mode=DuelingBandit
+
+🚀 [Multimodal Tasks] Generation 3/5
+============================================================
+  🧬 변이 생성 중... (Archive 100개, parents 10개씩 → 8번)
+    변이 1/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 2/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 3/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 4/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 5/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 6/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 7/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 8/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+  📊 총 120개 후보 spec 생성 완료
+  ⚖️ 평가 중... (120개 spec → 3개 병렬)
+    평가 진행: 30/120 완료 (25.0%)
+    평가 진행: 60/120 완료 (50.0%)
+    평가 진행: 90/120 완료 (75.0%)
+    평가 진행: 120/120 완료 (100.0%)
+  ✅ 평가 완료! 120개 spec 평가됨
+  🎯 우선순위 기반 중복 제거 시작: 120개 spec 분석...
+     📊 상위 5개 점수 분포:
+       #0: Elo=1500.0, Judge=84.0, Norm=N/A
+       #1: Elo=1500.0, Judge=84.0, Norm=N/A
+       #2: Elo=1500.0, Judge=83.0, Norm=N/A
+       #3: Elo=1500.0, Judge=82.0, Norm=N/A
+       #4: Elo=1500.0, Judge=82.0, Norm=N/A
+     📊 분석 통계: 총 7140쌍 중
+       - 유사도 0.70 이상: 80쌍 (1.1%)
+       - 품질 차이 있음: 76쌍 (95.0%)
+       - 지배 관계 성립: 69쌍
+     🎯 발견된 지배 관계: 69개
+       #0 → #33 (지배도: 0.95, Judge: 84.0>75.0)
+       #1 → #2 (지배도: 0.87, Judge: 84.0>83.0)
+       #1 → #4 (지배도: 0.88, Judge: 84.0>82.0)
+       #1 → #75 (지배도: 1.01, Judge: 84.0>69.0)
+       #3 → #11 (지배도: 0.88, Judge: 82.0>79.0)
+       ... 외 64개
+  🎯 우선순위 기반 중복 제거: 120개 → 51개 선택 (보존율: 42.5%)
+  🥊 Pairwise-Elo 시작... (mode=DuelingBandit, dynK=True)
+  ✅ Pairwise-Elo 완료
+  🎯 선별/추가 중... (Elo 우선 정렬)
+ [Healthcare & Medicine/Multimodal Tasks] Gen 2: archive_best_elo=1641.9 avg_elo=1500.0 archive_size=100 candidates=51 added=51 mode=DuelingBandit
+
+🚀 [Multimodal Tasks] Generation 4/5
+============================================================
+  🧬 변이 생성 중... (Archive 100개, parents 10개씩 → 8번)
+    변이 1/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 2/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 3/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 4/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 5/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 6/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 7/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 8/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+  📊 총 120개 후보 spec 생성 완료
+  ⚖️ 평가 중... (120개 spec → 3개 병렬)
+    평가 진행: 30/120 완료 (25.0%)
+    평가 진행: 60/120 완료 (50.0%)
+    평가 진행: 90/120 완료 (75.0%)
+    평가 진행: 120/120 완료 (100.0%)
+  ✅ 평가 완료! 120개 spec 평가됨
+  🎯 우선순위 기반 중복 제거 시작: 120개 spec 분석...
+     📊 상위 5개 점수 분포:
+       #0: Elo=1500.0, Judge=87.0, Norm=N/A
+       #1: Elo=1500.0, Judge=87.0, Norm=N/A
+       #2: Elo=1500.0, Judge=86.0, Norm=N/A
+       #3: Elo=1500.0, Judge=85.0, Norm=N/A
+       #4: Elo=1500.0, Judge=84.0, Norm=N/A
+     📊 분석 통계: 총 7140쌍 중
+       - 유사도 0.70 이상: 63쌍 (0.9%)
+       - 품질 차이 있음: 58쌍 (92.1%)
+       - 지배 관계 성립: 56쌍
+     🎯 발견된 지배 관계: 56개
+       #0 → #1 (지배도: 0.86, Judge: 87.0>87.0)
+       #0 → #3 (지배도: 0.89, Judge: 87.0>85.0)
+       #2 → #12 (지배도: 0.92, Judge: 86.0>81.0)
+       #2 → #31 (지배도: 1.05, Judge: 86.0>78.0)
+       #2 → #32 (지배도: 1.04, Judge: 86.0>77.0)
+       ... 외 51개
+  🎯 우선순위 기반 중복 제거: 120개 → 64개 선택 (보존율: 53.3%)
+  🥊 Pairwise-Elo 시작... (mode=DuelingBandit, dynK=True)
+  ✅ Pairwise-Elo 완료
+  🎯 선별/추가 중... (Elo 우선 정렬)
+ [Healthcare & Medicine/Multimodal Tasks] Gen 3: archive_best_elo=1641.9 avg_elo=1500.0 archive_size=100 candidates=64 added=64 mode=DuelingBandit
+
+🚀 [Multimodal Tasks] Generation 5/5
+============================================================
+  🧬 변이 생성 중... (Archive 100개, parents 10개씩 → 8번)
+    변이 1/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 2/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 3/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 4/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 5/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 6/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 7/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 8/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+  📊 총 120개 후보 spec 생성 완료
+  ⚖️ 평가 중... (120개 spec → 3개 병렬)
+    평가 진행: 30/120 완료 (25.0%)
+    평가 진행: 60/120 완료 (50.0%)
+    평가 진행: 90/120 완료 (75.0%)
+    평가 진행: 120/120 완료 (100.0%)
+  ✅ 평가 완료! 120개 spec 평가됨
+  🎯 우선순위 기반 중복 제거 시작: 120개 spec 분석...
+     📊 상위 5개 점수 분포:
+       #0: Elo=1500.0, Judge=87.0, Norm=N/A
+       #1: Elo=1500.0, Judge=86.0, Norm=N/A
+       #2: Elo=1500.0, Judge=86.0, Norm=N/A
+       #3: Elo=1500.0, Judge=86.0, Norm=N/A
+       #4: Elo=1500.0, Judge=86.0, Norm=N/A
+     📊 분석 통계: 총 7140쌍 중
+       - 유사도 0.70 이상: 72쌍 (1.0%)
+       - 품질 차이 있음: 70쌍 (97.2%)
+       - 지배 관계 성립: 65쌍
+     🎯 발견된 지배 관계: 65개
+       #0 → #17 (지배도: 0.91, Judge: 87.0>79.0)
+       #0 → #30 (지배도: 0.90, Judge: 87.0>78.0)
+       #0 → #44 (지배도: 0.91, Judge: 87.0>75.0)
+       #1 → #7 (지배도: 0.90, Judge: 86.0>84.0)
+       #1 → #63 (지배도: 1.01, Judge: 86.0>72.0)
+       ... 외 60개
+  🎯 우선순위 기반 중복 제거: 120개 → 55개 선택 (보존율: 45.8%)
+  🥊 Pairwise-Elo 시작... (mode=DuelingBandit, dynK=True)
+  ✅ Pairwise-Elo 완료
+  🎯 선별/추가 중... (Elo 우선 정렬)
+ [Healthcare & Medicine/Multimodal Tasks] Gen 4: archive_best_elo=1641.9 avg_elo=1500.0 archive_size=100 candidates=55 added=55 mode=DuelingBandit
+[Healthcare & Medicine/Multimodal Tasks] Evolution finished. Results in single_spec_result_ver1/Healthcare_and_Medicine/Multimodal_Tasks
+    🎉 Best Evolved Spec (Seed 제외)
+       Elo: 1641.9
+       Score: 74/100
+    📊 Total specs: 100, Evolved specs: 100
+    🏆 Highest Elo: 1641.9
+  🎯 우선순위 기반 중복 제거 시작: 100개 spec 분석...
+     📊 상위 5개 점수 분포:
+       #0: Elo=1641.9, Judge=74.0, Norm=-0.19602684954239852
+       #1: Elo=1616.5, Judge=81.0, Norm=0.7261531680499873
+       #2: Elo=1603.5, Judge=79.0, Norm=0.5125186298945184
+       #3: Elo=1591.4, Judge=83.0, Norm=1.0999457152238883
+       #4: Elo=1590.9, Judge=85.0, Norm=1.3421825034389823
+     📊 분석 통계: 총 4950쌍 중
+       - 유사도 0.65 이상: 130쌍 (2.6%)
+       - 품질 차이 있음: 66쌍 (50.8%)
+       - 지배 관계 성립: 48쌍
+     🎯 발견된 지배 관계: 48개
+       #0 → #8 (지배도: 0.86, Norm: -0.2>-0.7)
+       #0 → #27 (지배도: 0.87, Norm: -0.2>-1.0)
+       #0 → #63 (지배도: 1.01, Norm: -0.2>-1.6)
+       #0 → #83 (지배도: 0.89, Norm: -0.2>-0.8)
+       #1 → #2 (지배도: 1.03, Norm: 0.7>0.5)
+       ... 외 43개
+  🎯 우선순위 기반 중복 제거: 100개 → 52개 선택 (보존율: 52.0%)
+📁 Archive 저장 완료:
+  - JSON: single_spec_result_ver1/Healthcare_and_Medicine/Multimodal_Tasks/top100_archive.json
+  - TXT: single_spec_result_ver1/Healthcare_and_Medicine/Multimodal_Tasks/top100_archive.txt
+
+🎯 태스크 실행: Agent Actions
+  ✅ Found existing spec file: few_shot_examples/Healthcare_and_Medicine/Agent_Actions.txt
+  📁 Output directory: single_spec_result_ver1
+    🔍 필터링 결과: 20줄 → 20개 RFC2119 spec
+💡 초기 seed를 20개 개별 spec으로 분리
+  ⚖️ 개별 spec 평가 중... (총 20개)
+    평가 중: 1/20 - "MUST verify healthcare system authorization and me..."
+    평가 중: 2/20 - "SHOULD acknowledge and include medical disclaimers..."
+    평가 중: 3/20 - "MUST NOT execute actions that could compromise pat..."
+    평가 중: 4/20 - "SHOULD detect and flag potential HIPAA compliance ..."
+    평가 중: 5/20 - "MUST implement secure action protocols when perfor..."
+    평가 중: 6/20 - "SHOULD cross-reference medical actions against cur..."
+    평가 중: 7/20 - "MUST NOT perform medical actions in ways that coul..."
+    평가 중: 8/20 - "SHOULD identify gaps in medical system knowledge a..."
+    평가 중: 9/20 - "MUST preserve patient confidentiality when executi..."
+    평가 중: 10/20 - "SHOULD detect and flag potentially outdated medica..."
+    평가 중: 11/20 - "MUST NOT execute actions involving emergency medic..."
+    평가 중: 12/20 - "SHOULD implement bias detection mechanisms when pe..."
+    평가 중: 13/20 - "MUST maintain audit trails for all medical action ..."
+    평가 중: 14/20 - "SHOULD identify when medical actions require live ..."
+    평가 중: 15/20 - "MUST NOT combine patient-specific medical actions ..."
+    평가 중: 16/20 - "SHOULD validate medical action outcomes against cu..."
+    평가 중: 17/20 - "MUST implement medical action retention policies t..."
+    평가 중: 18/20 - "SHOULD detect when medical actions involve potenti..."
+    평가 중: 19/20 - "MUST NOT create medical action sequences that coul..."
+    평가 중: 20/20 - "SHOULD identify and preserve medical action qualit..."
+  ✅ 초기 평가 완료! Archive에 20개 spec 저장됨
+  📊 Archive 저장: 20개 (최고 Elo:1500.0, 최저 Elo:1500.0)
+
+🚀 [Agent Actions] Generation 1/5
+============================================================
+  🧬 변이 생성 중... (Archive 20개, parents 10개씩 → 8번)
+    변이 1/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 2/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 3/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 4/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 5/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 6/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 7/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 8/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+  📊 총 120개 후보 spec 생성 완료
+  ⚖️ 평가 중... (120개 spec → 3개 병렬)
+    평가 진행: 30/120 완료 (25.0%)
+    평가 진행: 60/120 완료 (50.0%)
+    평가 진행: 90/120 완료 (75.0%)
+    평가 진행: 120/120 완료 (100.0%)
+  ✅ 평가 완료! 120개 spec 평가됨
+  🎯 우선순위 기반 중복 제거 시작: 120개 spec 분석...
+     📊 상위 5개 점수 분포:
+       #0: Elo=1500.0, Judge=90.0, Norm=N/A
+       #1: Elo=1500.0, Judge=90.0, Norm=N/A
+       #2: Elo=1500.0, Judge=88.0, Norm=N/A
+       #3: Elo=1500.0, Judge=88.0, Norm=N/A
+       #4: Elo=1500.0, Judge=87.0, Norm=N/A
+     📊 분석 통계: 총 7140쌍 중
+       - 유사도 0.70 이상: 69쌍 (1.0%)
+       - 품질 차이 있음: 66쌍 (95.7%)
+       - 지배 관계 성립: 65쌍
+     🎯 발견된 지배 관계: 65개
+       #0 → #10 (지배도: 0.93, Judge: 90.0>84.0)
+       #0 → #13 (지배도: 0.97, Judge: 90.0>83.0)
+       #0 → #50 (지배도: 1.02, Judge: 90.0>77.0)
+       #0 → #69 (지배도: 1.08, Judge: 90.0>73.0)
+       #2 → #3 (지배도: 0.94, Judge: 88.0>88.0)
+       ... 외 60개
+  🎯 우선순위 기반 중복 제거: 120개 → 55개 선택 (보존율: 45.8%)
+  🥊 Pairwise-Elo 시작... (mode=DuelingBandit, dynK=True)
+  ✅ Pairwise-Elo 완료
+  🎯 선별/추가 중... (Elo 우선 정렬)
+ [Healthcare & Medicine/Agent Actions] Gen 0: archive_best_elo=1601.4 avg_elo=1500.0 archive_size=75 candidates=55 added=55 mode=DuelingBandit
+
+🚀 [Agent Actions] Generation 2/5
+============================================================
+  🧬 변이 생성 중... (Archive 75개, parents 10개씩 → 8번)
+    변이 1/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 2/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 3/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 4/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 5/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 6/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 7/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 8/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+  📊 총 120개 후보 spec 생성 완료
+  ⚖️ 평가 중... (120개 spec → 3개 병렬)
+    평가 진행: 30/120 완료 (25.0%)
+    평가 진행: 60/120 완료 (50.0%)
+    평가 진행: 90/120 완료 (75.0%)
+    평가 진행: 120/120 완료 (100.0%)
+  ✅ 평가 완료! 120개 spec 평가됨
+  🎯 우선순위 기반 중복 제거 시작: 120개 spec 분석...
+     📊 상위 5개 점수 분포:
+       #0: Elo=1500.0, Judge=87.0, Norm=N/A
+       #1: Elo=1500.0, Judge=87.0, Norm=N/A
+       #2: Elo=1500.0, Judge=87.0, Norm=N/A
+       #3: Elo=1500.0, Judge=86.0, Norm=N/A
+       #4: Elo=1500.0, Judge=86.0, Norm=N/A
+     📊 분석 통계: 총 7140쌍 중
+       - 유사도 0.70 이상: 73쌍 (1.0%)
+       - 품질 차이 있음: 66쌍 (90.4%)
+       - 지배 관계 성립: 67쌍
+     🎯 발견된 지배 관계: 67개
+       #0 → #2 (지배도: 0.91, Judge: 87.0>87.0)
+       #0 → #31 (지배도: 0.94, Judge: 87.0>81.0)
+       #0 → #41 (지배도: 0.98, Judge: 87.0>78.0)
+       #1 → #4 (지배도: 0.87, Judge: 87.0>86.0)
+       #1 → #7 (지배도: 0.87, Judge: 87.0>86.0)
+       ... 외 62개
+  🎯 우선순위 기반 중복 제거: 120개 → 53개 선택 (보존율: 44.2%)
+  🥊 Pairwise-Elo 시작... (mode=DuelingBandit, dynK=True)
+  ✅ Pairwise-Elo 완료
+  🎯 선별/추가 중... (Elo 우선 정렬)
+ [Healthcare & Medicine/Agent Actions] Gen 1: archive_best_elo=1601.4 avg_elo=1500.0 archive_size=100 candidates=53 added=53 mode=DuelingBandit
+
+🚀 [Agent Actions] Generation 3/5
+============================================================
+  🧬 변이 생성 중... (Archive 100개, parents 10개씩 → 8번)
+    변이 1/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 2/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 3/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 4/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 5/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 6/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 7/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 8/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+  📊 총 120개 후보 spec 생성 완료
+  ⚖️ 평가 중... (120개 spec → 3개 병렬)
+    평가 진행: 30/120 완료 (25.0%)
+    평가 진행: 60/120 완료 (50.0%)
+    평가 진행: 90/120 완료 (75.0%)
+    평가 진행: 120/120 완료 (100.0%)
+  ✅ 평가 완료! 120개 spec 평가됨
+  🎯 우선순위 기반 중복 제거 시작: 120개 spec 분석...
+     📊 상위 5개 점수 분포:
+       #0: Elo=1500.0, Judge=90.0, Norm=N/A
+       #1: Elo=1500.0, Judge=86.0, Norm=N/A
+       #2: Elo=1500.0, Judge=86.0, Norm=N/A
+       #3: Elo=1500.0, Judge=86.0, Norm=N/A
+       #4: Elo=1500.0, Judge=85.0, Norm=N/A
+     📊 분석 통계: 총 7140쌍 중
+       - 유사도 0.70 이상: 76쌍 (1.1%)
+       - 품질 차이 있음: 74쌍 (97.4%)
+       - 지배 관계 성립: 71쌍
+     🎯 발견된 지배 관계: 71개
+       #0 → #5 (지배도: 0.96, Judge: 90.0>85.0)
+       #0 → #7 (지배도: 0.90, Judge: 90.0>84.0)
+       #0 → #8 (지배도: 0.89, Judge: 90.0>84.0)
+       #0 → #13 (지배도: 0.99, Judge: 90.0>82.0)
+       #0 → #47 (지배도: 1.06, Judge: 90.0>76.0)
+       ... 외 66개
+  🎯 우선순위 기반 중복 제거: 120개 → 49개 선택 (보존율: 40.8%)
+  🥊 Pairwise-Elo 시작... (mode=DuelingBandit, dynK=True)
+  ✅ Pairwise-Elo 완료
+  🎯 선별/추가 중... (Elo 우선 정렬)
+ [Healthcare & Medicine/Agent Actions] Gen 2: archive_best_elo=1601.4 avg_elo=1500.0 archive_size=100 candidates=49 added=49 mode=DuelingBandit
+
+🚀 [Agent Actions] Generation 4/5
+============================================================
+  🧬 변이 생성 중... (Archive 100개, parents 10개씩 → 8번)
+    변이 1/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 2/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 3/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 4/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 5/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 6/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 7/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 8/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+  📊 총 120개 후보 spec 생성 완료
+  ⚖️ 평가 중... (120개 spec → 3개 병렬)
+    평가 진행: 30/120 완료 (25.0%)
+    평가 진행: 60/120 완료 (50.0%)
+    평가 진행: 90/120 완료 (75.0%)
+    평가 진행: 120/120 완료 (100.0%)
+  ✅ 평가 완료! 120개 spec 평가됨
+  🎯 우선순위 기반 중복 제거 시작: 120개 spec 분석...
+     📊 상위 5개 점수 분포:
+       #0: Elo=1500.0, Judge=88.0, Norm=N/A
+       #1: Elo=1500.0, Judge=87.0, Norm=N/A
+       #2: Elo=1500.0, Judge=86.0, Norm=N/A
+       #3: Elo=1500.0, Judge=86.0, Norm=N/A
+       #4: Elo=1500.0, Judge=85.0, Norm=N/A
+     📊 분석 통계: 총 7140쌍 중
+       - 유사도 0.70 이상: 78쌍 (1.1%)
+       - 품질 차이 있음: 75쌍 (96.2%)
+       - 지배 관계 성립: 70쌍
+     🎯 발견된 지배 관계: 70개
+       #0 → #13 (지배도: 0.93, Judge: 88.0>83.0)
+       #0 → #38 (지배도: 0.98, Judge: 88.0>78.0)
+       #1 → #14 (지배도: 0.89, Judge: 87.0>82.0)
+       #1 → #29 (지배도: 0.93, Judge: 87.0>79.0)
+       #1 → #31 (지배도: 0.94, Judge: 87.0>79.0)
+       ... 외 65개
+  🎯 우선순위 기반 중복 제거: 120개 → 50개 선택 (보존율: 41.7%)
+  🥊 Pairwise-Elo 시작... (mode=DuelingBandit, dynK=True)
+  ✅ Pairwise-Elo 완료
+  🎯 선별/추가 중... (Elo 우선 정렬)
+ [Healthcare & Medicine/Agent Actions] Gen 3: archive_best_elo=1601.4 avg_elo=1500.0 archive_size=100 candidates=50 added=50 mode=DuelingBandit
+
+🚀 [Agent Actions] Generation 5/5
+============================================================
+  🧬 변이 생성 중... (Archive 100개, parents 10개씩 → 8번)
+    변이 1/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 2/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 3/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 4/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 5/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 6/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 7/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 8/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+  📊 총 120개 후보 spec 생성 완료
+  ⚖️ 평가 중... (120개 spec → 3개 병렬)
+    평가 진행: 30/120 완료 (25.0%)
+    평가 진행: 60/120 완료 (50.0%)
+    평가 진행: 90/120 완료 (75.0%)
+    평가 진행: 120/120 완료 (100.0%)
+  ✅ 평가 완료! 120개 spec 평가됨
+  🎯 우선순위 기반 중복 제거 시작: 120개 spec 분석...
+     📊 상위 5개 점수 분포:
+       #0: Elo=1500.0, Judge=90.0, Norm=N/A
+       #1: Elo=1500.0, Judge=90.0, Norm=N/A
+       #2: Elo=1500.0, Judge=90.0, Norm=N/A
+       #3: Elo=1500.0, Judge=88.0, Norm=N/A
+       #4: Elo=1500.0, Judge=87.0, Norm=N/A
+     📊 분석 통계: 총 7140쌍 중
+       - 유사도 0.70 이상: 79쌍 (1.1%)
+       - 품질 차이 있음: 68쌍 (86.1%)
+       - 지배 관계 성립: 72쌍
+     🎯 발견된 지배 관계: 72개
+       #0 → #2 (지배도: 0.92, Judge: 90.0>90.0)
+       #0 → #16 (지배도: 0.93, Judge: 90.0>83.0)
+       #0 → #17 (지배도: 0.93, Judge: 90.0>83.0)
+       #0 → #18 (지배도: 0.96, Judge: 90.0>83.0)
+       #0 → #35 (지배도: 0.96, Judge: 90.0>80.0)
+       ... 외 67개
+  🎯 우선순위 기반 중복 제거: 120개 → 48개 선택 (보존율: 40.0%)
+  🥊 Pairwise-Elo 시작... (mode=DuelingBandit, dynK=True)
+  ✅ Pairwise-Elo 완료
+  🎯 선별/추가 중... (Elo 우선 정렬)
+ [Healthcare & Medicine/Agent Actions] Gen 4: archive_best_elo=1601.4 avg_elo=1500.0 archive_size=100 candidates=48 added=48 mode=DuelingBandit
+[Healthcare & Medicine/Agent Actions] Evolution finished. Results in single_spec_result_ver1/Healthcare_and_Medicine/Agent_Actions
+    🎉 Best Evolved Spec (Seed 제외)
+       Elo: 1601.4
+       Score: 82/100
+    📊 Total specs: 100, Evolved specs: 100
+    🏆 Highest Elo: 1601.4
+  🎯 우선순위 기반 중복 제거 시작: 100개 spec 분석...
+     📊 상위 5개 점수 분포:
+       #0: Elo=1601.4, Judge=82.0, Norm=0.6303717524120361
+       #1: Elo=1598.1, Judge=90.0, Norm=1.6962035270118
+       #2: Elo=1591.2, Judge=87.0, Norm=1.2983681902759712
+       #3: Elo=1586.5, Judge=88.0, Norm=1.3873928157176576
+       #4: Elo=1585.7, Judge=79.0, Norm=0.23253641567620698
+     📊 분석 통계: 총 4950쌍 중
+       - 유사도 0.65 이상: 112쌍 (2.3%)
+       - 품질 차이 있음: 70쌍 (62.5%)
+       - 지배 관계 성립: 59쌍
+     🎯 발견된 지배 관계: 59개
+       #0 → #11 (지배도: 0.89, Norm: 0.6>0.5)
+       #0 → #15 (지배도: 0.88, Norm: 0.6>0.6)
+       #0 → #25 (지배도: 0.89, Norm: 0.6>0.6)
+       #0 → #40 (지배도: 0.90, Norm: 0.6>0.5)
+       #1 → #2 (지배도: 0.92, Norm: 1.7>1.3)
+       ... 외 54개
+  🎯 우선순위 기반 중복 제거: 100개 → 41개 선택 (보존율: 41.0%)
+📁 Archive 저장 완료:
+  - JSON: single_spec_result_ver1/Healthcare_and_Medicine/Agent_Actions/top100_archive.json
+  - TXT: single_spec_result_ver1/Healthcare_and_Medicine/Agent_Actions/top100_archive.txt
+
+🎯 태스크 실행: Information Processing
+  ✅ Found existing spec file: few_shot_examples/Healthcare_and_Medicine/Information_Processing.txt
+  📁 Output directory: single_spec_result_ver1
+    🔍 필터링 결과: 20줄 → 20개 RFC2119 spec
+💡 초기 seed를 20개 개별 spec으로 분리
+  ⚖️ 개별 spec 평가 중... (총 20개)
+    평가 중: 1/20 - "MUST verify clinical trial data against FDA databa..."
+    평가 중: 2/20 - "SHOULD cross-reference diagnostic codes across ICD..."
+    평가 중: 3/20 - "MUST NOT process patient health records without HI..."
+    평가 중: 4/20 - "SHOULD identify drug interaction patterns when ana..."
+    평가 중: 5/20 - "MUST preserve patient anonymization when extractin..."
+    평가 중: 6/20 - "SHOULD flag contraindicated medications when proce..."
+    평가 중: 7/20 - "MUST NOT combine genetic testing results with publ..."
+    평가 중: 8/20 - "SHOULD validate medical device specifications when..."
+    평가 중: 9/20 - "MUST implement audit trails when processing clinic..."
+    평가 중: 10/20 - "SHOULD detect potential adverse events when synthe..."
+    평가 중: 11/20 - "MUST NOT create medical recommendations that could..."
+    평가 중: 12/20 - "SHOULD cross-validate treatment protocols against ..."
+    평가 중: 13/20 - "MUST preserve medical imaging metadata when extrac..."
+    평가 중: 14/20 - "SHOULD identify dosage calculation errors when pro..."
+    평가 중: 15/20 - "MUST NOT merge patient-specific medical data with ..."
+    평가 중: 16/20 - "SHOULD flag potential medication errors when proce..."
+    평가 중: 17/20 - "MUST implement secure handling protocols when extr..."
+    평가 중: 18/20 - "SHOULD validate laboratory reference ranges when p..."
+    평가 중: 19/20 - "MUST NOT process reproductive health information w..."
+    평가 중: 20/20 - "SHOULD identify treatment outcome variations when ..."
+  ✅ 초기 평가 완료! Archive에 20개 spec 저장됨
+  📊 Archive 저장: 20개 (최고 Elo:1500.0, 최저 Elo:1500.0)
+
+🚀 [Information Processing] Generation 1/5
+============================================================
+  🧬 변이 생성 중... (Archive 20개, parents 10개씩 → 8번)
+    변이 1/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 2/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 3/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 4/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 5/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 6/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 7/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 8/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+  📊 총 120개 후보 spec 생성 완료
+  ⚖️ 평가 중... (120개 spec → 3개 병렬)
+    평가 진행: 30/120 완료 (25.0%)
+    평가 진행: 60/120 완료 (50.0%)
+    평가 진행: 90/120 완료 (75.0%)
+    평가 진행: 120/120 완료 (100.0%)
+  ✅ 평가 완료! 120개 spec 평가됨
+  🎯 우선순위 기반 중복 제거 시작: 120개 spec 분석...
+     📊 상위 5개 점수 분포:
+       #0: Elo=1500.0, Judge=86.0, Norm=N/A
+       #1: Elo=1500.0, Judge=86.0, Norm=N/A
+       #2: Elo=1500.0, Judge=85.0, Norm=N/A
+       #3: Elo=1500.0, Judge=84.0, Norm=N/A
+       #4: Elo=1500.0, Judge=83.0, Norm=N/A
+     📊 분석 통계: 총 7140쌍 중
+       - 유사도 0.70 이상: 76쌍 (1.1%)
+       - 품질 차이 있음: 71쌍 (93.4%)
+       - 지배 관계 성립: 70쌍
+     🎯 발견된 지배 관계: 70개
+       #0 → #10 (지배도: 0.86, Judge: 86.0>82.0)
+       #0 → #35 (지배도: 0.95, Judge: 86.0>75.0)
+       #0 → #41 (지배도: 0.93, Judge: 86.0>74.0)
+       #0 → #48 (지배도: 0.94, Judge: 86.0>73.0)
+       #1 → #2 (지배도: 0.88, Judge: 86.0>85.0)
+       ... 외 65개
+  🎯 우선순위 기반 중복 제거: 120개 → 50개 선택 (보존율: 41.7%)
+  🥊 Pairwise-Elo 시작... (mode=DuelingBandit, dynK=True)
+  ✅ Pairwise-Elo 완료
+  🎯 선별/추가 중... (Elo 우선 정렬)
+ [Healthcare & Medicine/Information Processing] Gen 0: archive_best_elo=1606.3 avg_elo=1500.0 archive_size=70 candidates=50 added=50 mode=DuelingBandit
+
+🚀 [Information Processing] Generation 2/5
+============================================================
+  🧬 변이 생성 중... (Archive 70개, parents 10개씩 → 8번)
+    변이 1/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 2/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 3/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 4/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 5/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 6/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 7/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 8/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+  📊 총 120개 후보 spec 생성 완료
+  ⚖️ 평가 중... (120개 spec → 3개 병렬)
+    평가 진행: 30/120 완료 (25.0%)
+    평가 진행: 60/120 완료 (50.0%)
+    평가 진행: 90/120 완료 (75.0%)
+    평가 진행: 120/120 완료 (100.0%)
+  ✅ 평가 완료! 120개 spec 평가됨
+  🎯 우선순위 기반 중복 제거 시작: 120개 spec 분석...
+     📊 상위 5개 점수 분포:
+       #0: Elo=1500.0, Judge=90.0, Norm=N/A
+       #1: Elo=1500.0, Judge=84.0, Norm=N/A
+       #2: Elo=1500.0, Judge=83.0, Norm=N/A
+       #3: Elo=1500.0, Judge=83.0, Norm=N/A
+       #4: Elo=1500.0, Judge=83.0, Norm=N/A
+     📊 분석 통계: 총 7140쌍 중
+       - 유사도 0.70 이상: 77쌍 (1.1%)
+       - 품질 차이 있음: 74쌍 (96.1%)
+       - 지배 관계 성립: 71쌍
+     🎯 발견된 지배 관계: 71개
+       #0 → #9 (지배도: 0.92, Judge: 90.0>81.0)
+       #1 → #4 (지배도: 0.90, Judge: 84.0>83.0)
+       #1 → #20 (지배도: 0.98, Judge: 84.0>78.0)
+       #1 → #72 (지배도: 0.96, Judge: 84.0>70.0)
+       #1 → #75 (지배도: 1.00, Judge: 84.0>70.0)
+       ... 외 66개
+  🎯 우선순위 기반 중복 제거: 120개 → 49개 선택 (보존율: 40.8%)
+  🥊 Pairwise-Elo 시작... (mode=DuelingBandit, dynK=True)
+  ✅ Pairwise-Elo 완료
+  🎯 선별/추가 중... (Elo 우선 정렬)
+ [Healthcare & Medicine/Information Processing] Gen 1: archive_best_elo=1606.3 avg_elo=1500.0 archive_size=100 candidates=49 added=49 mode=DuelingBandit
+
+🚀 [Information Processing] Generation 3/5
+============================================================
+  🧬 변이 생성 중... (Archive 100개, parents 10개씩 → 8번)
+    변이 1/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 2/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 3/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 4/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 5/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 6/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 7/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 8/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+  📊 총 120개 후보 spec 생성 완료
+  ⚖️ 평가 중... (120개 spec → 3개 병렬)
+    평가 진행: 30/120 완료 (25.0%)
+    평가 진행: 60/120 완료 (50.0%)
+    평가 진행: 90/120 완료 (75.0%)
+    평가 진행: 120/120 완료 (100.0%)
+  ✅ 평가 완료! 120개 spec 평가됨
+  🎯 우선순위 기반 중복 제거 시작: 120개 spec 분석...
+     📊 상위 5개 점수 분포:
+       #0: Elo=1500.0, Judge=86.0, Norm=N/A
+       #1: Elo=1500.0, Judge=85.0, Norm=N/A
+       #2: Elo=1500.0, Judge=84.0, Norm=N/A
+       #3: Elo=1500.0, Judge=84.0, Norm=N/A
+       #4: Elo=1500.0, Judge=82.0, Norm=N/A
+     📊 분석 통계: 총 7140쌍 중
+       - 유사도 0.70 이상: 77쌍 (1.1%)
+       - 품질 차이 있음: 76쌍 (98.7%)
+       - 지배 관계 성립: 72쌍
+     🎯 발견된 지배 관계: 72개
+       #0 → #34 (지배도: 0.99, Judge: 86.0>77.0)
+       #0 → #53 (지배도: 1.00, Judge: 86.0>75.0)
+       #0 → #76 (지배도: 1.06, Judge: 86.0>70.0)
+       #1 → #2 (지배도: 0.85, Judge: 85.0>84.0)
+       #1 → #4 (지배도: 0.93, Judge: 85.0>82.0)
+       ... 외 67개
+  🎯 우선순위 기반 중복 제거: 120개 → 48개 선택 (보존율: 40.0%)
+  🥊 Pairwise-Elo 시작... (mode=DuelingBandit, dynK=True)
+  ✅ Pairwise-Elo 완료
+  🎯 선별/추가 중... (Elo 우선 정렬)
+ [Healthcare & Medicine/Information Processing] Gen 2: archive_best_elo=1606.3 avg_elo=1500.0 archive_size=100 candidates=48 added=48 mode=DuelingBandit
+
+🚀 [Information Processing] Generation 4/5
+============================================================
+  🧬 변이 생성 중... (Archive 100개, parents 10개씩 → 8번)
+    변이 1/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 2/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 3/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 4/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 5/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 6/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 7/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 8/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+  📊 총 120개 후보 spec 생성 완료
+  ⚖️ 평가 중... (120개 spec → 3개 병렬)
+    평가 진행: 30/120 완료 (25.0%)
+    평가 진행: 60/120 완료 (50.0%)
+    평가 진행: 90/120 완료 (75.0%)
+    평가 진행: 120/120 완료 (100.0%)
+  ✅ 평가 완료! 120개 spec 평가됨
+  🎯 우선순위 기반 중복 제거 시작: 120개 spec 분석...
+     📊 상위 5개 점수 분포:
+       #0: Elo=1500.0, Judge=88.0, Norm=N/A
+       #1: Elo=1500.0, Judge=88.0, Norm=N/A
+       #2: Elo=1500.0, Judge=86.0, Norm=N/A
+       #3: Elo=1500.0, Judge=86.0, Norm=N/A
+       #4: Elo=1500.0, Judge=86.0, Norm=N/A
+     📊 분석 통계: 총 7140쌍 중
+       - 유사도 0.70 이상: 63쌍 (0.9%)
+       - 품질 차이 있음: 60쌍 (95.2%)
+       - 지배 관계 성립: 57쌍
+     🎯 발견된 지배 관계: 57개
+       #0 → #1 (지배도: 0.89, Judge: 88.0>88.0)
+       #0 → #48 (지배도: 0.99, Judge: 88.0>74.0)
+       #0 → #78 (지배도: 1.01, Judge: 88.0>70.0)
+       #2 → #32 (지배도: 0.92, Judge: 86.0>78.0)
+       #3 → #11 (지배도: 0.87, Judge: 86.0>81.0)
+       ... 외 52개
+  🎯 우선순위 기반 중복 제거: 120개 → 63개 선택 (보존율: 52.5%)
+  🥊 Pairwise-Elo 시작... (mode=DuelingBandit, dynK=True)
+  ✅ Pairwise-Elo 완료
+  🎯 선별/추가 중... (Elo 우선 정렬)
+ [Healthcare & Medicine/Information Processing] Gen 3: archive_best_elo=1606.3 avg_elo=1500.0 archive_size=100 candidates=63 added=63 mode=DuelingBandit
+
+🚀 [Information Processing] Generation 5/5
+============================================================
+  🧬 변이 생성 중... (Archive 100개, parents 10개씩 → 8번)
+    변이 1/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 2/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 3/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 4/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 5/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 6/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 7/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 8/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+  📊 총 120개 후보 spec 생성 완료
+  ⚖️ 평가 중... (120개 spec → 3개 병렬)
+    평가 진행: 30/120 완료 (25.0%)
+    평가 진행: 60/120 완료 (50.0%)
+    평가 진행: 90/120 완료 (75.0%)
+    평가 진행: 120/120 완료 (100.0%)
+  ✅ 평가 완료! 120개 spec 평가됨
+  🎯 우선순위 기반 중복 제거 시작: 120개 spec 분석...
+     📊 상위 5개 점수 분포:
+       #0: Elo=1500.0, Judge=86.0, Norm=N/A
+       #1: Elo=1500.0, Judge=85.0, Norm=N/A
+       #2: Elo=1500.0, Judge=85.0, Norm=N/A
+       #3: Elo=1500.0, Judge=84.0, Norm=N/A
+       #4: Elo=1500.0, Judge=84.0, Norm=N/A
+     📊 분석 통계: 총 7140쌍 중
+       - 유사도 0.70 이상: 69쌍 (1.0%)
+       - 품질 차이 있음: 67쌍 (97.1%)
+       - 지배 관계 성립: 61쌍
+     🎯 발견된 지배 관계: 61개
+       #0 → #14 (지배도: 0.87, Judge: 86.0>81.0)
+       #0 → #23 (지배도: 0.89, Judge: 86.0>80.0)
+       #0 → #41 (지배도: 0.94, Judge: 86.0>77.0)
+       #0 → #55 (지배도: 0.92, Judge: 86.0>74.0)
+       #0 → #61 (지배도: 0.97, Judge: 86.0>73.0)
+       ... 외 56개
+  🎯 우선순위 기반 중복 제거: 120개 → 59개 선택 (보존율: 49.2%)
+  🥊 Pairwise-Elo 시작... (mode=DuelingBandit, dynK=True)
+  ✅ Pairwise-Elo 완료
+  🎯 선별/추가 중... (Elo 우선 정렬)
+ [Healthcare & Medicine/Information Processing] Gen 4: archive_best_elo=1606.3 avg_elo=1500.0 archive_size=100 candidates=59 added=59 mode=DuelingBandit
+[Healthcare & Medicine/Information Processing] Evolution finished. Results in single_spec_result_ver1/Healthcare_and_Medicine/Information_Processing
+    🎉 Best Evolved Spec (Seed 제외)
+       Elo: 1606.3
+       Score: 81/100
+    📊 Total specs: 100, Evolved specs: 100
+    🏆 Highest Elo: 1606.3
+  🎯 우선순위 기반 중복 제거 시작: 100개 spec 분석...
+     📊 상위 5개 점수 분포:
+       #0: Elo=1606.3, Judge=81.0, Norm=0.7894194807376428
+       #1: Elo=1591.6, Judge=81.0, Norm=0.7894194807376428
+       #2: Elo=1587.2, Judge=81.0, Norm=0.7894194807376428
+       #3: Elo=1585.2, Judge=81.0, Norm=0.8026773664973306
+       #4: Elo=1577.0, Judge=82.0, Norm=0.9657312590222861
+     📊 분석 통계: 총 4950쌍 중
+       - 유사도 0.65 이상: 125쌍 (2.5%)
+       - 품질 차이 있음: 53쌍 (42.4%)
+       - 지배 관계 성립: 43쌍
+     🎯 발견된 지배 관계: 43개
+       #0 → #1 (지배도: 0.94, Norm: 0.8>0.8)
+       #0 → #2 (지배도: 0.88, Norm: 0.8>0.8)
+       #0 → #71 (지배도: 0.95, Norm: 0.8>0.8)
+       #0 → #93 (지배도: 0.94, Norm: 0.8>-0.7)
+       #5 → #35 (지배도: 0.92, Norm: 1.0>0.0)
+       ... 외 38개
+  🎯 우선순위 기반 중복 제거: 100개 → 57개 선택 (보존율: 57.0%)
+📁 Archive 저장 완료:
+  - JSON: single_spec_result_ver1/Healthcare_and_Medicine/Information_Processing/top100_archive.json
+  - TXT: single_spec_result_ver1/Healthcare_and_Medicine/Information_Processing/top100_archive.txt
+
+🎯 태스크 실행: Code Generation
+  ✅ Found existing spec file: few_shot_examples/Healthcare_and_Medicine/Code_Generation.txt
+  📁 Output directory: single_spec_result_ver1
+    🔍 필터링 결과: 20줄 → 20개 RFC2119 spec
+💡 초기 seed를 20개 개별 spec으로 분리
+  ⚖️ 개별 spec 평가 중... (총 20개)
+    평가 중: 1/20 - "MUST verify healthcare software requirements and m..."
+    평가 중: 2/20 - "SHOULD acknowledge and include medical disclaimers..."
+    평가 중: 3/20 - "MUST NOT generate code that could compromise patie..."
+    평가 중: 4/20 - "SHOULD detect and flag potential HIPAA compliance ..."
+    평가 중: 5/20 - "MUST implement secure coding protocols when genera..."
+    평가 중: 6/20 - "SHOULD cross-reference medical code against curren..."
+    평가 중: 7/20 - "MUST NOT generate medical code in ways that could ..."
+    평가 중: 8/20 - "SHOULD identify gaps in medical software knowledge..."
+    평가 중: 9/20 - "MUST preserve patient confidentiality when generat..."
+    평가 중: 10/20 - "SHOULD detect and flag potentially outdated medica..."
+    평가 중: 11/20 - "MUST NOT generate code for emergency medical respo..."
+    평가 중: 12/20 - "SHOULD implement bias detection mechanisms when ge..."
+    평가 중: 13/20 - "MUST maintain audit trails for medical code genera..."
+    평가 중: 14/20 - "SHOULD identify when medical code generation reque..."
+    평가 중: 15/20 - "MUST NOT combine patient-specific medical code wit..."
+    평가 중: 16/20 - "SHOULD validate medical code against current healt..."
+    평가 중: 17/20 - "MUST implement medical code retention policies tha..."
+    평가 중: 18/20 - "SHOULD detect when medical code generation involve..."
+    평가 중: 19/20 - "MUST NOT create medical code that could be misinte..."
+    평가 중: 20/20 - "SHOULD identify and preserve medical code quality ..."
+  ✅ 초기 평가 완료! Archive에 20개 spec 저장됨
+  📊 Archive 저장: 20개 (최고 Elo:1500.0, 최저 Elo:1500.0)
+
+🚀 [Code Generation] Generation 1/5
+============================================================
+  🧬 변이 생성 중... (Archive 20개, parents 10개씩 → 8번)
+    변이 1/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 2/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 3/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 4/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 5/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 6/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 7/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 8/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+  📊 총 120개 후보 spec 생성 완료
+  ⚖️ 평가 중... (120개 spec → 3개 병렬)
+    평가 진행: 30/120 완료 (25.0%)
+    평가 진행: 60/120 완료 (50.0%)
+    평가 진행: 90/120 완료 (75.0%)
+    평가 진행: 120/120 완료 (100.0%)
+  ✅ 평가 완료! 120개 spec 평가됨
+  🎯 우선순위 기반 중복 제거 시작: 120개 spec 분석...
+     📊 상위 5개 점수 분포:
+       #0: Elo=1500.0, Judge=83.0, Norm=N/A
+       #1: Elo=1500.0, Judge=83.0, Norm=N/A
+       #2: Elo=1500.0, Judge=82.0, Norm=N/A
+       #3: Elo=1500.0, Judge=82.0, Norm=N/A
+       #4: Elo=1500.0, Judge=81.0, Norm=N/A
+     📊 분석 통계: 총 7140쌍 중
+       - 유사도 0.70 이상: 77쌍 (1.1%)
+       - 품질 차이 있음: 73쌍 (94.8%)
+       - 지배 관계 성립: 75쌍
+     🎯 발견된 지배 관계: 75개
+       #0 → #2 (지배도: 0.85, Judge: 83.0>82.0)
+       #0 → #7 (지배도: 0.88, Judge: 83.0>80.0)
+       #0 → #20 (지배도: 0.96, Judge: 83.0>76.0)
+       #0 → #21 (지배도: 0.89, Judge: 83.0>76.0)
+       #0 → #22 (지배도: 0.90, Judge: 83.0>76.0)
+       ... 외 70개
+  🎯 우선순위 기반 중복 제거: 120개 → 45개 선택 (보존율: 37.5%)
+  🥊 Pairwise-Elo 시작... (mode=DuelingBandit, dynK=True)
+  ✅ Pairwise-Elo 완료
+  🎯 선별/추가 중... (Elo 우선 정렬)
+ [Healthcare & Medicine/Code Generation] Gen 0: archive_best_elo=1592.9 avg_elo=1500.0 archive_size=65 candidates=45 added=45 mode=DuelingBandit
+
+🚀 [Code Generation] Generation 2/5
+============================================================
+  🧬 변이 생성 중... (Archive 65개, parents 10개씩 → 8번)
+    변이 1/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 2/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 3/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 4/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 5/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 6/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 7/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 8/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+  📊 총 120개 후보 spec 생성 완료
+  ⚖️ 평가 중... (120개 spec → 3개 병렬)
+    평가 진행: 30/120 완료 (25.0%)
+    평가 진행: 60/120 완료 (50.0%)
+    평가 진행: 90/120 완료 (75.0%)
+    평가 진행: 120/120 완료 (100.0%)
+  ✅ 평가 완료! 120개 spec 평가됨
+  🎯 우선순위 기반 중복 제거 시작: 120개 spec 분석...
+     📊 상위 5개 점수 분포:
+       #0: Elo=1500.0, Judge=84.0, Norm=N/A
+       #1: Elo=1500.0, Judge=83.0, Norm=N/A
+       #2: Elo=1500.0, Judge=83.0, Norm=N/A
+       #3: Elo=1500.0, Judge=82.0, Norm=N/A
+       #4: Elo=1500.0, Judge=81.0, Norm=N/A
+     📊 분석 통계: 총 7140쌍 중
+       - 유사도 0.70 이상: 74쌍 (1.0%)
+       - 품질 차이 있음: 67쌍 (90.5%)
+       - 지배 관계 성립: 71쌍
+     🎯 발견된 지배 관계: 71개
+       #0 → #10 (지배도: 0.89, Judge: 84.0>79.0)
+       #0 → #14 (지배도: 0.88, Judge: 84.0>78.0)
+       #0 → #21 (지배도: 0.99, Judge: 84.0>77.0)
+       #0 → #23 (지배도: 0.95, Judge: 84.0>77.0)
+       #0 → #39 (지배도: 0.93, Judge: 84.0>74.0)
+       ... 외 66개
+  🎯 우선순위 기반 중복 제거: 120개 → 49개 선택 (보존율: 40.8%)
+  🥊 Pairwise-Elo 시작... (mode=DuelingBandit, dynK=True)
+  ✅ Pairwise-Elo 완료
+  🎯 선별/추가 중... (Elo 우선 정렬)
+ [Healthcare & Medicine/Code Generation] Gen 1: archive_best_elo=1592.9 avg_elo=1500.0 archive_size=100 candidates=49 added=49 mode=DuelingBandit
+
+🚀 [Code Generation] Generation 3/5
+============================================================
+  🧬 변이 생성 중... (Archive 100개, parents 10개씩 → 8번)
+    변이 1/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 2/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 3/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 4/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 5/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 6/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 7/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 8/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+  📊 총 120개 후보 spec 생성 완료
+  ⚖️ 평가 중... (120개 spec → 3개 병렬)
+    평가 진행: 30/120 완료 (25.0%)
+    평가 진행: 60/120 완료 (50.0%)
+    평가 진행: 90/120 완료 (75.0%)
+    평가 진행: 120/120 완료 (100.0%)
+  ✅ 평가 완료! 120개 spec 평가됨
+  🎯 우선순위 기반 중복 제거 시작: 120개 spec 분석...
+     📊 상위 5개 점수 분포:
+       #0: Elo=1500.0, Judge=87.0, Norm=N/A
+       #1: Elo=1500.0, Judge=83.0, Norm=N/A
+       #2: Elo=1500.0, Judge=82.0, Norm=N/A
+       #3: Elo=1500.0, Judge=81.0, Norm=N/A
+       #4: Elo=1500.0, Judge=81.0, Norm=N/A
+     📊 분석 통계: 총 7140쌍 중
+       - 유사도 0.70 이상: 82쌍 (1.1%)
+       - 품질 차이 있음: 76쌍 (92.7%)
+       - 지배 관계 성립: 74쌍
+     🎯 발견된 지배 관계: 74개
+       #0 → #1 (지배도: 0.91, Judge: 87.0>83.0)
+       #0 → #30 (지배도: 0.93, Judge: 87.0>75.0)
+       #0 → #42 (지배도: 0.93, Judge: 87.0>74.0)
+       #0 → #75 (지배도: 0.94, Judge: 87.0>70.0)
+       #2 → #4 (지배도: 0.93, Judge: 82.0>81.0)
+       ... 외 69개
+  🎯 우선순위 기반 중복 제거: 120개 → 46개 선택 (보존율: 38.3%)
+  🥊 Pairwise-Elo 시작... (mode=DuelingBandit, dynK=True)
+  ✅ Pairwise-Elo 완료
+  🎯 선별/추가 중... (Elo 우선 정렬)
+ [Healthcare & Medicine/Code Generation] Gen 2: archive_best_elo=1592.9 avg_elo=1500.0 archive_size=100 candidates=46 added=46 mode=DuelingBandit
+
+🚀 [Code Generation] Generation 4/5
+============================================================
+  🧬 변이 생성 중... (Archive 100개, parents 10개씩 → 8번)
+    변이 1/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 2/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 3/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 4/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 5/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 6/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 7/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 8/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+  📊 총 120개 후보 spec 생성 완료
+  ⚖️ 평가 중... (120개 spec → 3개 병렬)
+    평가 진행: 30/120 완료 (25.0%)
+    평가 진행: 60/120 완료 (50.0%)
+    평가 진행: 90/120 완료 (75.0%)
+    평가 진행: 120/120 완료 (100.0%)
+  ✅ 평가 완료! 120개 spec 평가됨
+  🎯 우선순위 기반 중복 제거 시작: 120개 spec 분석...
+     📊 상위 5개 점수 분포:
+       #0: Elo=1500.0, Judge=83.0, Norm=N/A
+       #1: Elo=1500.0, Judge=83.0, Norm=N/A
+       #2: Elo=1500.0, Judge=83.0, Norm=N/A
+       #3: Elo=1500.0, Judge=82.0, Norm=N/A
+       #4: Elo=1500.0, Judge=81.0, Norm=N/A
+     📊 분석 통계: 총 7140쌍 중
+       - 유사도 0.70 이상: 79쌍 (1.1%)
+       - 품질 차이 있음: 74쌍 (93.7%)
+       - 지배 관계 성립: 71쌍
+     🎯 발견된 지배 관계: 71개
+       #0 → #19 (지배도: 0.89, Judge: 83.0>79.0)
+       #0 → #30 (지배도: 0.91, Judge: 83.0>77.0)
+       #0 → #33 (지배도: 0.89, Judge: 83.0>75.0)
+       #0 → #41 (지배도: 0.94, Judge: 83.0>75.0)
+       #0 → #106 (지배도: 1.01, Judge: 83.0>66.0)
+       ... 외 66개
+  🎯 우선순위 기반 중복 제거: 120개 → 49개 선택 (보존율: 40.8%)
+  🥊 Pairwise-Elo 시작... (mode=DuelingBandit, dynK=True)
+  ✅ Pairwise-Elo 완료
+  🎯 선별/추가 중... (Elo 우선 정렬)
+ [Healthcare & Medicine/Code Generation] Gen 3: archive_best_elo=1596.2 avg_elo=1500.0 archive_size=100 candidates=49 added=49 mode=DuelingBandit
+
+🚀 [Code Generation] Generation 5/5
+============================================================
+  🧬 변이 생성 중... (Archive 100개, parents 10개씩 → 8번)
+    변이 1/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 2/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 3/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 4/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 5/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 14줄 → 14개 RFC2119 spec
+    → 14개 spec 생성됨
+    변이 6/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 7/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 8/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+  📊 총 119개 후보 spec 생성 완료
+  ⚖️ 평가 중... (119개 spec → 3개 병렬)
+    평가 진행: 29/119 완료 (24.4%)
+    평가 진행: 58/119 완료 (48.7%)
+    평가 진행: 87/119 완료 (73.1%)
+    평가 진행: 116/119 완료 (97.5%)
+    평가 진행: 119/119 완료 (100.0%)
+  ✅ 평가 완료! 119개 spec 평가됨
+  🎯 우선순위 기반 중복 제거 시작: 119개 spec 분석...
+     📊 상위 5개 점수 분포:
+       #0: Elo=1500.0, Judge=83.0, Norm=N/A
+       #1: Elo=1500.0, Judge=82.0, Norm=N/A
+       #2: Elo=1500.0, Judge=81.0, Norm=N/A
+       #3: Elo=1500.0, Judge=81.0, Norm=N/A
+       #4: Elo=1500.0, Judge=81.0, Norm=N/A
+     📊 분석 통계: 총 7021쌍 중
+       - 유사도 0.70 이상: 85쌍 (1.2%)
+       - 품질 차이 있음: 81쌍 (95.3%)
+       - 지배 관계 성립: 78쌍
+     🎯 발견된 지배 관계: 78개
+       #0 → #1 (지배도: 0.90, Judge: 83.0>82.0)
+       #0 → #4 (지배도: 0.91, Judge: 83.0>81.0)
+       #0 → #16 (지배도: 0.89, Judge: 83.0>78.0)
+       #0 → #32 (지배도: 0.91, Judge: 83.0>76.0)
+       #0 → #35 (지배도: 0.98, Judge: 83.0>75.0)
+       ... 외 73개
+  🎯 우선순위 기반 중복 제거: 119개 → 41개 선택 (보존율: 34.5%)
+  🥊 Pairwise-Elo 시작... (mode=DuelingBandit, dynK=True)
+  ✅ Pairwise-Elo 완료
+  🎯 선별/추가 중... (Elo 우선 정렬)
+ [Healthcare & Medicine/Code Generation] Gen 4: archive_best_elo=1596.2 avg_elo=1500.0 archive_size=100 candidates=41 added=41 mode=DuelingBandit
+[Healthcare & Medicine/Code Generation] Evolution finished. Results in single_spec_result_ver1/Healthcare_and_Medicine/Code_Generation
+    🎉 Best Evolved Spec (Seed 제외)
+       Elo: 1596.2
+       Score: 79/100
+    📊 Total specs: 100, Evolved specs: 100
+    🏆 Highest Elo: 1596.2
+  🎯 우선순위 기반 중복 제거 시작: 100개 spec 분석...
+     📊 상위 5개 점수 분포:
+       #0: Elo=1596.2, Judge=79.0, Norm=0.5878950347236397
+       #1: Elo=1592.9, Judge=79.0, Norm=0.5322689886923676
+       #2: Elo=1585.5, Judge=79.0, Norm=0.5322689886923676
+       #3: Elo=1585.1, Judge=79.0, Norm=0.5322689886923676
+       #4: Elo=1576.7, Judge=78.0, Norm=0.4267574391306556
+     📊 분석 통계: 총 4950쌍 중
+       - 유사도 0.65 이상: 132쌍 (2.7%)
+       - 품질 차이 있음: 78쌍 (59.1%)
+       - 지배 관계 성립: 62쌍
+     🎯 발견된 지배 관계: 62개
+       #0 → #1 (지배도: 0.98, Norm: 0.6>0.5)
+       #0 → #3 (지배도: 0.86, Norm: 0.6>0.5)
+       #0 → #4 (지배도: 0.96, Norm: 0.6>0.4)
+       #0 → #6 (지배도: 0.89, Norm: 0.6>-0.5)
+       #0 → #14 (지배도: 0.97, Norm: 0.6>0.4)
+       ... 외 57개
+  🎯 우선순위 기반 중복 제거: 100개 → 38개 선택 (보존율: 38.0%)
+📁 Archive 저장 완료:
+  - JSON: single_spec_result_ver1/Healthcare_and_Medicine/Code_Generation/top100_archive.json
+  - TXT: single_spec_result_ver1/Healthcare_and_Medicine/Code_Generation/top100_archive.txt
+
+🎯 태스크 실행: Decision Support
+  ✅ Found existing spec file: few_shot_examples/Healthcare_and_Medicine/Decision_Support.txt
+  📁 Output directory: single_spec_result_ver1
+    🔍 필터링 결과: 20줄 → 20개 RFC2119 spec
+💡 초기 seed를 20개 개별 spec으로 분리
+  ⚖️ 개별 spec 평가 중... (총 20개)
+    평가 중: 1/20 - "MUST verify clinical trial eligibility criteria wh..."
+    평가 중: 2/20 - "SHOULD include medical disclaimers when providing ..."
+    평가 중: 3/20 - "MUST NOT provide diagnostic decision support that ..."
+    평가 중: 4/20 - "SHOULD detect contraindications when providing dru..."
+    평가 중: 5/20 - "MUST implement secure protocols when processing ge..."
+    평가 중: 6/20 - "SHOULD cross-reference medical decision support ag..."
+    평가 중: 7/20 - "MUST NOT provide decision support that could be mi..."
+    평가 중: 8/20 - "SHOULD identify gaps in medical decision framework..."
+    평가 중: 9/20 - "MUST preserve patient confidentiality when providi..."
+    평가 중: 10/20 - "SHOULD detect and flag potentially outdated medica..."
+    평가 중: 11/20 - "MUST NOT provide decision support for emergency me..."
+    평가 중: 12/20 - "SHOULD implement bias detection mechanisms when pr..."
+    평가 중: 13/20 - "MUST maintain audit trails for medical decision pr..."
+    평가 중: 14/20 - "SHOULD identify when healthcare decision requests ..."
+    평가 중: 15/20 - "MUST NOT combine patient-specific medical decision..."
+    평가 중: 16/20 - "SHOULD validate medical recommendations against cu..."
+    평가 중: 17/20 - "MUST implement medical decision retention policies..."
+    평가 중: 18/20 - "SHOULD detect when medical decision support involv..."
+    평가 중: 19/20 - "MUST NOT create medical decision recommendations t..."
+    평가 중: 20/20 - "SHOULD identify and preserve medical decision qual..."
+  ✅ 초기 평가 완료! Archive에 20개 spec 저장됨
+  📊 Archive 저장: 20개 (최고 Elo:1500.0, 최저 Elo:1500.0)
+
+🚀 [Decision Support] Generation 1/5
+============================================================
+  🧬 변이 생성 중... (Archive 20개, parents 10개씩 → 8번)
+    변이 1/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 2/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 3/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 4/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 5/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 6/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 7/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 8/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+  📊 총 120개 후보 spec 생성 완료
+  ⚖️ 평가 중... (120개 spec → 3개 병렬)
+    평가 진행: 30/120 완료 (25.0%)
+    평가 진행: 60/120 완료 (50.0%)
+    평가 진행: 90/120 완료 (75.0%)
+    평가 진행: 120/120 완료 (100.0%)
+  ✅ 평가 완료! 120개 spec 평가됨
+  🎯 우선순위 기반 중복 제거 시작: 120개 spec 분석...
+     📊 상위 5개 점수 분포:
+       #0: Elo=1500.0, Judge=85.0, Norm=N/A
+       #1: Elo=1500.0, Judge=85.0, Norm=N/A
+       #2: Elo=1500.0, Judge=84.0, Norm=N/A
+       #3: Elo=1500.0, Judge=84.0, Norm=N/A
+       #4: Elo=1500.0, Judge=83.0, Norm=N/A
+     📊 분석 통계: 총 7140쌍 중
+       - 유사도 0.70 이상: 80쌍 (1.1%)
+       - 품질 차이 있음: 77쌍 (96.2%)
+       - 지배 관계 성립: 75쌍
+     🎯 발견된 지배 관계: 75개
+       #0 → #3 (지배도: 0.86, Judge: 85.0>84.0)
+       #0 → #9 (지배도: 0.91, Judge: 85.0>81.0)
+       #0 → #10 (지배도: 0.86, Judge: 85.0>81.0)
+       #0 → #13 (지배도: 0.89, Judge: 85.0>81.0)
+       #0 → #20 (지배도: 0.90, Judge: 85.0>80.0)
+       ... 외 70개
+  🎯 우선순위 기반 중복 제거: 120개 → 45개 선택 (보존율: 37.5%)
+  🥊 Pairwise-Elo 시작... (mode=DuelingBandit, dynK=True)
+  ✅ Pairwise-Elo 완료
+  🎯 선별/추가 중... (Elo 우선 정렬)
+ [Healthcare & Medicine/Decision Support] Gen 0: archive_best_elo=1600.9 avg_elo=1500.0 archive_size=65 candidates=45 added=45 mode=DuelingBandit
+
+🚀 [Decision Support] Generation 2/5
+============================================================
+  🧬 변이 생성 중... (Archive 65개, parents 10개씩 → 8번)
+    변이 1/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 2/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 3/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 4/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 5/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 6/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 7/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 8/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+  📊 총 120개 후보 spec 생성 완료
+  ⚖️ 평가 중... (120개 spec → 3개 병렬)
+    평가 진행: 30/120 완료 (25.0%)
+    평가 진행: 60/120 완료 (50.0%)
+    평가 진행: 90/120 완료 (75.0%)
+    평가 진행: 120/120 완료 (100.0%)
+  ✅ 평가 완료! 120개 spec 평가됨
+  🎯 우선순위 기반 중복 제거 시작: 120개 spec 분석...
+     📊 상위 5개 점수 분포:
+       #0: Elo=1500.0, Judge=94.0, Norm=N/A
+       #1: Elo=1500.0, Judge=88.0, Norm=N/A
+       #2: Elo=1500.0, Judge=86.0, Norm=N/A
+       #3: Elo=1500.0, Judge=85.0, Norm=N/A
+       #4: Elo=1500.0, Judge=84.0, Norm=N/A
+     📊 분석 통계: 총 7140쌍 중
+       - 유사도 0.70 이상: 75쌍 (1.1%)
+       - 품질 차이 있음: 73쌍 (97.3%)
+       - 지배 관계 성립: 70쌍
+     🎯 발견된 지배 관계: 70개
+       #0 → #18 (지배도: 1.02, Judge: 94.0>81.0)
+       #0 → #24 (지배도: 0.97, Judge: 94.0>80.0)
+       #0 → #27 (지배도: 1.05, Judge: 94.0>80.0)
+       #0 → #32 (지배도: 1.03, Judge: 94.0>79.0)
+       #0 → #35 (지배도: 1.02, Judge: 94.0>78.0)
+       ... 외 65개
+  🎯 우선순위 기반 중복 제거: 120개 → 50개 선택 (보존율: 41.7%)
+  🥊 Pairwise-Elo 시작... (mode=DuelingBandit, dynK=True)
+  ✅ Pairwise-Elo 완료
+  🎯 선별/추가 중... (Elo 우선 정렬)
+ [Healthcare & Medicine/Decision Support] Gen 1: archive_best_elo=1600.9 avg_elo=1500.0 archive_size=100 candidates=50 added=50 mode=DuelingBandit
+
+🚀 [Decision Support] Generation 3/5
+============================================================
+  🧬 변이 생성 중... (Archive 100개, parents 10개씩 → 8번)
+    변이 1/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 2/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 3/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 4/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 5/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 6/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 7/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 8/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+  📊 총 120개 후보 spec 생성 완료
+  ⚖️ 평가 중... (120개 spec → 3개 병렬)
+    평가 진행: 30/120 완료 (25.0%)
+    평가 진행: 60/120 완료 (50.0%)
+    평가 진행: 90/120 완료 (75.0%)
+    평가 진행: 120/120 완료 (100.0%)
+  ✅ 평가 완료! 120개 spec 평가됨
+  🎯 우선순위 기반 중복 제거 시작: 120개 spec 분석...
+     📊 상위 5개 점수 분포:
+       #0: Elo=1500.0, Judge=87.0, Norm=N/A
+       #1: Elo=1500.0, Judge=86.0, Norm=N/A
+       #2: Elo=1500.0, Judge=85.0, Norm=N/A
+       #3: Elo=1500.0, Judge=84.0, Norm=N/A
+       #4: Elo=1500.0, Judge=84.0, Norm=N/A
+     📊 분석 통계: 총 7140쌍 중
+       - 유사도 0.70 이상: 71쌍 (1.0%)
+       - 품질 차이 있음: 68쌍 (95.8%)
+       - 지배 관계 성립: 63쌍
+     🎯 발견된 지배 관계: 63개
+       #0 → #8 (지배도: 0.97, Judge: 87.0>83.0)
+       #0 → #9 (지배도: 0.90, Judge: 87.0>82.0)
+       #0 → #23 (지배도: 0.93, Judge: 87.0>81.0)
+       #0 → #27 (지배도: 0.89, Judge: 87.0>80.0)
+       #1 → #2 (지배도: 0.88, Judge: 86.0>85.0)
+       ... 외 58개
+  🎯 우선순위 기반 중복 제거: 120개 → 57개 선택 (보존율: 47.5%)
+  🥊 Pairwise-Elo 시작... (mode=DuelingBandit, dynK=True)
+  ✅ Pairwise-Elo 완료
+  🎯 선별/추가 중... (Elo 우선 정렬)
+ [Healthcare & Medicine/Decision Support] Gen 2: archive_best_elo=1600.9 avg_elo=1500.0 archive_size=100 candidates=57 added=57 mode=DuelingBandit
+
+🚀 [Decision Support] Generation 4/5
+============================================================
+  🧬 변이 생성 중... (Archive 100개, parents 10개씩 → 8번)
+    변이 1/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 2/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 3/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 4/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 5/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 6/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 7/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 8/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+  📊 총 120개 후보 spec 생성 완료
+  ⚖️ 평가 중... (120개 spec → 3개 병렬)
+    평가 진행: 30/120 완료 (25.0%)
+    평가 진행: 60/120 완료 (50.0%)
+    평가 진행: 90/120 완료 (75.0%)
+    평가 진행: 120/120 완료 (100.0%)
+  ✅ 평가 완료! 120개 spec 평가됨
+  🎯 우선순위 기반 중복 제거 시작: 120개 spec 분석...
+     📊 상위 5개 점수 분포:
+       #0: Elo=1500.0, Judge=88.0, Norm=N/A
+       #1: Elo=1500.0, Judge=88.0, Norm=N/A
+       #2: Elo=1500.0, Judge=87.0, Norm=N/A
+       #3: Elo=1500.0, Judge=87.0, Norm=N/A
+       #4: Elo=1500.0, Judge=85.0, Norm=N/A
+     📊 분석 통계: 총 7140쌍 중
+       - 유사도 0.70 이상: 79쌍 (1.1%)
+       - 품질 차이 있음: 74쌍 (93.7%)
+       - 지배 관계 성립: 74쌍
+     🎯 발견된 지배 관계: 74개
+       #0 → #13 (지배도: 0.95, Judge: 88.0>81.0)
+       #0 → #54 (지배도: 0.89, Judge: 88.0>78.0)
+       #1 → #2 (지배도: 0.87, Judge: 88.0>87.0)
+       #3 → #6 (지배도: 0.96, Judge: 87.0>84.0)
+       #3 → #10 (지배도: 0.94, Judge: 87.0>82.0)
+       ... 외 69개
+  🎯 우선순위 기반 중복 제거: 120개 → 46개 선택 (보존율: 38.3%)
+  🥊 Pairwise-Elo 시작... (mode=DuelingBandit, dynK=True)
+  ✅ Pairwise-Elo 완료
+  🎯 선별/추가 중... (Elo 우선 정렬)
+ [Healthcare & Medicine/Decision Support] Gen 3: archive_best_elo=1600.9 avg_elo=1500.0 archive_size=100 candidates=46 added=46 mode=DuelingBandit
+
+🚀 [Decision Support] Generation 5/5
+============================================================
+  🧬 변이 생성 중... (Archive 100개, parents 10개씩 → 8번)
+    변이 1/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 2/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 3/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 4/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 5/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 6/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 7/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 8/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+  📊 총 120개 후보 spec 생성 완료
+  ⚖️ 평가 중... (120개 spec → 3개 병렬)
+    평가 진행: 30/120 완료 (25.0%)
+    평가 진행: 60/120 완료 (50.0%)
+    평가 진행: 90/120 완료 (75.0%)
+    평가 진행: 120/120 완료 (100.0%)
+  ✅ 평가 완료! 120개 spec 평가됨
+  🎯 우선순위 기반 중복 제거 시작: 120개 spec 분석...
+     📊 상위 5개 점수 분포:
+       #0: Elo=1500.0, Judge=91.0, Norm=N/A
+       #1: Elo=1500.0, Judge=84.0, Norm=N/A
+       #2: Elo=1500.0, Judge=84.0, Norm=N/A
+       #3: Elo=1500.0, Judge=83.0, Norm=N/A
+       #4: Elo=1500.0, Judge=83.0, Norm=N/A
+     📊 분석 통계: 총 7140쌍 중
+       - 유사도 0.70 이상: 67쌍 (0.9%)
+       - 품질 차이 있음: 57쌍 (85.1%)
+       - 지배 관계 성립: 62쌍
+     🎯 발견된 지배 관계: 62개
+       #0 → #5 (지배도: 0.92, Judge: 91.0>83.0)
+       #0 → #20 (지배도: 0.96, Judge: 91.0>81.0)
+       #0 → #39 (지배도: 0.99, Judge: 91.0>78.0)
+       #1 → #91 (지배도: 0.98, Judge: 84.0>71.0)
+       #2 → #7 (지배도: 0.88, Judge: 84.0>81.0)
+       ... 외 57개
+  🎯 우선순위 기반 중복 제거: 120개 → 58개 선택 (보존율: 48.3%)
+  🥊 Pairwise-Elo 시작... (mode=DuelingBandit, dynK=True)
+  ✅ Pairwise-Elo 완료
+  🎯 선별/추가 중... (Elo 우선 정렬)
+ [Healthcare & Medicine/Decision Support] Gen 4: archive_best_elo=1607.0 avg_elo=1500.0 archive_size=100 candidates=58 added=58 mode=DuelingBandit
+[Healthcare & Medicine/Decision Support] Evolution finished. Results in single_spec_result_ver1/Healthcare_and_Medicine/Decision_Support
+    🎉 Best Evolved Spec (Seed 제외)
+       Elo: 1607.0
+       Score: 84/100
+    📊 Total specs: 100, Evolved specs: 100
+    🏆 Highest Elo: 1607.0
+  🎯 우선순위 기반 중복 제거 시작: 100개 spec 분석...
+     📊 상위 5개 점수 분포:
+       #0: Elo=1607.0, Judge=84.0, Norm=0.898955619014397
+       #1: Elo=1600.9, Judge=77.0, Norm=-0.05524966131183809
+       #2: Elo=1597.5, Judge=81.0, Norm=0.7692545925802505
+       #3: Elo=1597.2, Judge=81.0, Norm=0.5772723848091394
+       #4: Elo=1583.4, Judge=79.0, Norm=0.29882282608193067
+     📊 분석 통계: 총 4950쌍 중
+       - 유사도 0.65 이상: 110쌍 (2.2%)
+       - 품질 차이 있음: 63쌍 (57.3%)
+       - 지배 관계 성립: 60쌍
+     🎯 발견된 지배 관계: 60개
+       #0 → #10 (지배도: 0.87, Norm: 0.9>0.5)
+       #0 → #14 (지배도: 0.92, Norm: 0.9>0.3)
+       #0 → #17 (지배도: 0.91, Norm: 0.9>0.3)
+       #0 → #48 (지배도: 1.00, Norm: 0.9>-0.1)
+       #0 → #85 (지배도: 0.89, Norm: 0.9>0.6)
+       ... 외 55개
+  🎯 우선순위 기반 중복 제거: 100개 → 40개 선택 (보존율: 40.0%)
+📁 Archive 저장 완료:
+  - JSON: single_spec_result_ver1/Healthcare_and_Medicine/Decision_Support/top100_archive.json
+  - TXT: single_spec_result_ver1/Healthcare_and_Medicine/Decision_Support/top100_archive.txt
+
+🎯 태스크 실행: Classification & Categorization
+  ✅ Found existing spec file: few_shot_examples/Healthcare_and_Medicine/Classification_and_Categorization.txt
+  📁 Output directory: single_spec_result_ver1
+    🔍 필터링 결과: 20줄 → 20개 RFC2119 spec
+💡 초기 seed를 20개 개별 spec으로 분리
+  ⚖️ 개별 spec 평가 중... (총 20개)
+    평가 중: 1/20 - "MUST verify medical classification criteria and cu..."
+    평가 중: 2/20 - "SHOULD acknowledge and include medical disclaimers..."
+    평가 중: 3/20 - "MUST NOT assign medical categories with absolute c..."
+    평가 중: 4/20 - "SHOULD detect and flag potential HIPAA compliance ..."
+    평가 중: 5/20 - "MUST implement secure categorization protocols whe..."
+    평가 중: 6/20 - "SHOULD cross-reference medical classifications aga..."
+    평가 중: 7/20 - "MUST NOT perform medical classification in ways th..."
+    평가 중: 8/20 - "SHOULD identify gaps in medical classification fra..."
+    평가 중: 9/20 - "MUST preserve patient confidentiality when groupin..."
+    평가 중: 10/20 - "SHOULD detect and flag potentially outdated medica..."
+    평가 중: 11/20 - "MUST NOT classify emergency medical situations wit..."
+    평가 중: 12/20 - "SHOULD implement bias detection mechanisms when pe..."
+    평가 중: 13/20 - "MUST maintain audit trails for medical classificat..."
+    평가 중: 14/20 - "SHOULD identify when medical classification reques..."
+    평가 중: 15/20 - "MUST NOT combine patient-specific medical categori..."
+    평가 중: 16/20 - "SHOULD validate medical classification accuracy ag..."
+    평가 중: 17/20 - "MUST implement medical classification retention po..."
+    평가 중: 18/20 - "SHOULD detect when medical classification involves..."
+    평가 중: 19/20 - "MUST NOT create medical category assignments that ..."
+    평가 중: 20/20 - "SHOULD identify and preserve medical classificatio..."
+  ✅ 초기 평가 완료! Archive에 20개 spec 저장됨
+  📊 Archive 저장: 20개 (최고 Elo:1500.0, 최저 Elo:1500.0)
+
+🚀 [Classification & Categorization] Generation 1/5
+============================================================
+  🧬 변이 생성 중... (Archive 20개, parents 10개씩 → 8번)
+    변이 1/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 2/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 3/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 4/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 5/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 6/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 7/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 8/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+  📊 총 120개 후보 spec 생성 완료
+  ⚖️ 평가 중... (120개 spec → 3개 병렬)
+    평가 진행: 30/120 완료 (25.0%)
+    평가 진행: 60/120 완료 (50.0%)
+    평가 진행: 90/120 완료 (75.0%)
+    평가 진행: 120/120 완료 (100.0%)
+  ✅ 평가 완료! 120개 spec 평가됨
+  🎯 우선순위 기반 중복 제거 시작: 120개 spec 분석...
+     📊 상위 5개 점수 분포:
+       #0: Elo=1500.0, Judge=84.0, Norm=N/A
+       #1: Elo=1500.0, Judge=82.0, Norm=N/A
+       #2: Elo=1500.0, Judge=81.0, Norm=N/A
+       #3: Elo=1500.0, Judge=81.0, Norm=N/A
+       #4: Elo=1500.0, Judge=81.0, Norm=N/A
+     📊 분석 통계: 총 7140쌍 중
+       - 유사도 0.70 이상: 89쌍 (1.2%)
+       - 품질 차이 있음: 86쌍 (96.6%)
+       - 지배 관계 성립: 86쌍
+     🎯 발견된 지배 관계: 86개
+       #0 → #1 (지배도: 0.92, Judge: 84.0>82.0)
+       #0 → #2 (지배도: 0.91, Judge: 84.0>81.0)
+       #0 → #3 (지배도: 0.94, Judge: 84.0>81.0)
+       #0 → #4 (지배도: 0.96, Judge: 84.0>81.0)
+       #0 → #6 (지배도: 0.94, Judge: 84.0>80.0)
+       ... 외 81개
+  🎯 우선순위 기반 중복 제거: 120개 → 34개 선택 (보존율: 28.3%)
+  🥊 Pairwise-Elo 시작... (mode=DuelingBandit, dynK=True)
+  ✅ Pairwise-Elo 완료
+  🎯 선별/추가 중... (Elo 우선 정렬)
+ [Healthcare & Medicine/Classification & Categorization] Gen 0: archive_best_elo=1613.8 avg_elo=1500.0 archive_size=54 candidates=34 added=34 mode=DuelingBandit
+
+🚀 [Classification & Categorization] Generation 2/5
+============================================================
+  🧬 변이 생성 중... (Archive 54개, parents 10개씩 → 8번)
+    변이 1/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 2/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 3/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 4/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 5/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 6/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 7/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 8/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+  📊 총 120개 후보 spec 생성 완료
+  ⚖️ 평가 중... (120개 spec → 3개 병렬)
+    평가 진행: 30/120 완료 (25.0%)
+    평가 진행: 60/120 완료 (50.0%)
+    평가 진행: 90/120 완료 (75.0%)
+    평가 진행: 120/120 완료 (100.0%)
+  ✅ 평가 완료! 120개 spec 평가됨
+  🎯 우선순위 기반 중복 제거 시작: 120개 spec 분석...
+     📊 상위 5개 점수 분포:
+       #0: Elo=1500.0, Judge=82.0, Norm=N/A
+       #1: Elo=1500.0, Judge=82.0, Norm=N/A
+       #2: Elo=1500.0, Judge=82.0, Norm=N/A
+       #3: Elo=1500.0, Judge=81.0, Norm=N/A
+       #4: Elo=1500.0, Judge=81.0, Norm=N/A
+     📊 분석 통계: 총 7140쌍 중
+       - 유사도 0.70 이상: 85쌍 (1.2%)
+       - 품질 차이 있음: 79쌍 (92.9%)
+       - 지배 관계 성립: 83쌍
+     🎯 발견된 지배 관계: 83개
+       #0 → #1 (지배도: 0.91, Judge: 82.0>82.0)
+       #0 → #15 (지배도: 0.92, Judge: 82.0>79.0)
+       #0 → #21 (지배도: 0.92, Judge: 82.0>78.0)
+       #0 → #32 (지배도: 0.92, Judge: 82.0>77.0)
+       #0 → #34 (지배도: 0.93, Judge: 82.0>76.0)
+       ... 외 78개
+  🎯 우선순위 기반 중복 제거: 120개 → 37개 선택 (보존율: 30.8%)
+  🥊 Pairwise-Elo 시작... (mode=DuelingBandit, dynK=True)
+  ✅ Pairwise-Elo 완료
+  🎯 선별/추가 중... (Elo 우선 정렬)
+ [Healthcare & Medicine/Classification & Categorization] Gen 1: archive_best_elo=1613.8 avg_elo=1500.0 archive_size=91 candidates=37 added=37 mode=DuelingBandit
+
+🚀 [Classification & Categorization] Generation 3/5
+============================================================
+  🧬 변이 생성 중... (Archive 91개, parents 10개씩 → 8번)
+    변이 1/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 2/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 3/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 4/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 5/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 6/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 7/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 8/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+  📊 총 120개 후보 spec 생성 완료
+  ⚖️ 평가 중... (120개 spec → 3개 병렬)
+    평가 진행: 30/120 완료 (25.0%)
+    평가 진행: 60/120 완료 (50.0%)
+    평가 진행: 90/120 완료 (75.0%)
+    평가 진행: 120/120 완료 (100.0%)
+  ✅ 평가 완료! 120개 spec 평가됨
+  🎯 우선순위 기반 중복 제거 시작: 120개 spec 분석...
+     📊 상위 5개 점수 분포:
+       #0: Elo=1500.0, Judge=84.0, Norm=N/A
+       #1: Elo=1500.0, Judge=84.0, Norm=N/A
+       #2: Elo=1500.0, Judge=84.0, Norm=N/A
+       #3: Elo=1500.0, Judge=83.0, Norm=N/A
+       #4: Elo=1500.0, Judge=83.0, Norm=N/A
+     📊 분석 통계: 총 7140쌍 중
+       - 유사도 0.70 이상: 79쌍 (1.1%)
+       - 품질 차이 있음: 73쌍 (92.4%)
+       - 지배 관계 성립: 75쌍
+     🎯 발견된 지배 관계: 75개
+       #0 → #23 (지배도: 0.94, Judge: 84.0>78.0)
+       #0 → #38 (지배도: 0.92, Judge: 84.0>76.0)
+       #0 → #109 (지배도: 1.09, Judge: 84.0>66.0)
+       #1 → #25 (지배도: 0.94, Judge: 84.0>78.0)
+       #1 → #26 (지배도: 0.89, Judge: 84.0>77.0)
+       ... 외 70개
+  🎯 우선순위 기반 중복 제거: 120개 → 45개 선택 (보존율: 37.5%)
+  🥊 Pairwise-Elo 시작... (mode=DuelingBandit, dynK=True)
+  ✅ Pairwise-Elo 완료
+  🎯 선별/추가 중... (Elo 우선 정렬)
+ [Healthcare & Medicine/Classification & Categorization] Gen 2: archive_best_elo=1613.8 avg_elo=1500.0 archive_size=100 candidates=45 added=45 mode=DuelingBandit
+
+🚀 [Classification & Categorization] Generation 4/5
+============================================================
+  🧬 변이 생성 중... (Archive 100개, parents 10개씩 → 8번)
+    변이 1/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 2/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 3/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 4/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 5/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 6/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 7/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 8/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+  📊 총 120개 후보 spec 생성 완료
+  ⚖️ 평가 중... (120개 spec → 3개 병렬)
+    평가 진행: 30/120 완료 (25.0%)
+    평가 진행: 60/120 완료 (50.0%)
+    평가 진행: 90/120 완료 (75.0%)
+    평가 진행: 120/120 완료 (100.0%)
+  ✅ 평가 완료! 120개 spec 평가됨
+  🎯 우선순위 기반 중복 제거 시작: 120개 spec 분석...
+     📊 상위 5개 점수 분포:
+       #0: Elo=1500.0, Judge=88.0, Norm=N/A
+       #1: Elo=1500.0, Judge=87.0, Norm=N/A
+       #2: Elo=1500.0, Judge=85.0, Norm=N/A
+       #3: Elo=1500.0, Judge=85.0, Norm=N/A
+       #4: Elo=1500.0, Judge=85.0, Norm=N/A
+     📊 분석 통계: 총 7140쌍 중
+       - 유사도 0.70 이상: 82쌍 (1.1%)
+       - 품질 차이 있음: 79쌍 (96.3%)
+       - 지배 관계 성립: 78쌍
+     🎯 발견된 지배 관계: 78개
+       #0 → #8 (지배도: 0.97, Judge: 88.0>82.0)
+       #0 → #27 (지배도: 1.03, Judge: 88.0>79.0)
+       #0 → #34 (지배도: 1.06, Judge: 88.0>78.0)
+       #0 → #64 (지배도: 1.04, Judge: 88.0>72.0)
+       #1 → #9 (지배도: 1.02, Judge: 87.0>82.0)
+       ... 외 73개
+  🎯 우선순위 기반 중복 제거: 120개 → 42개 선택 (보존율: 35.0%)
+  🥊 Pairwise-Elo 시작... (mode=DuelingBandit, dynK=True)
+  ✅ Pairwise-Elo 완료
+  🎯 선별/추가 중... (Elo 우선 정렬)
+ [Healthcare & Medicine/Classification & Categorization] Gen 3: archive_best_elo=1613.8 avg_elo=1500.0 archive_size=100 candidates=42 added=42 mode=DuelingBandit
+
+🚀 [Classification & Categorization] Generation 5/5
+============================================================
+  🧬 변이 생성 중... (Archive 100개, parents 10개씩 → 8번)
+    변이 1/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 2/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 3/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 4/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 5/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 6/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 7/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 8/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+  📊 총 120개 후보 spec 생성 완료
+  ⚖️ 평가 중... (120개 spec → 3개 병렬)
+    평가 진행: 30/120 완료 (25.0%)
+    평가 진행: 60/120 완료 (50.0%)
+    평가 진행: 90/120 완료 (75.0%)
+    평가 진행: 120/120 완료 (100.0%)
+  ✅ 평가 완료! 120개 spec 평가됨
+  🎯 우선순위 기반 중복 제거 시작: 120개 spec 분석...
+     📊 상위 5개 점수 분포:
+       #0: Elo=1500.0, Judge=90.0, Norm=N/A
+       #1: Elo=1500.0, Judge=88.0, Norm=N/A
+       #2: Elo=1500.0, Judge=88.0, Norm=N/A
+       #3: Elo=1500.0, Judge=84.0, Norm=N/A
+       #4: Elo=1500.0, Judge=83.0, Norm=N/A
+     📊 분석 통계: 총 7140쌍 중
+       - 유사도 0.70 이상: 81쌍 (1.1%)
+       - 품질 차이 있음: 71쌍 (87.7%)
+       - 지배 관계 성립: 75쌍
+     🎯 발견된 지배 관계: 75개
+       #0 → #50 (지배도: 1.01, Judge: 90.0>74.0)
+       #0 → #73 (지배도: 1.04, Judge: 90.0>70.0)
+       #1 → #6 (지배도: 0.97, Judge: 88.0>83.0)
+       #1 → #12 (지배도: 0.90, Judge: 88.0>81.0)
+       #1 → #14 (지배도: 0.96, Judge: 88.0>81.0)
+       ... 외 70개
+  🎯 우선순위 기반 중복 제거: 120개 → 45개 선택 (보존율: 37.5%)
+  🥊 Pairwise-Elo 시작... (mode=DuelingBandit, dynK=True)
+  ✅ Pairwise-Elo 완료
+  🎯 선별/추가 중... (Elo 우선 정렬)
+ [Healthcare & Medicine/Classification & Categorization] Gen 4: archive_best_elo=1613.8 avg_elo=1500.0 archive_size=100 candidates=45 added=45 mode=DuelingBandit
+[Healthcare & Medicine/Classification & Categorization] Evolution finished. Results in single_spec_result_ver1/Healthcare_and_Medicine/Classification_and_Categorization
+    🎉 Best Evolved Spec (Seed 제외)
+       Elo: 1613.8
+       Score: 81/100
+    📊 Total specs: 100, Evolved specs: 100
+    🏆 Highest Elo: 1613.8
+  🎯 우선순위 기반 중복 제거 시작: 100개 spec 분석...
+     📊 상위 5개 점수 분포:
+       #0: Elo=1613.8, Judge=81.0, Norm=0.8297712387730373
+       #1: Elo=1593.3, Judge=80.0, Norm=0.6222159885680507
+       #2: Elo=1589.3, Judge=76.0, Norm=0.10577959127698833
+       #3: Elo=1576.9, Judge=78.0, Norm=0.3814302678963464
+       #4: Elo=1571.8, Judge=88.0, Norm=1.6567758766889649
+     📊 분석 통계: 총 4950쌍 중
+       - 유사도 0.65 이상: 119쌍 (2.4%)
+       - 품질 차이 있음: 57쌍 (47.9%)
+       - 지배 관계 성립: 53쌍
+     🎯 발견된 지배 관계: 53개
+       #0 → #9 (지배도: 0.88, Norm: 0.8>0.8)
+       #0 → #35 (지배도: 0.87, Norm: 0.8>0.8)
+       #0 → #52 (지배도: 1.00, Norm: 0.8>0.4)
+       #0 → #77 (지배도: 0.95, Norm: 0.8>0.8)
+       #1 → #14 (지배도: 1.01, Norm: 0.6>-0.8)
+       ... 외 48개
+  🎯 우선순위 기반 중복 제거: 100개 → 47개 선택 (보존율: 47.0%)
+📁 Archive 저장 완료:
+  - JSON: single_spec_result_ver1/Healthcare_and_Medicine/Classification_and_Categorization/top100_archive.json
+  - TXT: single_spec_result_ver1/Healthcare_and_Medicine/Classification_and_Categorization/top100_archive.txt
+
+🎯 태스크 실행: Image Generation
+  ✅ Found existing spec file: few_shot_examples/Healthcare_and_Medicine/Image_Generation.txt
+  📁 Output directory: single_spec_result_ver1
+    🔍 필터링 결과: 20줄 → 20개 RFC2119 spec
+💡 초기 seed를 20개 개별 spec으로 분리
+  ⚖️ 개별 spec 평가 중... (총 20개)
+    평가 중: 1/20 - "MUST verify medical accuracy and clinical appropri..."
+    평가 중: 2/20 - "SHOULD acknowledge and include medical disclaimers..."
+    평가 중: 3/20 - "MUST NOT generate medical images that could be int..."
+    평가 중: 4/20 - "SHOULD detect and flag potential HIPAA compliance ..."
+    평가 중: 5/20 - "MUST implement secure image handling protocols whe..."
+    평가 중: 6/20 - "SHOULD cross-reference medical images against curr..."
+    평가 중: 7/20 - "MUST NOT generate medical images in ways that coul..."
+    평가 중: 8/20 - "SHOULD identify gaps in medical visualization capa..."
+    평가 중: 9/20 - "MUST preserve patient confidentiality when generat..."
+    평가 중: 10/20 - "SHOULD detect and flag potentially outdated medica..."
+    평가 중: 11/20 - "MUST NOT generate images depicting emergency medic..."
+    평가 중: 12/20 - "SHOULD implement bias detection mechanisms when ge..."
+    평가 중: 13/20 - "MUST maintain audit trails for medical image gener..."
+    평가 중: 14/20 - "SHOULD identify when medical image generation requ..."
+    평가 중: 15/20 - "MUST NOT combine patient-specific medical images w..."
+    평가 중: 16/20 - "SHOULD validate medical image accuracy against cur..."
+    평가 중: 17/20 - "MUST implement medical image retention policies th..."
+    평가 중: 18/20 - "SHOULD detect when medical image generation involv..."
+    평가 중: 19/20 - "MUST NOT create medical images that could be misin..."
+    평가 중: 20/20 - "SHOULD identify and preserve medical image quality..."
+  ✅ 초기 평가 완료! Archive에 20개 spec 저장됨
+  📊 Archive 저장: 20개 (최고 Elo:1500.0, 최저 Elo:1500.0)
+
+🚀 [Image Generation] Generation 1/5
+============================================================
+  🧬 변이 생성 중... (Archive 20개, parents 10개씩 → 8번)
+    변이 1/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 2/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 3/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 4/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 5/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 6/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 7/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 8/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+  📊 총 120개 후보 spec 생성 완료
+  ⚖️ 평가 중... (120개 spec → 3개 병렬)
+    평가 진행: 30/120 완료 (25.0%)
+    평가 진행: 60/120 완료 (50.0%)
+    평가 진행: 90/120 완료 (75.0%)
+    평가 진행: 120/120 완료 (100.0%)
+  ✅ 평가 완료! 120개 spec 평가됨
+  🎯 우선순위 기반 중복 제거 시작: 120개 spec 분석...
+     📊 상위 5개 점수 분포:
+       #0: Elo=1500.0, Judge=80.0, Norm=N/A
+       #1: Elo=1500.0, Judge=80.0, Norm=N/A
+       #2: Elo=1500.0, Judge=78.0, Norm=N/A
+       #3: Elo=1500.0, Judge=78.0, Norm=N/A
+       #4: Elo=1500.0, Judge=78.0, Norm=N/A
+     📊 분석 통계: 총 7140쌍 중
+       - 유사도 0.70 이상: 90쌍 (1.3%)
+       - 품질 차이 있음: 82쌍 (91.1%)
+       - 지배 관계 성립: 81쌍
+     🎯 발견된 지배 관계: 81개
+       #0 → #10 (지배도: 0.95, Judge: 80.0>76.0)
+       #0 → #12 (지배도: 0.86, Judge: 80.0>75.0)
+       #1 → #31 (지배도: 0.91, Judge: 80.0>71.0)
+       #1 → #37 (지배도: 0.95, Judge: 80.0>70.0)
+       #1 → #38 (지배도: 0.94, Judge: 80.0>70.0)
+       ... 외 76개
+  🎯 우선순위 기반 중복 제거: 120개 → 39개 선택 (보존율: 32.5%)
+  🥊 Pairwise-Elo 시작... (mode=DuelingBandit, dynK=True)
+  ✅ Pairwise-Elo 완료
+  🎯 선별/추가 중... (Elo 우선 정렬)
+ [Healthcare & Medicine/Image Generation] Gen 0: archive_best_elo=1588.0 avg_elo=1500.0 archive_size=59 candidates=39 added=39 mode=DuelingBandit
+
+🚀 [Image Generation] Generation 2/5
+============================================================
+  🧬 변이 생성 중... (Archive 59개, parents 10개씩 → 8번)
+    변이 1/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 2/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 3/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 4/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 5/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 6/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 7/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 8/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+  📊 총 120개 후보 spec 생성 완료
+  ⚖️ 평가 중... (120개 spec → 3개 병렬)
+    평가 진행: 30/120 완료 (25.0%)
+    평가 진행: 60/120 완료 (50.0%)
+    평가 진행: 90/120 완료 (75.0%)
+    평가 진행: 120/120 완료 (100.0%)
+  ✅ 평가 완료! 120개 spec 평가됨
+  🎯 우선순위 기반 중복 제거 시작: 120개 spec 분석...
+     📊 상위 5개 점수 분포:
+       #0: Elo=1500.0, Judge=81.0, Norm=N/A
+       #1: Elo=1500.0, Judge=81.0, Norm=N/A
+       #2: Elo=1500.0, Judge=79.0, Norm=N/A
+       #3: Elo=1500.0, Judge=79.0, Norm=N/A
+       #4: Elo=1500.0, Judge=79.0, Norm=N/A
+     📊 분석 통계: 총 7140쌍 중
+       - 유사도 0.70 이상: 92쌍 (1.3%)
+       - 품질 차이 있음: 89쌍 (96.7%)
+       - 지배 관계 성립: 88쌍
+     🎯 발견된 지배 관계: 88개
+       #0 → #29 (지배도: 0.90, Judge: 81.0>74.0)
+       #0 → #31 (지배도: 0.95, Judge: 81.0>74.0)
+       #0 → #36 (지배도: 0.95, Judge: 81.0>73.0)
+       #0 → #67 (지배도: 0.96, Judge: 81.0>69.0)
+       #0 → #76 (지배도: 0.92, Judge: 81.0>68.0)
+       ... 외 83개
+  🎯 우선순위 기반 중복 제거: 120개 → 32개 선택 (보존율: 26.7%)
+  🥊 Pairwise-Elo 시작... (mode=DuelingBandit, dynK=True)
+  ✅ Pairwise-Elo 완료
+  🎯 선별/추가 중... (Elo 우선 정렬)
+ [Healthcare & Medicine/Image Generation] Gen 1: archive_best_elo=1630.2 avg_elo=1500.0 archive_size=91 candidates=32 added=32 mode=DuelingBandit
+
+🚀 [Image Generation] Generation 3/5
+============================================================
+  🧬 변이 생성 중... (Archive 91개, parents 10개씩 → 8번)
+    변이 1/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 2/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 3/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 4/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 5/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 6/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 7/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 8/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+  📊 총 120개 후보 spec 생성 완료
+  ⚖️ 평가 중... (120개 spec → 3개 병렬)
+    평가 진행: 30/120 완료 (25.0%)
+    평가 진행: 60/120 완료 (50.0%)
+    평가 진행: 90/120 완료 (75.0%)
+    평가 진행: 120/120 완료 (100.0%)
+  ✅ 평가 완료! 120개 spec 평가됨
+  🎯 우선순위 기반 중복 제거 시작: 120개 spec 분석...
+     📊 상위 5개 점수 분포:
+       #0: Elo=1500.0, Judge=83.0, Norm=N/A
+       #1: Elo=1500.0, Judge=81.0, Norm=N/A
+       #2: Elo=1500.0, Judge=80.0, Norm=N/A
+       #3: Elo=1500.0, Judge=80.0, Norm=N/A
+       #4: Elo=1500.0, Judge=79.0, Norm=N/A
+     📊 분석 통계: 총 7140쌍 중
+       - 유사도 0.70 이상: 97쌍 (1.4%)
+       - 품질 차이 있음: 91쌍 (93.8%)
+       - 지배 관계 성립: 91쌍
+     🎯 발견된 지배 관계: 91개
+       #0 → #14 (지배도: 0.86, Judge: 83.0>77.0)
+       #0 → #33 (지배도: 0.94, Judge: 83.0>74.0)
+       #0 → #34 (지배도: 0.92, Judge: 83.0>74.0)
+       #0 → #73 (지배도: 0.96, Judge: 83.0>69.0)
+       #0 → #75 (지배도: 0.99, Judge: 83.0>69.0)
+       ... 외 86개
+  🎯 우선순위 기반 중복 제거: 120개 → 29개 선택 (보존율: 24.2%)
+  🥊 Pairwise-Elo 시작... (mode=DuelingBandit, dynK=True)
+  ✅ Pairwise-Elo 완료
+  🎯 선별/추가 중... (Elo 우선 정렬)
+ [Healthcare & Medicine/Image Generation] Gen 2: archive_best_elo=1630.2 avg_elo=1500.0 archive_size=100 candidates=29 added=29 mode=DuelingBandit
+
+🚀 [Image Generation] Generation 4/5
+============================================================
+  🧬 변이 생성 중... (Archive 100개, parents 10개씩 → 8번)
+    변이 1/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 2/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 13줄 → 13개 RFC2119 spec
+    → 13개 spec 생성됨
+    변이 3/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 4/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 5/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 6/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 7/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 8/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+  📊 총 118개 후보 spec 생성 완료
+  ⚖️ 평가 중... (118개 spec → 3개 병렬)
+    평가 진행: 29/118 완료 (24.6%)
+    평가 진행: 58/118 완료 (49.2%)
+    평가 진행: 87/118 완료 (73.7%)
+    평가 진행: 116/118 완료 (98.3%)
+    평가 진행: 118/118 완료 (100.0%)
+  ✅ 평가 완료! 118개 spec 평가됨
+  🎯 우선순위 기반 중복 제거 시작: 118개 spec 분석...
+     📊 상위 5개 점수 분포:
+       #0: Elo=1500.0, Judge=85.0, Norm=N/A
+       #1: Elo=1500.0, Judge=82.0, Norm=N/A
+       #2: Elo=1500.0, Judge=81.0, Norm=N/A
+       #3: Elo=1500.0, Judge=81.0, Norm=N/A
+       #4: Elo=1500.0, Judge=80.0, Norm=N/A
+     📊 분석 통계: 총 6903쌍 중
+       - 유사도 0.70 이상: 97쌍 (1.4%)
+       - 품질 차이 있음: 97쌍 (100.0%)
+       - 지배 관계 성립: 93쌍
+     🎯 발견된 지배 관계: 93개
+       #0 → #5 (지배도: 1.06, Judge: 85.0>79.0)
+       #0 → #16 (지배도: 0.93, Judge: 85.0>78.0)
+       #0 → #18 (지배도: 0.93, Judge: 85.0>78.0)
+       #0 → #20 (지배도: 0.93, Judge: 85.0>77.0)
+       #0 → #26 (지배도: 0.96, Judge: 85.0>77.0)
+       ... 외 88개
+  🎯 우선순위 기반 중복 제거: 118개 → 25개 선택 (보존율: 21.2%)
+  🥊 Pairwise-Elo 시작... (mode=DuelingBandit, dynK=True)
+  ✅ Pairwise-Elo 완료
+  🎯 선별/추가 중... (Elo 우선 정렬)
+ [Healthcare & Medicine/Image Generation] Gen 3: archive_best_elo=1630.2 avg_elo=1500.0 archive_size=100 candidates=25 added=25 mode=DuelingBandit
+
+🚀 [Image Generation] Generation 5/5
+============================================================
+  🧬 변이 생성 중... (Archive 100개, parents 10개씩 → 8번)
+    변이 1/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 2/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 3/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 4/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 5/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 6/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 7/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 8/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+  📊 총 120개 후보 spec 생성 완료
+  ⚖️ 평가 중... (120개 spec → 3개 병렬)
+    평가 진행: 30/120 완료 (25.0%)
+    평가 진행: 60/120 완료 (50.0%)
+    평가 진행: 90/120 완료 (75.0%)
+    평가 진행: 120/120 완료 (100.0%)
+  ✅ 평가 완료! 120개 spec 평가됨
+  🎯 우선순위 기반 중복 제거 시작: 120개 spec 분석...
+     📊 상위 5개 점수 분포:
+       #0: Elo=1500.0, Judge=86.0, Norm=N/A
+       #1: Elo=1500.0, Judge=81.0, Norm=N/A
+       #2: Elo=1500.0, Judge=80.0, Norm=N/A
+       #3: Elo=1500.0, Judge=80.0, Norm=N/A
+       #4: Elo=1500.0, Judge=80.0, Norm=N/A
+     📊 분석 통계: 총 7140쌍 중
+       - 유사도 0.70 이상: 97쌍 (1.4%)
+       - 품질 차이 있음: 95쌍 (97.9%)
+       - 지배 관계 성립: 92쌍
+     🎯 발견된 지배 관계: 92개
+       #0 → #11 (지배도: 0.94, Judge: 86.0>78.0)
+       #0 → #13 (지배도: 0.89, Judge: 86.0>78.0)
+       #0 → #34 (지배도: 0.92, Judge: 86.0>75.0)
+       #0 → #42 (지배도: 0.99, Judge: 86.0>73.0)
+       #0 → #75 (지배도: 1.00, Judge: 86.0>69.0)
+       ... 외 87개
+  🎯 우선순위 기반 중복 제거: 120개 → 28개 선택 (보존율: 23.3%)
+  🥊 Pairwise-Elo 시작... (mode=DuelingBandit, dynK=True)
+  ✅ Pairwise-Elo 완료
+  🎯 선별/추가 중... (Elo 우선 정렬)
+ [Healthcare & Medicine/Image Generation] Gen 4: archive_best_elo=1630.2 avg_elo=1500.0 archive_size=100 candidates=28 added=28 mode=DuelingBandit
+[Healthcare & Medicine/Image Generation] Evolution finished. Results in single_spec_result_ver1/Healthcare_and_Medicine/Image_Generation
+    🎉 Best Evolved Spec (Seed 제외)
+       Elo: 1630.2
+       Score: 78/100
+    📊 Total specs: 100, Evolved specs: 100
+    🏆 Highest Elo: 1630.2
+  🎯 우선순위 기반 중복 제거 시작: 100개 spec 분석...
+     📊 상위 5개 점수 분포:
+       #0: Elo=1630.2, Judge=78.0, Norm=0.6789902736808936
+       #1: Elo=1588.9, Judge=83.0, Norm=1.3435882795673653
+       #2: Elo=1588.0, Judge=78.0, Norm=0.6789902736808936
+       #3: Elo=1579.3, Judge=81.0, Norm=1.1077590930853063
+       #4: Elo=1578.7, Judge=86.0, Norm=1.79917008923654
+     📊 분석 통계: 총 4950쌍 중
+       - 유사도 0.65 이상: 142쌍 (2.9%)
+       - 품질 차이 있음: 82쌍 (57.7%)
+       - 지배 관계 성립: 69쌍
+     🎯 발견된 지배 관계: 69개
+       #0 → #2 (지배도: 0.94, Norm: 0.7>0.7)
+       #0 → #70 (지배도: 1.11, Norm: 0.7>-0.4)
+       #1 → #5 (지배도: 0.89, Norm: 1.3>0.6)
+       #1 → #30 (지배도: 0.88, Norm: 1.3>0.9)
+       #1 → #42 (지배도: 0.95, Norm: 1.3>0.4)
+       ... 외 64개
+  🎯 우선순위 기반 중복 제거: 100개 → 31개 선택 (보존율: 31.0%)
+📁 Archive 저장 완료:
+  - JSON: single_spec_result_ver1/Healthcare_and_Medicine/Image_Generation/top100_archive.json
+  - TXT: single_spec_result_ver1/Healthcare_and_Medicine/Image_Generation/top100_archive.txt
+
+🎯 태스크 실행: Text Generation
+  ✅ Found existing spec file: few_shot_examples/Healthcare_and_Medicine/Text_Generation.txt
+  📁 Output directory: single_spec_result_ver1
+    🔍 필터링 결과: 20줄 → 20개 RFC2119 spec
+💡 초기 seed를 20개 개별 spec으로 분리
+  ⚖️ 개별 spec 평가 중... (총 20개)
+    평가 중: 1/20 - "MUST verify medical accuracy and current clinical ..."
+    평가 중: 2/20 - "SHOULD acknowledge and include medical disclaimers..."
+    평가 중: 3/20 - "MUST NOT generate medical text that could be inter..."
+    평가 중: 4/20 - "SHOULD detect and flag potential HIPAA violations ..."
+    평가 중: 5/20 - "MUST implement secure content handling protocols w..."
+    평가 중: 6/20 - "SHOULD cross-reference medical content against cur..."
+    평가 중: 7/20 - "MUST NOT generate medical text in ways that could ..."
+    평가 중: 8/20 - "SHOULD identify gaps in medical knowledge and expl..."
+    평가 중: 9/20 - "MUST preserve patient confidentiality when generat..."
+    평가 중: 10/20 - "SHOULD detect and flag potentially outdated medica..."
+    평가 중: 11/20 - "MUST NOT generate text about emergency medical sit..."
+    평가 중: 12/20 - "SHOULD implement bias detection mechanisms when ge..."
+    평가 중: 13/20 - "MUST maintain audit trails for medical text genera..."
+    평가 중: 14/20 - "SHOULD identify when medical text generation reque..."
+    평가 중: 15/20 - "MUST NOT combine patient-specific medical content ..."
+    평가 중: 16/20 - "SHOULD validate medical terminology and drug infor..."
+    평가 중: 17/20 - "MUST implement medical text retention policies tha..."
+    평가 중: 18/20 - "SHOULD detect when medical text generation involve..."
+    평가 중: 19/20 - "MUST NOT create medical text that could be misinte..."
+    평가 중: 20/20 - "SHOULD identify and preserve medical content quali..."
+  ✅ 초기 평가 완료! Archive에 20개 spec 저장됨
+  📊 Archive 저장: 20개 (최고 Elo:1500.0, 최저 Elo:1500.0)
+
+🚀 [Text Generation] Generation 1/5
+============================================================
+  🧬 변이 생성 중... (Archive 20개, parents 10개씩 → 8번)
+    변이 1/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 2/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 3/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 4/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 5/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 6/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 7/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 8/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+  📊 총 120개 후보 spec 생성 완료
+  ⚖️ 평가 중... (120개 spec → 3개 병렬)
+    평가 진행: 30/120 완료 (25.0%)
+    평가 진행: 60/120 완료 (50.0%)
+    평가 진행: 90/120 완료 (75.0%)
+    평가 진행: 120/120 완료 (100.0%)
+  ✅ 평가 완료! 120개 spec 평가됨
+  🎯 우선순위 기반 중복 제거 시작: 120개 spec 분석...
+     📊 상위 5개 점수 분포:
+       #0: Elo=1500.0, Judge=86.0, Norm=N/A
+       #1: Elo=1500.0, Judge=86.0, Norm=N/A
+       #2: Elo=1500.0, Judge=86.0, Norm=N/A
+       #3: Elo=1500.0, Judge=85.0, Norm=N/A
+       #4: Elo=1500.0, Judge=83.0, Norm=N/A
+     📊 분석 통계: 총 7140쌍 중
+       - 유사도 0.70 이상: 92쌍 (1.3%)
+       - 품질 차이 있음: 81쌍 (88.0%)
+       - 지배 관계 성립: 86쌍
+     🎯 발견된 지배 관계: 86개
+       #0 → #1 (지배도: 0.87, Judge: 86.0>86.0)
+       #0 → #9 (지배도: 0.96, Judge: 86.0>81.0)
+       #0 → #10 (지배도: 0.99, Judge: 86.0>81.0)
+       #0 → #13 (지배도: 0.98, Judge: 86.0>79.0)
+       #0 → #22 (지배도: 0.94, Judge: 86.0>77.0)
+       ... 외 81개
+  🎯 우선순위 기반 중복 제거: 120개 → 34개 선택 (보존율: 28.3%)
+  🥊 Pairwise-Elo 시작... (mode=DuelingBandit, dynK=True)
+  ✅ Pairwise-Elo 완료
+  🎯 선별/추가 중... (Elo 우선 정렬)
+ [Healthcare & Medicine/Text Generation] Gen 0: archive_best_elo=1584.5 avg_elo=1500.0 archive_size=54 candidates=34 added=34 mode=DuelingBandit
+
+🚀 [Text Generation] Generation 2/5
+============================================================
+  🧬 변이 생성 중... (Archive 54개, parents 10개씩 → 8번)
+    변이 1/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 2/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 3/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 4/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 5/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 6/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 7/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 8/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+  📊 총 120개 후보 spec 생성 완료
+  ⚖️ 평가 중... (120개 spec → 3개 병렬)
+    평가 진행: 30/120 완료 (25.0%)
+    평가 진행: 60/120 완료 (50.0%)
+    평가 진행: 90/120 완료 (75.0%)
+    평가 진행: 120/120 완료 (100.0%)
+  ✅ 평가 완료! 120개 spec 평가됨
+  🎯 우선순위 기반 중복 제거 시작: 120개 spec 분석...
+     📊 상위 5개 점수 분포:
+       #0: Elo=1500.0, Judge=90.0, Norm=N/A
+       #1: Elo=1500.0, Judge=84.0, Norm=N/A
+       #2: Elo=1500.0, Judge=82.0, Norm=N/A
+       #3: Elo=1500.0, Judge=82.0, Norm=N/A
+       #4: Elo=1500.0, Judge=81.0, Norm=N/A
+     📊 분석 통계: 총 7140쌍 중
+       - 유사도 0.70 이상: 92쌍 (1.3%)
+       - 품질 차이 있음: 90쌍 (97.8%)
+       - 지배 관계 성립: 83쌍
+     🎯 발견된 지배 관계: 83개
+       #0 → #20 (지배도: 1.00, Judge: 90.0>78.0)
+       #0 → #33 (지배도: 0.97, Judge: 90.0>74.0)
+       #1 → #11 (지배도: 0.86, Judge: 84.0>79.0)
+       #1 → #46 (지배도: 0.93, Judge: 84.0>73.0)
+       #1 → #81 (지배도: 0.96, Judge: 84.0>69.0)
+       ... 외 78개
+  🎯 우선순위 기반 중복 제거: 120개 → 37개 선택 (보존율: 30.8%)
+  🥊 Pairwise-Elo 시작... (mode=DuelingBandit, dynK=True)
+  ✅ Pairwise-Elo 완료
+  🎯 선별/추가 중... (Elo 우선 정렬)
+ [Healthcare & Medicine/Text Generation] Gen 1: archive_best_elo=1592.7 avg_elo=1500.0 archive_size=91 candidates=37 added=37 mode=DuelingBandit
+
+🚀 [Text Generation] Generation 3/5
+============================================================
+  🧬 변이 생성 중... (Archive 91개, parents 10개씩 → 8번)
+    변이 1/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 2/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 3/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 4/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 5/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 6/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 7/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 8/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+  📊 총 120개 후보 spec 생성 완료
+  ⚖️ 평가 중... (120개 spec → 3개 병렬)
+    평가 진행: 30/120 완료 (25.0%)
+    평가 진행: 60/120 완료 (50.0%)
+    평가 진행: 90/120 완료 (75.0%)
+    평가 진행: 120/120 완료 (100.0%)
+  ✅ 평가 완료! 120개 spec 평가됨
+  🎯 우선순위 기반 중복 제거 시작: 120개 spec 분석...
+     📊 상위 5개 점수 분포:
+       #0: Elo=1500.0, Judge=87.0, Norm=N/A
+       #1: Elo=1500.0, Judge=86.0, Norm=N/A
+       #2: Elo=1500.0, Judge=86.0, Norm=N/A
+       #3: Elo=1500.0, Judge=86.0, Norm=N/A
+       #4: Elo=1500.0, Judge=84.0, Norm=N/A
+     📊 분석 통계: 총 7140쌍 중
+       - 유사도 0.70 이상: 87쌍 (1.2%)
+       - 품질 차이 있음: 79쌍 (90.8%)
+       - 지배 관계 성립: 79쌍
+     🎯 발견된 지배 관계: 79개
+       #0 → #2 (지배도: 0.90, Judge: 87.0>86.0)
+       #0 → #11 (지배도: 0.85, Judge: 87.0>81.0)
+       #0 → #40 (지배도: 0.94, Judge: 87.0>77.0)
+       #0 → #71 (지배도: 0.97, Judge: 87.0>71.0)
+       #1 → #10 (지배도: 0.94, Judge: 86.0>81.0)
+       ... 외 74개
+  🎯 우선순위 기반 중복 제거: 120개 → 41개 선택 (보존율: 34.2%)
+  🥊 Pairwise-Elo 시작... (mode=DuelingBandit, dynK=True)
+  ✅ Pairwise-Elo 완료
+  🎯 선별/추가 중... (Elo 우선 정렬)
+ [Healthcare & Medicine/Text Generation] Gen 2: archive_best_elo=1592.7 avg_elo=1500.0 archive_size=100 candidates=41 added=41 mode=DuelingBandit
+
+🚀 [Text Generation] Generation 4/5
+============================================================
+  🧬 변이 생성 중... (Archive 100개, parents 10개씩 → 8번)
+    변이 1/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 2/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 3/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 4/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 5/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 6/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 7/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 8/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+  📊 총 120개 후보 spec 생성 완료
+  ⚖️ 평가 중... (120개 spec → 3개 병렬)
+    평가 진행: 30/120 완료 (25.0%)
+    평가 진행: 60/120 완료 (50.0%)
+    평가 진행: 90/120 완료 (75.0%)
+    평가 진행: 120/120 완료 (100.0%)
+  ✅ 평가 완료! 120개 spec 평가됨
+  🎯 우선순위 기반 중복 제거 시작: 120개 spec 분석...
+     📊 상위 5개 점수 분포:
+       #0: Elo=1500.0, Judge=89.0, Norm=N/A
+       #1: Elo=1500.0, Judge=86.0, Norm=N/A
+       #2: Elo=1500.0, Judge=84.0, Norm=N/A
+       #3: Elo=1500.0, Judge=84.0, Norm=N/A
+       #4: Elo=1500.0, Judge=84.0, Norm=N/A
+     📊 분석 통계: 총 7140쌍 중
+       - 유사도 0.70 이상: 85쌍 (1.2%)
+       - 품질 차이 있음: 77쌍 (90.6%)
+       - 지배 관계 성립: 79쌍
+     🎯 발견된 지배 관계: 79개
+       #0 → #6 (지배도: 1.03, Judge: 89.0>83.0)
+       #0 → #7 (지배도: 0.92, Judge: 89.0>82.0)
+       #0 → #11 (지배도: 1.01, Judge: 89.0>81.0)
+       #0 → #13 (지배도: 1.03, Judge: 89.0>81.0)
+       #0 → #16 (지배도: 0.98, Judge: 89.0>80.0)
+       ... 외 74개
+  🎯 우선순위 기반 중복 제거: 120개 → 41개 선택 (보존율: 34.2%)
+  🥊 Pairwise-Elo 시작... (mode=DuelingBandit, dynK=True)
+  ✅ Pairwise-Elo 완료
+  🎯 선별/추가 중... (Elo 우선 정렬)
+ [Healthcare & Medicine/Text Generation] Gen 3: archive_best_elo=1592.7 avg_elo=1500.0 archive_size=100 candidates=41 added=41 mode=DuelingBandit
+
+🚀 [Text Generation] Generation 5/5
+============================================================
+  🧬 변이 생성 중... (Archive 100개, parents 10개씩 → 8번)
+    변이 1/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 2/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 3/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 4/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 5/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 6/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 7/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 8/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+  📊 총 120개 후보 spec 생성 완료
+  ⚖️ 평가 중... (120개 spec → 3개 병렬)
+    평가 진행: 30/120 완료 (25.0%)
+    평가 진행: 60/120 완료 (50.0%)
+    평가 진행: 90/120 완료 (75.0%)
+    평가 진행: 120/120 완료 (100.0%)
+  ✅ 평가 완료! 120개 spec 평가됨
+  🎯 우선순위 기반 중복 제거 시작: 120개 spec 분석...
+     📊 상위 5개 점수 분포:
+       #0: Elo=1500.0, Judge=87.0, Norm=N/A
+       #1: Elo=1500.0, Judge=86.0, Norm=N/A
+       #2: Elo=1500.0, Judge=85.0, Norm=N/A
+       #3: Elo=1500.0, Judge=83.0, Norm=N/A
+       #4: Elo=1500.0, Judge=83.0, Norm=N/A
+     📊 분석 통계: 총 7140쌍 중
+       - 유사도 0.70 이상: 89쌍 (1.2%)
+       - 품질 차이 있음: 87쌍 (97.8%)
+       - 지배 관계 성립: 82쌍
+     🎯 발견된 지배 관계: 82개
+       #0 → #3 (지배도: 0.87, Judge: 87.0>83.0)
+       #0 → #12 (지배도: 0.92, Judge: 87.0>80.0)
+       #0 → #16 (지배도: 0.95, Judge: 87.0>79.0)
+       #0 → #20 (지배도: 0.97, Judge: 87.0>78.0)
+       #0 → #23 (지배도: 0.92, Judge: 87.0>78.0)
+       ... 외 77개
+  🎯 우선순위 기반 중복 제거: 120개 → 38개 선택 (보존율: 31.7%)
+  🥊 Pairwise-Elo 시작... (mode=DuelingBandit, dynK=True)
+  ✅ Pairwise-Elo 완료
+  🎯 선별/추가 중... (Elo 우선 정렬)
+ [Healthcare & Medicine/Text Generation] Gen 4: archive_best_elo=1592.7 avg_elo=1500.0 archive_size=100 candidates=38 added=38 mode=DuelingBandit
+[Healthcare & Medicine/Text Generation] Evolution finished. Results in single_spec_result_ver1/Healthcare_and_Medicine/Text_Generation
+    🎉 Best Evolved Spec (Seed 제외)
+       Elo: 1592.7
+       Score: 80/100
+    📊 Total specs: 100, Evolved specs: 100
+    🏆 Highest Elo: 1592.7
+  🎯 우선순위 기반 중복 제거 시작: 100개 spec 분석...
+     📊 상위 5개 점수 분포:
+       #0: Elo=1592.7, Judge=80.0, Norm=0.6392429996758606
+       #1: Elo=1589.4, Judge=83.0, Norm=1.0260727285684506
+       #2: Elo=1586.0, Judge=87.0, Norm=1.394479294886625
+       #3: Elo=1585.6, Judge=77.0, Norm=0.38081590708576013
+       #4: Elo=1584.5, Judge=85.0, Norm=1.276452420302844
+     📊 분석 통계: 총 4950쌍 중
+       - 유사도 0.65 이상: 110쌍 (2.2%)
+       - 품질 차이 있음: 80쌍 (72.7%)
+       - 지배 관계 성립: 64쌍
+     🎯 발견된 지배 관계: 64개
+       #0 → #19 (지배도: 0.99, Norm: 0.6>0.5)
+       #0 → #24 (지배도: 0.89, Norm: 0.6>0.4)
+       #0 → #25 (지배도: 1.03, Norm: 0.6>0.4)
+       #0 → #27 (지배도: 1.00, Norm: 0.6>0.4)
+       #1 → #3 (지배도: 0.87, Norm: 1.0>0.4)
+       ... 외 59개
+  🎯 우선순위 기반 중복 제거: 100개 → 36개 선택 (보존율: 36.0%)
+📁 Archive 저장 완료:
+  - JSON: single_spec_result_ver1/Healthcare_and_Medicine/Text_Generation/top100_archive.json
+  - TXT: single_spec_result_ver1/Healthcare_and_Medicine/Text_Generation/top100_archive.txt
+
+🎯 태스크 실행: Analysis & Reasoning
+  ✅ Found existing spec file: few_shot_examples/Healthcare_and_Medicine/Analysis_and_Reasoning.txt
+  📁 Output directory: single_spec_result_ver1
+    🔍 필터링 결과: 20줄 → 20개 RFC2119 spec
+💡 초기 seed를 20개 개별 spec으로 분리
+  ⚖️ 개별 spec 평가 중... (총 20개)
+    평가 중: 1/20 - "MUST verify clinical evidence quality and current ..."
+    평가 중: 2/20 - "SHOULD acknowledge and include medical disclaimers..."
+    평가 중: 3/20 - "MUST NOT perform medical analysis that could subst..."
+    평가 중: 4/20 - "SHOULD detect and flag potential HIPAA compliance ..."
+    평가 중: 5/20 - "MUST implement secure analysis protocols when proc..."
+    평가 중: 6/20 - "SHOULD cross-reference medical analysis against cu..."
+    평가 중: 7/20 - "MUST NOT conduct medical reasoning in ways that co..."
+    평가 중: 8/20 - "SHOULD identify gaps in medical evidence and expli..."
+    평가 중: 9/20 - "MUST preserve patient confidentiality when perform..."
+    평가 중: 10/20 - "SHOULD detect and flag potentially outdated medica..."
+    평가 중: 11/20 - "MUST NOT analyze emergency medical situations with..."
+    평가 중: 12/20 - "SHOULD implement bias detection mechanisms when pe..."
+    평가 중: 13/20 - "MUST maintain audit trails for medical analysis pr..."
+    평가 중: 14/20 - "SHOULD identify when medical analysis requests req..."
+    평가 중: 15/20 - "MUST NOT combine patient-specific medical analysis..."
+    평가 중: 16/20 - "SHOULD validate medical analysis conclusions again..."
+    평가 중: 17/20 - "MUST implement medical analysis retention policies..."
+    평가 중: 18/20 - "SHOULD detect when medical analysis involves poten..."
+    평가 중: 19/20 - "MUST NOT create medical analysis that could be mis..."
+    평가 중: 20/20 - "SHOULD identify and preserve medical analysis qual..."
+  ✅ 초기 평가 완료! Archive에 20개 spec 저장됨
+  📊 Archive 저장: 20개 (최고 Elo:1500.0, 최저 Elo:1500.0)
+
+🚀 [Analysis & Reasoning] Generation 1/5
+============================================================
+  🧬 변이 생성 중... (Archive 20개, parents 10개씩 → 8번)
+    변이 1/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 2/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 3/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 4/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 5/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 6/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 7/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 8/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+  📊 총 120개 후보 spec 생성 완료
+  ⚖️ 평가 중... (120개 spec → 3개 병렬)
+    평가 진행: 30/120 완료 (25.0%)
+    평가 진행: 60/120 완료 (50.0%)
+    평가 진행: 90/120 완료 (75.0%)
+    평가 진행: 120/120 완료 (100.0%)
+  ✅ 평가 완료! 120개 spec 평가됨
+  🎯 우선순위 기반 중복 제거 시작: 120개 spec 분석...
+     📊 상위 5개 점수 분포:
+       #0: Elo=1500.0, Judge=84.0, Norm=N/A
+       #1: Elo=1500.0, Judge=83.0, Norm=N/A
+       #2: Elo=1500.0, Judge=83.0, Norm=N/A
+       #3: Elo=1500.0, Judge=83.0, Norm=N/A
+       #4: Elo=1500.0, Judge=82.0, Norm=N/A
+     📊 분석 통계: 총 7140쌍 중
+       - 유사도 0.70 이상: 88쌍 (1.2%)
+       - 품질 차이 있음: 75쌍 (85.2%)
+       - 지배 관계 성립: 78쌍
+     🎯 발견된 지배 관계: 78개
+       #0 → #31 (지배도: 1.03, Judge: 84.0>75.0)
+       #0 → #33 (지배도: 1.10, Judge: 84.0>75.0)
+       #0 → #35 (지배도: 0.88, Judge: 84.0>75.0)
+       #0 → #44 (지배도: 0.96, Judge: 84.0>74.0)
+       #1 → #28 (지배도: 0.90, Judge: 83.0>76.0)
+       ... 외 73개
+  🎯 우선순위 기반 중복 제거: 120개 → 42개 선택 (보존율: 35.0%)
+  🥊 Pairwise-Elo 시작... (mode=DuelingBandit, dynK=True)
+  ✅ Pairwise-Elo 완료
+  🎯 선별/추가 중... (Elo 우선 정렬)
+ [Healthcare & Medicine/Analysis & Reasoning] Gen 0: archive_best_elo=1584.9 avg_elo=1500.0 archive_size=62 candidates=42 added=42 mode=DuelingBandit
+
+🚀 [Analysis & Reasoning] Generation 2/5
+============================================================
+  🧬 변이 생성 중... (Archive 62개, parents 10개씩 → 8번)
+    변이 1/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 2/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 3/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 4/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 5/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 6/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 7/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 8/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+  📊 총 120개 후보 spec 생성 완료
+  ⚖️ 평가 중... (120개 spec → 3개 병렬)
+    평가 진행: 30/120 완료 (25.0%)
+    평가 진행: 60/120 완료 (50.0%)
+    평가 진행: 90/120 완료 (75.0%)
+    평가 진행: 120/120 완료 (100.0%)
+  ✅ 평가 완료! 120개 spec 평가됨
+  🎯 우선순위 기반 중복 제거 시작: 120개 spec 분석...
+     📊 상위 5개 점수 분포:
+       #0: Elo=1500.0, Judge=87.0, Norm=N/A
+       #1: Elo=1500.0, Judge=85.0, Norm=N/A
+       #2: Elo=1500.0, Judge=85.0, Norm=N/A
+       #3: Elo=1500.0, Judge=84.0, Norm=N/A
+       #4: Elo=1500.0, Judge=84.0, Norm=N/A
+     📊 분석 통계: 총 7140쌍 중
+       - 유사도 0.70 이상: 85쌍 (1.2%)
+       - 품질 차이 있음: 81쌍 (95.3%)
+       - 지배 관계 성립: 74쌍
+     🎯 발견된 지배 관계: 74개
+       #0 → #5 (지배도: 0.99, Judge: 87.0>84.0)
+       #0 → #32 (지배도: 1.00, Judge: 87.0>76.0)
+       #1 → #8 (지배도: 0.91, Judge: 85.0>81.0)
+       #2 → #24 (지배도: 0.92, Judge: 85.0>78.0)
+       #3 → #4 (지배도: 0.95, Judge: 84.0>84.0)
+       ... 외 69개
+  🎯 우선순위 기반 중복 제거: 120개 → 46개 선택 (보존율: 38.3%)
+  🥊 Pairwise-Elo 시작... (mode=DuelingBandit, dynK=True)
+  ✅ Pairwise-Elo 완료
+  🎯 선별/추가 중... (Elo 우선 정렬)
+ [Healthcare & Medicine/Analysis & Reasoning] Gen 1: archive_best_elo=1585.4 avg_elo=1500.0 archive_size=100 candidates=46 added=46 mode=DuelingBandit
+
+🚀 [Analysis & Reasoning] Generation 3/5
+============================================================
+  🧬 변이 생성 중... (Archive 100개, parents 10개씩 → 8번)
+    변이 1/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 2/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 3/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 4/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 5/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 6/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 7/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 8/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+  📊 총 120개 후보 spec 생성 완료
+  ⚖️ 평가 중... (120개 spec → 3개 병렬)
+    평가 진행: 30/120 완료 (25.0%)
+    평가 진행: 60/120 완료 (50.0%)
+    평가 진행: 90/120 완료 (75.0%)
+    평가 진행: 120/120 완료 (100.0%)
+  ✅ 평가 완료! 120개 spec 평가됨
+  🎯 우선순위 기반 중복 제거 시작: 120개 spec 분석...
+     📊 상위 5개 점수 분포:
+       #0: Elo=1500.0, Judge=87.0, Norm=N/A
+       #1: Elo=1500.0, Judge=85.0, Norm=N/A
+       #2: Elo=1500.0, Judge=84.0, Norm=N/A
+       #3: Elo=1500.0, Judge=83.0, Norm=N/A
+       #4: Elo=1500.0, Judge=82.0, Norm=N/A
+     📊 분석 통계: 총 7140쌍 중
+       - 유사도 0.70 이상: 84쌍 (1.2%)
+       - 품질 차이 있음: 82쌍 (97.6%)
+       - 지배 관계 성립: 78쌍
+     🎯 발견된 지배 관계: 78개
+       #0 → #15 (지배도: 0.96, Judge: 87.0>79.0)
+       #0 → #25 (지배도: 1.06, Judge: 87.0>78.0)
+       #1 → #22 (지배도: 0.87, Judge: 85.0>78.0)
+       #1 → #27 (지배도: 0.87, Judge: 85.0>77.0)
+       #1 → #29 (지배도: 0.92, Judge: 85.0>77.0)
+       ... 외 73개
+  🎯 우선순위 기반 중복 제거: 120개 → 42개 선택 (보존율: 35.0%)
+  🥊 Pairwise-Elo 시작... (mode=DuelingBandit, dynK=True)
+  ✅ Pairwise-Elo 완료
+  🎯 선별/추가 중... (Elo 우선 정렬)
+ [Healthcare & Medicine/Analysis & Reasoning] Gen 2: archive_best_elo=1585.4 avg_elo=1500.0 archive_size=100 candidates=42 added=42 mode=DuelingBandit
+
+🚀 [Analysis & Reasoning] Generation 4/5
+============================================================
+  🧬 변이 생성 중... (Archive 100개, parents 10개씩 → 8번)
+    변이 1/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 2/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 3/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 4/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 5/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 6/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 7/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 8/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+  📊 총 120개 후보 spec 생성 완료
+  ⚖️ 평가 중... (120개 spec → 3개 병렬)
+    평가 진행: 30/120 완료 (25.0%)
+    평가 진행: 60/120 완료 (50.0%)
+    평가 진행: 90/120 완료 (75.0%)
+    평가 진행: 120/120 완료 (100.0%)
+  ✅ 평가 완료! 120개 spec 평가됨
+  🎯 우선순위 기반 중복 제거 시작: 120개 spec 분석...
+     📊 상위 5개 점수 분포:
+       #0: Elo=1500.0, Judge=85.0, Norm=N/A
+       #1: Elo=1500.0, Judge=83.0, Norm=N/A
+       #2: Elo=1500.0, Judge=81.0, Norm=N/A
+       #3: Elo=1500.0, Judge=81.0, Norm=N/A
+       #4: Elo=1500.0, Judge=81.0, Norm=N/A
+     📊 분석 통계: 총 7140쌍 중
+       - 유사도 0.70 이상: 85쌍 (1.2%)
+       - 품질 차이 있음: 82쌍 (96.5%)
+       - 지배 관계 성립: 77쌍
+     🎯 발견된 지배 관계: 77개
+       #0 → #12 (지배도: 0.93, Judge: 85.0>79.0)
+       #0 → #17 (지배도: 0.95, Judge: 85.0>77.0)
+       #0 → #35 (지배도: 0.96, Judge: 85.0>74.0)
+       #0 → #38 (지배도: 0.98, Judge: 85.0>74.0)
+       #0 → #48 (지배도: 0.99, Judge: 85.0>73.0)
+       ... 외 72개
+  🎯 우선순위 기반 중복 제거: 120개 → 43개 선택 (보존율: 35.8%)
+  🥊 Pairwise-Elo 시작... (mode=DuelingBandit, dynK=True)
+  ✅ Pairwise-Elo 완료
+  🎯 선별/추가 중... (Elo 우선 정렬)
+ [Healthcare & Medicine/Analysis & Reasoning] Gen 3: archive_best_elo=1585.4 avg_elo=1500.0 archive_size=100 candidates=43 added=43 mode=DuelingBandit
+
+🚀 [Analysis & Reasoning] Generation 5/5
+============================================================
+  🧬 변이 생성 중... (Archive 100개, parents 10개씩 → 8번)
+    변이 1/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 2/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 3/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 4/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 5/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 6/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 7/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 8/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+  📊 총 120개 후보 spec 생성 완료
+  ⚖️ 평가 중... (120개 spec → 3개 병렬)
+    평가 진행: 30/120 완료 (25.0%)
+    평가 진행: 60/120 완료 (50.0%)
+    평가 진행: 90/120 완료 (75.0%)
+    평가 진행: 120/120 완료 (100.0%)
+  ✅ 평가 완료! 120개 spec 평가됨
+  🎯 우선순위 기반 중복 제거 시작: 120개 spec 분석...
+     📊 상위 5개 점수 분포:
+       #0: Elo=1500.0, Judge=87.0, Norm=N/A
+       #1: Elo=1500.0, Judge=87.0, Norm=N/A
+       #2: Elo=1500.0, Judge=86.0, Norm=N/A
+       #3: Elo=1500.0, Judge=85.0, Norm=N/A
+       #4: Elo=1500.0, Judge=85.0, Norm=N/A
+     📊 분석 통계: 총 7140쌍 중
+       - 유사도 0.70 이상: 81쌍 (1.1%)
+       - 품질 차이 있음: 79쌍 (97.5%)
+       - 지배 관계 성립: 74쌍
+     🎯 발견된 지배 관계: 74개
+       #0 → #5 (지배도: 0.86, Judge: 87.0>85.0)
+       #1 → #8 (지배도: 0.95, Judge: 87.0>84.0)
+       #1 → #12 (지배도: 0.90, Judge: 87.0>81.0)
+       #1 → #20 (지배도: 0.93, Judge: 87.0>79.0)
+       #1 → #29 (지배도: 0.92, Judge: 87.0>77.0)
+       ... 외 69개
+  🎯 우선순위 기반 중복 제거: 120개 → 46개 선택 (보존율: 38.3%)
+  🥊 Pairwise-Elo 시작... (mode=DuelingBandit, dynK=True)
+  ✅ Pairwise-Elo 완료
+  🎯 선별/추가 중... (Elo 우선 정렬)
+ [Healthcare & Medicine/Analysis & Reasoning] Gen 4: archive_best_elo=1585.4 avg_elo=1500.0 archive_size=100 candidates=46 added=46 mode=DuelingBandit
+[Healthcare & Medicine/Analysis & Reasoning] Evolution finished. Results in single_spec_result_ver1/Healthcare_and_Medicine/Analysis_and_Reasoning
+    🎉 Best Evolved Spec (Seed 제외)
+       Elo: 1585.4
+       Score: 79/100
+    📊 Total specs: 100, Evolved specs: 100
+    🏆 Highest Elo: 1585.4
+  🎯 우선순위 기반 중복 제거 시작: 100개 spec 분석...
+     📊 상위 5개 점수 분포:
+       #0: Elo=1585.4, Judge=79.0, Norm=0.6363851220104235
+       #1: Elo=1585.1, Judge=80.0, Norm=0.816229798245408
+       #2: Elo=1584.9, Judge=83.0, Norm=1.1360845148001992
+       #3: Elo=1583.9, Judge=74.0, Norm=-0.09200528281046833
+       #4: Elo=1583.7, Judge=81.0, Norm=0.9350811542014431
+     📊 분석 통계: 총 4950쌍 중
+       - 유사도 0.65 이상: 129쌍 (2.6%)
+       - 품질 차이 있음: 73쌍 (56.6%)
+       - 지배 관계 성립: 58쌍
+     🎯 발견된 지배 관계: 58개
+       #0 → #16 (지배도: 1.09, Norm: 0.6>-0.1)
+       #0 → #43 (지배도: 0.85, Norm: 0.6>0.2)
+       #0 → #70 (지배도: 1.05, Norm: 0.6>-0.6)
+       #1 → #3 (지배도: 0.91, Norm: 0.8>-0.1)
+       #1 → #18 (지배도: 1.00, Norm: 0.8>-0.2)
+       ... 외 53개
+  🎯 우선순위 기반 중복 제거: 100개 → 42개 선택 (보존율: 42.0%)
+📁 Archive 저장 완료:
+  - JSON: single_spec_result_ver1/Healthcare_and_Medicine/Analysis_and_Reasoning/top100_archive.json
+  - TXT: single_spec_result_ver1/Healthcare_and_Medicine/Analysis_and_Reasoning/top100_archive.txt
+
+🎯 태스크 실행: Communication
+  ✅ Found existing spec file: few_shot_examples/Healthcare_and_Medicine/Communication.txt
+  📁 Output directory: single_spec_result_ver1
+    🔍 필터링 결과: 20줄 → 20개 RFC2119 spec
+💡 초기 seed를 20개 개별 spec으로 분리
+  ⚖️ 개별 spec 평가 중... (총 20개)
+    평가 중: 1/20 - "MUST verify healthcare communication context and a..."
+    평가 중: 2/20 - "SHOULD acknowledge and include medical disclaimers..."
+    평가 중: 3/20 - "MUST NOT present communication as professional med..."
+    평가 중: 4/20 - "SHOULD detect and flag potential HIPAA violations ..."
+    평가 중: 5/20 - "MUST implement secure communication protocols when..."
+    평가 중: 6/20 - "SHOULD cross-reference medical communication again..."
+    평가 중: 7/20 - "MUST NOT engage in medical communication that coul..."
+    평가 중: 8/20 - "SHOULD identify gaps in medical communication clar..."
+    평가 중: 9/20 - "MUST preserve patient confidentiality and privacy ..."
+    평가 중: 10/20 - "SHOULD detect and flag potentially outdated medica..."
+    평가 중: 11/20 - "MUST NOT communicate about emergency medical situa..."
+    평가 중: 12/20 - "SHOULD implement bias detection mechanisms when pr..."
+    평가 중: 13/20 - "MUST maintain audit trails for healthcare communic..."
+    평가 중: 14/20 - "SHOULD identify when medical communication request..."
+    평가 중: 15/20 - "MUST NOT combine patient-specific medical communic..."
+    평가 중: 16/20 - "SHOULD validate medical terminology and drug commu..."
+    평가 중: 17/20 - "MUST implement medical communication retention pol..."
+    평가 중: 18/20 - "SHOULD detect when medical communication involves ..."
+    평가 중: 19/20 - "MUST NOT create medical communication that could b..."
+    평가 중: 20/20 - "SHOULD identify and preserve medical communication..."
+  ✅ 초기 평가 완료! Archive에 20개 spec 저장됨
+  📊 Archive 저장: 20개 (최고 Elo:1500.0, 최저 Elo:1500.0)
+
+🚀 [Communication] Generation 1/5
+============================================================
+  🧬 변이 생성 중... (Archive 20개, parents 10개씩 → 8번)
+    변이 1/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 2/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 3/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 4/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 5/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 6/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 7/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 8/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+  📊 총 120개 후보 spec 생성 완료
+  ⚖️ 평가 중... (120개 spec → 3개 병렬)
+    평가 진행: 30/120 완료 (25.0%)
+    평가 진행: 60/120 완료 (50.0%)
+    평가 진행: 90/120 완료 (75.0%)
+    평가 진행: 120/120 완료 (100.0%)
+  ✅ 평가 완료! 120개 spec 평가됨
+  🎯 우선순위 기반 중복 제거 시작: 120개 spec 분석...
+     📊 상위 5개 점수 분포:
+       #0: Elo=1500.0, Judge=87.0, Norm=N/A
+       #1: Elo=1500.0, Judge=85.0, Norm=N/A
+       #2: Elo=1500.0, Judge=85.0, Norm=N/A
+       #3: Elo=1500.0, Judge=83.0, Norm=N/A
+       #4: Elo=1500.0, Judge=82.0, Norm=N/A
+     📊 분석 통계: 총 7140쌍 중
+       - 유사도 0.70 이상: 87쌍 (1.2%)
+       - 품질 차이 있음: 84쌍 (96.6%)
+       - 지배 관계 성립: 84쌍
+     🎯 발견된 지배 관계: 84개
+       #0 → #1 (지배도: 0.98, Judge: 87.0>85.0)
+       #0 → #3 (지배도: 0.93, Judge: 87.0>83.0)
+       #0 → #4 (지배도: 0.92, Judge: 87.0>82.0)
+       #0 → #5 (지배도: 0.90, Judge: 87.0>82.0)
+       #0 → #8 (지배도: 0.92, Judge: 87.0>81.0)
+       ... 외 79개
+  🎯 우선순위 기반 중복 제거: 120개 → 36개 선택 (보존율: 30.0%)
+  🥊 Pairwise-Elo 시작... (mode=DuelingBandit, dynK=True)
+  ✅ Pairwise-Elo 완료
+  🎯 선별/추가 중... (Elo 우선 정렬)
+ [Healthcare & Medicine/Communication] Gen 0: archive_best_elo=1578.6 avg_elo=1500.0 archive_size=56 candidates=36 added=36 mode=DuelingBandit
+
+🚀 [Communication] Generation 2/5
+============================================================
+  🧬 변이 생성 중... (Archive 56개, parents 10개씩 → 8번)
+    변이 1/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 2/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 3/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 4/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 5/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 6/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 7/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 8/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+  📊 총 120개 후보 spec 생성 완료
+  ⚖️ 평가 중... (120개 spec → 3개 병렬)
+    평가 진행: 30/120 완료 (25.0%)
+    평가 진행: 60/120 완료 (50.0%)
+    평가 진행: 90/120 완료 (75.0%)
+    평가 진행: 120/120 완료 (100.0%)
+  ✅ 평가 완료! 120개 spec 평가됨
+  🎯 우선순위 기반 중복 제거 시작: 120개 spec 분석...
+     📊 상위 5개 점수 분포:
+       #0: Elo=1500.0, Judge=85.0, Norm=N/A
+       #1: Elo=1500.0, Judge=85.0, Norm=N/A
+       #2: Elo=1500.0, Judge=85.0, Norm=N/A
+       #3: Elo=1500.0, Judge=85.0, Norm=N/A
+       #4: Elo=1500.0, Judge=84.0, Norm=N/A
+     📊 분석 통계: 총 7140쌍 중
+       - 유사도 0.70 이상: 83쌍 (1.2%)
+       - 품질 차이 있음: 80쌍 (96.4%)
+       - 지배 관계 성립: 76쌍
+     🎯 발견된 지배 관계: 76개
+       #0 → #7 (지배도: 0.88, Judge: 85.0>82.0)
+       #0 → #39 (지배도: 0.92, Judge: 85.0>75.0)
+       #0 → #43 (지배도: 0.95, Judge: 85.0>74.0)
+       #0 → #48 (지배도: 0.95, Judge: 85.0>73.0)
+       #0 → #78 (지배도: 1.00, Judge: 85.0>69.0)
+       ... 외 71개
+  🎯 우선순위 기반 중복 제거: 120개 → 44개 선택 (보존율: 36.7%)
+  🥊 Pairwise-Elo 시작... (mode=DuelingBandit, dynK=True)
+  ✅ Pairwise-Elo 완료
+  🎯 선별/추가 중... (Elo 우선 정렬)
+ [Healthcare & Medicine/Communication] Gen 1: archive_best_elo=1587.9 avg_elo=1500.0 archive_size=100 candidates=44 added=44 mode=DuelingBandit
+
+🚀 [Communication] Generation 3/5
+============================================================
+  🧬 변이 생성 중... (Archive 100개, parents 10개씩 → 8번)
+    변이 1/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 2/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 3/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 4/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 5/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 13줄 → 13개 RFC2119 spec
+    → 13개 spec 생성됨
+    변이 6/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 7/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 8/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+  📊 총 118개 후보 spec 생성 완료
+  ⚖️ 평가 중... (118개 spec → 3개 병렬)
+    평가 진행: 29/118 완료 (24.6%)
+    평가 진행: 58/118 완료 (49.2%)
+    평가 진행: 87/118 완료 (73.7%)
+    평가 진행: 116/118 완료 (98.3%)
+    평가 진행: 118/118 완료 (100.0%)
+  ✅ 평가 완료! 118개 spec 평가됨
+  🎯 우선순위 기반 중복 제거 시작: 118개 spec 분석...
+     📊 상위 5개 점수 분포:
+       #0: Elo=1500.0, Judge=86.0, Norm=N/A
+       #1: Elo=1500.0, Judge=86.0, Norm=N/A
+       #2: Elo=1500.0, Judge=85.0, Norm=N/A
+       #3: Elo=1500.0, Judge=84.0, Norm=N/A
+       #4: Elo=1500.0, Judge=83.0, Norm=N/A
+     📊 분석 통계: 총 6903쌍 중
+       - 유사도 0.70 이상: 74쌍 (1.1%)
+       - 품질 차이 있음: 70쌍 (94.6%)
+       - 지배 관계 성립: 71쌍
+     🎯 발견된 지배 관계: 71개
+       #0 → #3 (지배도: 0.90, Judge: 86.0>84.0)
+       #0 → #22 (지배도: 0.94, Judge: 86.0>78.0)
+       #0 → #50 (지배도: 1.01, Judge: 86.0>74.0)
+       #0 → #63 (지배도: 0.98, Judge: 86.0>72.0)
+       #0 → #73 (지배도: 1.00, Judge: 86.0>70.0)
+       ... 외 66개
+  🎯 우선순위 기반 중복 제거: 118개 → 47개 선택 (보존율: 39.8%)
+  🥊 Pairwise-Elo 시작... (mode=DuelingBandit, dynK=True)
+  ✅ Pairwise-Elo 완료
+  🎯 선별/추가 중... (Elo 우선 정렬)
+ [Healthcare & Medicine/Communication] Gen 2: archive_best_elo=1595.0 avg_elo=1500.0 archive_size=100 candidates=47 added=47 mode=DuelingBandit
+
+🚀 [Communication] Generation 4/5
+============================================================
+  🧬 변이 생성 중... (Archive 100개, parents 10개씩 → 8번)
+    변이 1/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 2/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 3/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 4/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 5/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 6/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 7/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 8/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+  📊 총 120개 후보 spec 생성 완료
+  ⚖️ 평가 중... (120개 spec → 3개 병렬)
+    평가 진행: 30/120 완료 (25.0%)
+    평가 진행: 60/120 완료 (50.0%)
+    평가 진행: 90/120 완료 (75.0%)
+    평가 진행: 120/120 완료 (100.0%)
+  ✅ 평가 완료! 120개 spec 평가됨
+  🎯 우선순위 기반 중복 제거 시작: 120개 spec 분석...
+     📊 상위 5개 점수 분포:
+       #0: Elo=1500.0, Judge=91.0, Norm=N/A
+       #1: Elo=1500.0, Judge=85.0, Norm=N/A
+       #2: Elo=1500.0, Judge=85.0, Norm=N/A
+       #3: Elo=1500.0, Judge=84.0, Norm=N/A
+       #4: Elo=1500.0, Judge=83.0, Norm=N/A
+     📊 분석 통계: 총 7140쌍 중
+       - 유사도 0.70 이상: 84쌍 (1.2%)
+       - 품질 차이 있음: 79쌍 (94.0%)
+       - 지배 관계 성립: 72쌍
+     🎯 발견된 지배 관계: 72개
+       #0 → #5 (지배도: 0.92, Judge: 91.0>83.0)
+       #0 → #12 (지배도: 1.05, Judge: 91.0>81.0)
+       #0 → #41 (지배도: 0.98, Judge: 91.0>77.0)
+       #1 → #2 (지배도: 0.85, Judge: 85.0>85.0)
+       #1 → #4 (지배도: 0.95, Judge: 85.0>83.0)
+       ... 외 67개
+  🎯 우선순위 기반 중복 제거: 120개 → 48개 선택 (보존율: 40.0%)
+  🥊 Pairwise-Elo 시작... (mode=DuelingBandit, dynK=True)
+  ✅ Pairwise-Elo 완료
+  🎯 선별/추가 중... (Elo 우선 정렬)
+ [Healthcare & Medicine/Communication] Gen 3: archive_best_elo=1607.5 avg_elo=1500.0 archive_size=100 candidates=48 added=48 mode=DuelingBandit
+
+🚀 [Communication] Generation 5/5
+============================================================
+  🧬 변이 생성 중... (Archive 100개, parents 10개씩 → 8번)
+    변이 1/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 2/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 3/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 4/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 5/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 6/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 7/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+    변이 8/8: 부모 10개 조합 중...
+    🔍 필터링 결과: 15줄 → 15개 RFC2119 spec
+    → 15개 spec 생성됨
+  📊 총 120개 후보 spec 생성 완료
+  ⚖️ 평가 중... (120개 spec → 3개 병렬)
+    평가 진행: 30/120 완료 (25.0%)
+    평가 진행: 60/120 완료 (50.0%)
+    평가 진행: 90/120 완료 (75.0%)
+    평가 진행: 120/120 완료 (100.0%)
+  ✅ 평가 완료! 120개 spec 평가됨
+  🎯 우선순위 기반 중복 제거 시작: 120개 spec 분석...
+     📊 상위 5개 점수 분포:
+       #0: Elo=1500.0, Judge=86.0, Norm=N/A
+       #1: Elo=1500.0, Judge=85.0, Norm=N/A
+       #2: Elo=1500.0, Judge=84.0, Norm=N/A
+       #3: Elo=1500.0, Judge=84.0, Norm=N/A
+       #4: Elo=1500.0, Judge=84.0, Norm=N/A
+     📊 분석 통계: 총 7140쌍 중
+       - 유사도 0.70 이상: 76쌍 (1.1%)
+       - 품질 차이 있음: 74쌍 (97.4%)
+       - 지배 관계 성립: 72쌍
+     🎯 발견된 지배 관계: 72개
+       #0 → #6 (지배도: 0.92, Judge: 86.0>84.0)
+       #0 → #25 (지배도: 0.96, Judge: 86.0>79.0)
+       #0 → #62 (지배도: 1.03, Judge: 86.0>74.0)
+       #2 → #63 (지배도: 0.97, Judge: 84.0>74.0)
+       #2 → #67 (지배도: 0.92, Judge: 84.0>72.0)
+       ... 외 67개
+  🎯 우선순위 기반 중복 제거: 120개 → 48개 선택 (보존율: 40.0%)
+  🥊 Pairwise-Elo 시작... (mode=DuelingBandit, dynK=True)
+  ✅ Pairwise-Elo 완료
+  🎯 선별/추가 중... (Elo 우선 정렬)
+ [Healthcare & Medicine/Communication] Gen 4: archive_best_elo=1607.5 avg_elo=1500.0 archive_size=100 candidates=48 added=48 mode=DuelingBandit
+[Healthcare & Medicine/Communication] Evolution finished. Results in single_spec_result_ver1/Healthcare_and_Medicine/Communication
+    🎉 Best Evolved Spec (Seed 제외)
+       Elo: 1607.5
+       Score: 81/100
+    📊 Total specs: 100, Evolved specs: 100
+    🏆 Highest Elo: 1607.5
+  🎯 우선순위 기반 중복 제거 시작: 100개 spec 분석...
+     📊 상위 5개 점수 분포:
+       #0: Elo=1607.5, Judge=81.0, Norm=0.7787521747167935
+       #1: Elo=1598.1, Judge=79.0, Norm=0.5146347060175136
+       #2: Elo=1595.0, Judge=78.0, Norm=0.39056394707976744
+       #3: Elo=1587.9, Judge=77.0, Norm=0.26649318814202133
+       #4: Elo=1578.6, Judge=82.0, Norm=1.0035748236616326
+     📊 분석 통계: 총 4950쌍 중
+       - 유사도 0.65 이상: 115쌍 (2.3%)
+       - 품질 차이 있음: 75쌍 (65.2%)
+       - 지배 관계 성립: 66쌍
+     🎯 발견된 지배 관계: 66개
+       #0 → #8 (지배도: 1.03, Norm: 0.8>0.5)
+       #0 → #27 (지배도: 1.05, Norm: 0.8>0.5)
+       #1 → #17 (지배도: 0.97, Norm: 0.5>-0.7)
+       #1 → #35 (지배도: 1.10, Norm: 0.5>-0.9)
+       #1 → #40 (지배도: 0.97, Norm: 0.5>-1.4)
+       ... 외 61개
+  🎯 우선순위 기반 중복 제거: 100개 → 34개 선택 (보존율: 34.0%)
+📁 Archive 저장 완료:
+  - JSON: single_spec_result_ver1/Healthcare_and_Medicine/Communication/top100_archive.json
+  - TXT: single_spec_result_ver1/Healthcare_and_Medicine/Communication/top100_archive.txt
