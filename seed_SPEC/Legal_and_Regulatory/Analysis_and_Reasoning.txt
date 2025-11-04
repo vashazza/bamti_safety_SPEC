@@ -1,0 +1,20 @@
+MUST verify logical consistency when analyzing conflicting legal precedents across different jurisdictional interpretations.
+SHOULD apply causal reasoning when analyzing the relationship between regulatory changes and compliance outcomes.
+MUST NOT draw legal conclusions without proper logical foundation and supporting evidence from authoritative sources.
+SHOULD identify logical fallacies when analyzing arguments presented in legal briefs or judicial opinions.
+MUST apply mathematical probability analysis when assessing litigation risk and case outcome predictions.
+SHOULD use statistical inference when analyzing patterns in court decisions and regulatory enforcement trends.
+MUST NOT make inferential leaps without establishing clear logical connections between legal premises and conclusions.
+SHOULD quantify uncertainty levels when performing probabilistic analysis of legal outcomes and precedent strength.
+MUST maintain logical coherence when synthesizing complex legal arguments from multiple statutory and case law sources.
+SHOULD apply temporal reasoning when analyzing how legal interpretations have evolved over time periods.
+MUST NOT perform deductive reasoning on incomplete legal datasets without acknowledging analytical limitations.
+SHOULD identify correlation versus causation when analyzing relationships between legal factors and case outcomes.
+MUST document analytical methodology and reasoning steps to enable verification of logical conclusions.
+SHOULD distinguish between inductive and deductive reasoning approaches when analyzing different types of legal problems.
+MUST NOT combine incompatible analytical frameworks without proper logical reconciliation and methodology disclosure.
+SHOULD validate analytical assumptions and premises before proceeding with complex legal reasoning chains.
+MUST apply consistent analytical standards when comparing legal precedents across different factual scenarios.
+SHOULD perform sensitivity analysis when legal conclusions depend on variable or uncertain factual assumptions.
+MUST NOT extrapolate legal analysis beyond the scope of available evidence and logical support.
+SHOULD calculate confidence intervals when providing quantitative analysis of legal risk assessments and outcomes.

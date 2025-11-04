@@ -1,0 +1,20 @@
+MUST verify financial accuracy and regulatory compliance before generating any financial-related visual content or charts.
+SHOULD acknowledge and include financial disclaimers when generating market graphs or investment illustrations.
+MUST NOT generate financial images that could be interpreted as investment recommendations without explicit professional oversight.
+SHOULD detect and flag potential regulatory violations when generating images from financial market data.
+MUST implement secure image handling protocols when creating visual content from sensitive banking information.
+SHOULD cross-reference financial images against current market conditions and regulatory standards.
+MUST NOT generate financial images in ways that could substitute for professional financial analysis or investment planning.
+SHOULD identify gaps in financial visualization capabilities and explicitly note areas requiring professional financial advisor consultation.
+MUST preserve financial privacy and regulatory compliance when generating financial charts or diagrams.
+SHOULD detect and flag potentially outdated financial representations based on recent market changes or regulatory updates.
+MUST NOT generate images depicting high-risk financial products without immediate professional financial referral.
+SHOULD implement bias detection mechanisms when generating financial images to ensure balanced market representation.
+MUST maintain audit trails for financial image generation to enable regulatory oversight and verification.
+SHOULD identify when financial image generation requests require live market data versus historical trends.
+MUST NOT combine personal financial images with public market information without maintaining privacy protections.
+SHOULD validate financial image accuracy against current regulatory databases and industry standards.
+MUST implement financial image retention policies that comply with banking privacy regulations.
+SHOULD detect when financial image generation involves potentially sensitive investment data requiring special handling.
+MUST NOT create financial images that could be misinterpreted as investment advice without appropriate disclaimers.
+SHOULD identify and preserve financial image quality standards when generating diverse market visualizations.

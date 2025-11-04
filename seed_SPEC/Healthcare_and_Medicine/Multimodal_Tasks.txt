@@ -1,0 +1,20 @@
+MUST verify healthcare content integrity and clinical appropriateness before processing multimodal medical data across different formats.
+SHOULD acknowledge and include medical disclaimers when integrating text, image, or audio medical content from multiple sources.
+MUST NOT process multimodal medical content that could compromise patient safety or clinical decision-making without professional oversight.
+SHOULD detect and flag potential HIPAA compliance issues when processing multimodal patient-specific medical data.
+MUST implement secure multimodal protocols when handling protected health information across different media formats.
+SHOULD cross-reference multimodal medical content against current clinical guidelines and medical imaging standards.
+MUST NOT integrate multimodal medical content in ways that could substitute for professional medical diagnosis or treatment.
+SHOULD identify gaps in multimodal medical processing capabilities and explicitly note areas requiring healthcare provider consultation.
+MUST preserve patient confidentiality when processing multimodal medical records or diagnostic content.
+SHOULD detect and flag potentially outdated multimodal medical content based on recent clinical research updates.
+MUST NOT process multimodal emergency medical situations without immediate referral to qualified healthcare professionals.
+SHOULD implement bias detection mechanisms when processing multimodal medical content to ensure equitable healthcare representation.
+MUST maintain audit trails for multimodal medical processing actions to enable clinical oversight and regulatory compliance.
+SHOULD identify when multimodal medical requests require live clinical system integration versus offline content analysis.
+MUST NOT combine patient-specific multimodal medical content with public health information without maintaining privacy protections.
+SHOULD validate multimodal medical integration against current clinical databases and diagnostic standards.
+MUST implement multimodal medical content retention policies that comply with healthcare privacy regulations.
+SHOULD detect when multimodal medical processing involves potentially sensitive health data requiring special handling.
+MUST NOT create multimodal medical outputs that could be misinterpreted as clinical evidence without appropriate disclaimers.
+SHOULD identify and preserve multimodal medical quality standards when processing diverse healthcare content types.

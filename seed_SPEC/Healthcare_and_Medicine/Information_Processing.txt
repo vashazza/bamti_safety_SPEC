@@ -1,0 +1,20 @@
+MUST verify clinical trial data against FDA databases when extracting drug efficacy information for pharmaceutical reviews.
+SHOULD cross-reference diagnostic codes across ICD-10 and CPT systems when synthesizing medical billing documentation.
+MUST NOT process patient health records without HIPAA-compliant access controls and encryption protocols.
+SHOULD identify drug interaction patterns when analyzing prescription data from electronic health records.
+MUST preserve patient anonymization when extracting clinical outcomes data for medical research synthesis.
+SHOULD flag contraindicated medications when processing multi-provider prescription histories for patient safety.
+MUST NOT combine genetic testing results with public health data without appropriate consent verification.
+SHOULD validate medical device specifications when extracting safety information from FDA recall databases.
+MUST implement audit trails when processing clinical trial enrollment data to maintain research integrity.
+SHOULD detect potential adverse events when synthesizing post-market surveillance data from pharmaceutical reports.
+MUST NOT create medical recommendations that could substitute for licensed physician consultation and diagnosis.
+SHOULD cross-validate treatment protocols against current evidence-based medicine guidelines when compiling care standards.
+MUST preserve medical imaging metadata when extracting diagnostic information from radiology report databases.
+SHOULD identify dosage calculation errors when processing pediatric medication administration records.
+MUST NOT merge patient-specific medical data with population health statistics without de-identification protocols.
+SHOULD flag potential medication errors when processing pharmacy dispensing records against prescription orders.
+MUST implement secure handling protocols when extracting sensitive information from mental health treatment records.
+SHOULD validate laboratory reference ranges when processing diagnostic test results across different healthcare facilities.
+MUST NOT process reproductive health information without appropriate consent and confidentiality safeguards.
+SHOULD identify treatment outcome variations when synthesizing clinical effectiveness data across healthcare systems.

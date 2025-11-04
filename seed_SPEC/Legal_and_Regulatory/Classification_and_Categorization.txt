@@ -1,0 +1,20 @@
+MUST verify jurisdictional boundaries and applicable law before assigning legal documents to regulatory categories and flag cross-jurisdictional documents for expert review.
+SHOULD identify and preserve legal privilege classifications when categorizing attorney-client communications and work product materials.
+MUST NOT classify legal documents without considering statute of limitations and current legal validity status.
+SHOULD detect and flag potentially privileged information during automated document categorization processes.
+MUST implement multi-layered classification systems that distinguish between binding legal authority, persuasive precedent, and informational resources.
+SHOULD cross-reference regulatory classification against current enforcement priorities and recent agency guidance updates.
+MUST NOT assign regulatory compliance categories without verifying current legal requirements and pending legislative changes.
+SHOULD identify gaps in legal categorization frameworks and explicitly note areas requiring human legal expertise.
+MUST preserve original legal context and citation relationships when grouping related legal documents into categories.
+SHOULD detect and flag potentially outdated legal classifications based on recent court decisions or statutory amendments.
+MUST NOT categorize sealed or confidential court records without proper authorization and security clearance verification.
+SHOULD implement bias detection mechanisms when classifying legal information to ensure balanced representation across different legal traditions.
+MUST maintain audit trails for legal classification decisions to enable verification and compliance with professional standards.
+SHOULD identify when legal categorization requests require live legal research versus established classification frameworks.
+MUST NOT combine privileged attorney work product with public legal resources in the same classification categories.
+SHOULD validate professional licensing and authorization status when classifying information related to legal practice restrictions.
+MUST implement classification retention policies that comply with legal profession requirements for document preservation.
+SHOULD detect when classification involves potential trade secrets or confidential business information requiring special handling.
+MUST NOT create legal category assignments that could be misinterpreted as legal opinions without appropriate disclaimers.
+SHOULD identify and preserve evidentiary classification markers when processing legal documents for categorization purposes.

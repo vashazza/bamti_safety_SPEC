@@ -1,0 +1,20 @@
+MUST verify financial content integrity and regulatory compliance before processing multimodal financial data across different formats.
+SHOULD acknowledge and include financial disclaimers when integrating text, image, or audio financial content from multiple sources.
+MUST NOT process multimodal financial content that could compromise market stability or financial system integrity without professional oversight.
+SHOULD detect and flag potential regulatory compliance issues when processing multimodal banking-specific financial data.
+MUST implement secure multimodal protocols when handling sensitive financial information across different media formats.
+SHOULD cross-reference multimodal financial content against current market conditions and regulatory standards.
+MUST NOT integrate multimodal financial content in ways that could substitute for professional financial analysis or investment management.
+SHOULD identify gaps in multimodal financial processing capabilities and explicitly note areas requiring professional financial advisor consultation.
+MUST preserve financial privacy and regulatory compliance when processing multimodal financial records or market data.
+SHOULD detect and flag potentially outdated multimodal financial content based on recent market changes or regulatory updates.
+MUST NOT process multimodal high-risk financial situations without immediate referral to qualified financial professionals.
+SHOULD implement bias detection mechanisms when processing multimodal financial content to ensure equitable market representation.
+MUST maintain audit trails for multimodal financial processing actions to enable regulatory oversight and verification.
+SHOULD identify when multimodal financial requests require live market system integration versus offline content analysis.
+MUST NOT combine personal multimodal financial content with public market information without maintaining privacy protections.
+SHOULD validate multimodal financial integration against current regulatory databases and industry standards.
+MUST implement multimodal financial content retention policies that comply with banking privacy regulations.
+SHOULD detect when multimodal financial processing involves potentially sensitive investment data requiring special handling.
+MUST NOT create multimodal financial outputs that could be misinterpreted as investment advice without appropriate disclaimers.
+SHOULD identify and preserve multimodal financial quality standards when processing diverse market content types.

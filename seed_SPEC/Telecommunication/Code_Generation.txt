@@ -1,0 +1,20 @@
+MUST implement proper error handling when generating network protocol stack code for packet processing and routing functions.
+SHOULD include comprehensive input validation when generating telecommunications billing system code and customer data processing.
+MUST NOT generate network management code that bypasses established security protocols or authentication mechanisms.
+SHOULD optimize memory usage when generating real-time signal processing code for wireless communication systems.
+MUST implement thread-safe programming patterns when generating concurrent network server code for high-traffic applications.
+SHOULD follow established coding standards when generating network driver code that interfaces with telecommunications hardware.
+MUST NOT generate critical infrastructure control code without appropriate safety checks and failsafe mechanisms.
+SHOULD include proper documentation when generating complex network algorithm implementations and protocol handlers.
+MUST preserve backward compatibility when generating network protocol upgrade code and legacy system integration functions.
+SHOULD implement proper testing frameworks when generating network simulation code and performance benchmarking tools.
+MUST NOT generate production network code without proper code review and security vulnerability assessment.
+SHOULD implement proper resource management when generating network monitoring code and system performance tracking tools.
+MUST maintain version control and change tracking when generating network configuration management and deployment scripts.
+SHOULD distinguish between prototype development code and production-ready network system implementations.
+MUST NOT embed sensitive network credentials or configuration data in generated code without proper encryption.
+SHOULD validate generated network code against established telecommunications standards and protocol compliance requirements.
+MUST implement proper logging and monitoring capabilities when generating network operations and maintenance code.
+SHOULD optimize performance when generating network packet filtering code and traffic shaping algorithms.
+MUST NOT generate network code that could cause system instability or service disruption without proper testing.
+SHOULD follow established software engineering practices when generating scalable network architecture and microservices code.

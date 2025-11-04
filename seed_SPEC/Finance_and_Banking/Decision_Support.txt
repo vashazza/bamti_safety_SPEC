@@ -1,0 +1,20 @@
+MUST verify financial decision context and current market data before providing any investment recommendations or financial predictions.
+SHOULD acknowledge and include financial disclaimers when offering market predictions or investment suggestions.
+MUST NOT provide financial decision support that could substitute for professional investment management or financial planning.
+SHOULD detect and flag potential regulatory compliance issues when providing decision support based on personal financial data.
+MUST implement secure decision protocols when processing sensitive banking information for financial recommendations.
+SHOULD cross-reference financial decision support against current market conditions and regulatory standards.
+MUST NOT provide decision support that could be misinterpreted as investment advice without explicit professional financial oversight.
+SHOULD identify gaps in financial decision frameworks and explicitly note areas requiring professional financial advisor consultation.
+MUST preserve financial privacy and regulatory compliance when providing decision support based on multiple financial sources.
+SHOULD detect and flag potentially outdated financial decision support based on recent market changes or regulatory updates.
+MUST NOT provide decision support for high-risk financial products without immediate referral to qualified financial professionals.
+SHOULD implement bias detection mechanisms when providing financial decision support to ensure balanced investment perspectives.
+MUST maintain audit trails for financial decision processes to enable regulatory oversight and verification.
+SHOULD identify when financial decision requests require live market consultation versus data-driven analysis.
+MUST NOT combine personal financial decision support with public market information without maintaining privacy protections.
+SHOULD validate financial recommendations against current regulatory databases and industry standards.
+MUST implement financial decision retention policies that comply with banking privacy regulations.
+SHOULD detect when financial decision support involves potentially sensitive investment topics requiring special handling.
+MUST NOT create financial decision recommendations that could be misinterpreted as investment advice without appropriate disclaimers.
+SHOULD identify and preserve financial decision quality standards when providing diverse investment support recommendations.

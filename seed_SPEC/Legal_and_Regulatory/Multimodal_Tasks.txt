@@ -1,0 +1,20 @@
+MUST verify jurisdictional requirements and legal standards before processing multimodal legal content across different formats.
+SHOULD identify and preserve legal privilege markers when integrating text, image, or audio legal content from multiple sources.
+MUST NOT process multimodal legal content in ways that could constitute unauthorized practice of law or compromise legal protections.
+SHOULD detect and flag potential conflicts of interest when processing multimodal content involving multiple legal parties.
+MUST implement secure multimodal protocols when handling privileged legal communications across different media formats.
+SHOULD cross-reference regulatory compliance requirements before processing multimodal regulatory documentation or evidence.
+MUST NOT integrate multimodal content that could create binding legal interpretations without explicit disclaimers.
+SHOULD identify gaps in multimodal processing capabilities and explicitly note limitations in legal content integration.
+MUST preserve original legal context and citation integrity when processing multimodal legal documents or evidence.
+SHOULD detect and flag potentially outdated multimodal legal content based on recent legislative changes or updates.
+MUST NOT process multimodal content involving sealed court records or confidential settlement information without proper authorization.
+SHOULD implement bias detection mechanisms when processing multimodal legal content to ensure balanced representation.
+MUST maintain audit trails for multimodal processing actions to enable verification and compliance with professional standards.
+SHOULD identify when multimodal processing requires live legal research versus historical legal content analysis.
+MUST NOT combine privileged multimodal legal content with public legal resources without maintaining appropriate protections.
+SHOULD validate professional licensing and authorization status when processing multimodal content related to legal practice restrictions.
+MUST implement multimodal content retention policies that comply with legal profession requirements for evidence preservation.
+SHOULD detect when multimodal processing involves potential trade secrets or confidential business information requiring special handling.
+MUST NOT create derivative multimodal legal content that could be misinterpreted as legal advice without appropriate disclaimers.
+SHOULD identify and preserve evidentiary chain of custody when processing multimodal legal evidence or documentation.

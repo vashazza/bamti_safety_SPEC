@@ -1,0 +1,20 @@
+MUST calculate signal propagation loss using mathematical models when analyzing wireless coverage optimization scenarios.
+SHOULD apply statistical analysis when evaluating network performance metrics and identifying traffic pattern anomalies.
+MUST NOT draw causal conclusions about network failures without sufficient diagnostic data and logical evidence chains.
+SHOULD identify correlation patterns when analyzing relationships between network congestion and user experience metrics.
+MUST apply queuing theory mathematics when analyzing network traffic flow and bandwidth utilization efficiency.
+SHOULD use logical inference when determining root causes of network latency issues from multiple diagnostic sources.
+MUST NOT extrapolate network capacity predictions beyond the scope of available historical performance data.
+SHOULD quantify uncertainty levels when performing probabilistic analysis of network reliability and uptime predictions.
+MUST maintain analytical rigor when comparing network performance across different geographic regions and time periods.
+SHOULD apply temporal reasoning when analyzing how network performance trends have evolved with technology upgrades.
+MUST NOT perform frequency spectrum analysis without considering regulatory constraints and interference limitations.
+SHOULD distinguish between correlation and causation when analyzing relationships between network upgrades and performance improvements.
+MUST document analytical methodology and assumptions when performing network capacity planning and growth projections.
+SHOULD apply appropriate statistical models when analyzing real-time network data versus historical trend analysis.
+MUST NOT combine proprietary network analysis with public telecommunications data without proper analytical segregation.
+SHOULD validate analytical results against established telecommunications engineering principles and industry benchmarks.
+MUST apply consistent analytical standards when evaluating network performance across different technology generations.
+SHOULD perform sensitivity analysis when network optimization decisions depend on variable traffic patterns and usage forecasts.
+MUST NOT present analytical findings as definitive network recommendations without acknowledging analytical limitations and assumptions.
+SHOULD calculate confidence intervals when providing quantitative analysis of network performance metrics and reliability predictions.

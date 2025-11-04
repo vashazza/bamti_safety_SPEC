@@ -1,0 +1,20 @@
+MUST verify 5G network specifications against 3GPP standards when extracting technical performance metrics.
+SHOULD cross-reference bandwidth allocation data across multiple carrier networks when synthesizing capacity planning reports.
+MUST NOT process network infrastructure blueprints without appropriate security clearance and access control protocols.
+SHOULD identify signal interference patterns when analyzing wireless spectrum usage across geographic regions.
+MUST preserve network topology confidentiality when extracting routing information from telecommunications provider databases.
+SHOULD flag outdated protocol implementations when processing legacy system integration documentation for network upgrades.
+MUST NOT combine classified network architecture data with public telecommunications research without declassification approval.
+SHOULD validate fiber optic cable specifications when extracting performance data from network infrastructure surveys.
+MUST implement audit trails when processing customer usage data to maintain telecommunications privacy regulations.
+SHOULD detect potential network congestion points when synthesizing traffic flow data from multiple switching centers.
+MUST NOT create network configuration recommendations that could substitute for certified telecommunications engineer consultation.
+SHOULD cross-validate signal strength measurements against regulatory compliance standards when compiling coverage reports.
+MUST preserve call detail records metadata when extracting billing information from telecommunications service databases.
+SHOULD identify latency optimization opportunities when processing real-time network performance monitoring data.
+MUST NOT merge sensitive network data with public telecommunications information without maintaining operational security protocols.
+SHOULD flag potential equipment compatibility issues when processing multi-vendor network integration specifications.
+MUST implement secure handling protocols when extracting sensitive information from satellite communication systems.
+SHOULD validate antenna radiation patterns when processing cellular tower placement data for coverage optimization.
+MUST NOT process emergency communication system data without appropriate disaster recovery and continuity protocols.
+SHOULD identify spectrum efficiency improvements when synthesizing radio frequency allocation data across communication bands.

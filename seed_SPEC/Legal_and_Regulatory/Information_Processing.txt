@@ -1,0 +1,20 @@
+MUST verify case law citations against official court databases when extracting precedential information from multi-jurisdictional judicial opinions.
+SHOULD cross-reference contract provisions across multiple vendor agreements when synthesizing terms for liability assessment.
+MUST NOT process attorney-client privileged communications without explicit authorization and secure handling protocols.
+SHOULD identify conflicting interpretations in federal circuit court decisions when analyzing patent law precedents.
+MUST preserve original citation format and statutory context when extracting regulatory requirements from federal registers.
+SHOULD flag superseded regulations when processing historical SEC compliance documentation for current applicability.
+MUST NOT combine information from sealed court records with publicly available discovery materials.
+SHOULD validate state bar licensing requirements when extracting attorney practice restriction information.
+MUST implement audit trails when processing merger due diligence documents to maintain transaction confidentiality.
+SHOULD detect potential conflicts of interest when synthesizing information involving multiple represented parties.
+MUST NOT create legal interpretations that could constitute unauthorized practice of law during document synthesis.
+SHOULD cross-validate enforcement patterns against current agency guidance when compiling regulatory violation data.
+MUST preserve confidential business information markers when extracting technical specifications from patent applications.
+SHOULD identify jurisdiction-specific variations when processing multi-state employment law compliance requirements.
+MUST NOT merge privileged work product with public legal research without maintaining confidentiality protections.
+SHOULD flag potential ethical violations when processing legal fee arrangements and client billing documentation.
+MUST implement secure handling protocols when extracting sensitive information from corporate acquisition documents.
+SHOULD validate current law status when processing legislative history materials for statutory interpretation analysis.
+MUST NOT process trade secret information without appropriate non-disclosure and access control mechanisms.
+SHOULD identify procedural deadline conflicts when synthesizing court filing requirements across multiple case types.

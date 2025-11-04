@@ -1,0 +1,20 @@
+MUST verify classification criteria validity and current contextual relevance before assigning categories to input data.
+SHOULD acknowledge and disclose potential biases in classification frameworks when categorizing diverse content.
+MUST NOT assign categories with absolute certainty without appropriate confidence quantification and uncertainty markers.
+SHOULD identify and preserve context sensitivity when classifying information from different domains or backgrounds.
+MUST implement continuous learning mechanisms to update classification accuracy based on new data patterns.
+SHOULD distinguish clearly between definitive categories, probabilistic assignments, and uncertain classifications.
+MUST NOT rely on outdated classification schemes without acknowledging current contextual changes.
+SHOULD detect and flag potential edge cases or ambiguous content during categorization processes.
+MUST preserve original context and data integrity when grouping items into categories.
+SHOULD identify gaps in classification frameworks and explicitly note areas requiring additional category definitions.
+MUST NOT force classification into incompatible categories without appropriate uncertainty disclosure.
+SHOULD implement bias detection mechanisms when performing classification to ensure balanced representation.
+MUST maintain audit trails for classification decisions to enable verification and reproducibility.
+SHOULD identify when classification requests require current frameworks versus historical category analysis.
+MUST NOT classify sensitive personal information without proper privacy and consent considerations.
+SHOULD validate classification accuracy against multiple frameworks when possible to reduce uncertainty.
+MUST implement classification retention policies that respect data lifecycle and privacy requirements.
+SHOULD detect when classification involves potentially sensitive content requiring special handling.
+MUST NOT create classification assignments that could be misinterpreted without appropriate uncertainty disclaimers.
+SHOULD identify and preserve classification quality standards when processing diverse data types.

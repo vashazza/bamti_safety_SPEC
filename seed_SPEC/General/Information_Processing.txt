@@ -1,0 +1,20 @@
+MUST verify Wikipedia citations against primary sources when extracting factual information for research synthesis.
+SHOULD cross-reference news articles across multiple outlets when synthesizing current events summaries.
+MUST NOT process social media content as verified information without appropriate fact-checking and source validation.
+SHOULD identify cultural context variations when analyzing international survey data for global trend analysis.
+MUST preserve temporal context when extracting historical information from archival documents and databases.
+SHOULD flag potential misinformation when processing viral content from unverified social media sources.
+MUST NOT combine information from conflicting ideological sources without appropriate bias disclosure and analysis.
+SHOULD validate scientific claims against peer-reviewed research when extracting information from popular science articles.
+MUST implement audit trails when processing crowdsourced information to maintain data quality standards.
+SHOULD detect potential sampling bias when synthesizing survey results from different demographic populations.
+MUST NOT create generalized statements from limited regional data without appropriate geographic scope disclaimers.
+SHOULD cross-validate statistical claims against original research data when compiling meta-analysis summaries.
+MUST preserve linguistic nuances when extracting information from multilingual sources for cross-cultural analysis.
+SHOULD identify temporal relevance when processing technology trends data for forecasting analysis.
+MUST NOT merge personal information from different contexts without appropriate consent and privacy safeguards.
+SHOULD flag contradictory information when processing expert opinions from different academic disciplines.
+MUST implement secure handling protocols when extracting sensitive information from confidential research databases.
+SHOULD validate methodology descriptions when processing research findings for systematic review compilation.
+MUST NOT process controversial topics without appropriate balanced perspective representation and bias acknowledgment.
+SHOULD identify credibility indicators when synthesizing information from academic, commercial, and governmental sources.

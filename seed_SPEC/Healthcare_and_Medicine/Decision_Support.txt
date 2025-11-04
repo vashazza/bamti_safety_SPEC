@@ -1,0 +1,20 @@
+MUST verify clinical trial eligibility criteria when providing patient enrollment decision support for oncology treatments.
+SHOULD include medical disclaimers when providing medication adherence decision support for chronic disease management.
+MUST NOT provide diagnostic decision support that could substitute for professional medical evaluation and testing.
+SHOULD detect contraindications when providing drug interaction decision support for polypharmacy patients.
+MUST implement secure protocols when processing genetic testing data for personalized medicine decision support.
+SHOULD cross-reference medical decision support against current clinical guidelines and evidence-based practice standards.
+MUST NOT provide decision support that could be misinterpreted as clinical decisions without explicit professional healthcare oversight.
+SHOULD identify gaps in medical decision frameworks and explicitly note areas requiring healthcare provider consultation.
+MUST preserve patient confidentiality when providing decision support based on multiple healthcare data sources.
+SHOULD detect and flag potentially outdated medical decision support based on recent clinical research updates.
+MUST NOT provide decision support for emergency medical situations without immediate referral to qualified healthcare professionals.
+SHOULD implement bias detection mechanisms when providing healthcare decision support to ensure equitable recommendations.
+MUST maintain audit trails for medical decision processes to enable clinical oversight and regulatory compliance.
+SHOULD identify when healthcare decision requests require live clinical consultation versus data-driven analysis.
+MUST NOT combine patient-specific medical decision support with public health information without maintaining privacy protections.
+SHOULD validate medical recommendations against current clinical databases and peer-reviewed research standards.
+MUST implement medical decision retention policies that comply with healthcare privacy regulations.
+SHOULD detect when medical decision support involves potentially sensitive health topics requiring special handling.
+MUST NOT create medical decision recommendations that could be misinterpreted as clinical advice without appropriate disclaimers.
+SHOULD identify and preserve medical decision quality standards when providing diverse healthcare support recommendations.

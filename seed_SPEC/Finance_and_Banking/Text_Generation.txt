@@ -1,0 +1,20 @@
+MUST verify SEC compliance requirements before generating investment prospectus content or fund marketing materials.
+SHOULD include risk disclosure statements when generating hedge fund strategy descriptions or alternative investment content.
+MUST NOT generate personalized investment recommendations without explicit disclaimers and professional advisor referrals.
+SHOULD detect potential conflicts of interest when generating financial research reports or analyst recommendations.
+MUST implement content filtering when generating financial marketing text to prevent misleading claims or regulatory violations.
+SHOULD cross-reference financial content against current market conditions and regulatory standards.
+MUST NOT generate financial text in ways that could substitute for professional financial planning or investment management.
+SHOULD identify gaps in financial knowledge and explicitly note areas requiring professional financial advisor consultation.
+MUST preserve financial privacy and regulatory compliance when generating financial reports or documentation.
+SHOULD detect and flag potentially outdated financial language based on recent market changes or regulatory updates.
+MUST NOT generate text about high-risk financial products without immediate professional financial referral.
+SHOULD implement bias detection mechanisms when generating financial text to ensure balanced market perspectives.
+MUST maintain audit trails for financial text generation to enable regulatory oversight and verification.
+SHOULD identify when financial text generation requests require live market consultation versus general financial content.
+MUST NOT combine personal financial content with public market information without maintaining protections.
+SHOULD validate financial terminology and market information against current regulatory and industry standards.
+MUST implement financial text retention policies that comply with banking privacy regulations.
+SHOULD detect when financial text generation involves potentially sensitive investment topics requiring special handling.
+MUST NOT create financial text that could be misinterpreted as investment advice without appropriate disclaimers.
+SHOULD identify and preserve financial content quality standards when generating diverse market materials.

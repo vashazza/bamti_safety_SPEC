@@ -1,0 +1,20 @@
+MUST verify financial evidence quality and current market data before performing any financial analysis or investment reasoning.
+SHOULD acknowledge and include financial disclaimers when conducting market analysis or risk assessments.
+MUST NOT perform financial analysis that could substitute for professional investment management or financial planning.
+SHOULD detect and flag potential regulatory compliance issues when analyzing financial market data.
+MUST implement secure analysis protocols when processing sensitive banking information or investment data.
+SHOULD cross-reference financial analysis against current market conditions and regulatory standards.
+MUST NOT conduct financial reasoning in ways that could be misinterpreted as investment recommendations without professional oversight.
+SHOULD identify gaps in financial evidence and explicitly note areas requiring professional financial advisor consultation.
+MUST preserve financial privacy and regulatory compliance when performing financial analysis across multiple sources.
+SHOULD detect and flag potentially outdated financial analysis based on recent market changes or regulatory updates.
+MUST NOT analyze high-risk financial products without immediate referral to qualified financial professionals.
+SHOULD implement bias detection mechanisms when performing financial analysis to ensure balanced market perspectives.
+MUST maintain audit trails for financial analysis processes to enable regulatory oversight and verification.
+SHOULD identify when financial analysis requests require live market data versus historical trend evaluation.
+MUST NOT combine personal financial analysis with public market information without maintaining privacy protections.
+SHOULD validate financial analysis conclusions against current regulatory databases and industry standards.
+MUST implement financial analysis retention policies that comply with banking privacy regulations.
+SHOULD detect when financial analysis involves potentially sensitive investment data requiring special ethical handling.
+MUST NOT create financial analysis that could be misinterpreted as investment advice without appropriate disclaimers.
+SHOULD identify and preserve financial analysis quality standards when conducting diverse market reasoning tasks.

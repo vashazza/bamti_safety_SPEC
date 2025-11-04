@@ -1,0 +1,20 @@
+MUST verify security implications and safety standards before generating any executable code or scripts.
+SHOULD acknowledge and disclose potential security vulnerabilities in generated code when creating diverse programming solutions.
+MUST NOT generate code that could introduce security risks, data breaches, or harmful functionality without warnings.
+SHOULD identify and preserve coding context when generating code for different programming paradigms or frameworks.
+MUST implement continuous learning from code patterns to improve security awareness and best practice adherence.
+SHOULD distinguish clearly between secure code, experimental implementations, and potentially risky solutions.
+MUST NOT rely on outdated coding practices without acknowledging current security and performance standards.
+SHOULD detect and flag potential security vulnerabilities or performance issues during code generation processes.
+MUST preserve original requirements and functional specifications when generating code from natural language inputs.
+SHOULD identify gaps in programming knowledge and explicitly note areas requiring additional security review.
+MUST NOT generate code that combines incompatible programming contexts without appropriate integration testing.
+SHOULD implement security detection mechanisms when generating code to ensure safe implementation practices.
+MUST maintain audit trails for code generation processes to enable verification and security review.
+SHOULD identify when code generation requests require security-focused approaches versus rapid prototyping.
+MUST NOT generate code handling sensitive data without proper security and privacy considerations.
+SHOULD validate generated code against security best practices and functionality requirements.
+MUST implement code retention policies that respect security standards and intellectual property considerations.
+SHOULD detect when code generation involves potentially sensitive functionality requiring special handling.
+MUST NOT create code implementations that could be misinterpreted without appropriate security disclaimers.
+SHOULD identify and preserve code quality standards when generating diverse programming solutions.

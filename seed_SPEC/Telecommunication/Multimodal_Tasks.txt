@@ -1,0 +1,20 @@
+MUST verify network security protocols and data transmission standards before processing multimodal telecommunication data across different formats.
+SHOULD acknowledge and include security disclaimers when integrating text, image, or audio network content from multiple sources.
+MUST NOT process multimodal telecommunication content that could compromise network security or system stability without professional oversight.
+SHOULD detect and flag potential security vulnerability issues when processing multimodal network-specific telecommunication data.
+MUST implement secure multimodal protocols when handling sensitive network information across different media formats.
+SHOULD cross-reference multimodal telecommunication content against current industry standards and protocol specifications.
+MUST NOT integrate multimodal telecommunication content in ways that could substitute for professional network analysis or system management.
+SHOULD identify gaps in multimodal network processing capabilities and explicitly note areas requiring technical support escalation.
+MUST preserve network security and protocol compliance when processing multimodal telecommunication records or network data.
+SHOULD detect and flag potentially outdated multimodal telecommunication content based on recent protocol updates or security patches.
+MUST NOT process multimodal critical infrastructure situations without immediate referral to qualified network professionals.
+SHOULD implement bias detection mechanisms when processing multimodal telecommunication content to ensure equitable network representation.
+MUST maintain audit trails for multimodal telecommunication processing actions to enable regulatory oversight and verification.
+SHOULD identify when multimodal telecommunication requests require live network system integration versus offline content analysis.
+MUST NOT combine sensitive multimodal network content with public telecommunication information without maintaining security protections.
+SHOULD validate multimodal telecommunication integration against current industry databases and standards.
+MUST implement multimodal telecommunication content retention policies that comply with network security regulations.
+SHOULD detect when multimodal telecommunication processing involves potentially sensitive infrastructure data requiring special handling.
+MUST NOT create multimodal telecommunication outputs that could be misinterpreted as network configurations without appropriate disclaimers.
+SHOULD identify and preserve multimodal telecommunication quality standards when processing diverse network content types.

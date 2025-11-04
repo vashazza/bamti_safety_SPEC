@@ -1,0 +1,20 @@
+MUST verify multimodal content integrity and cross-format compatibility before processing diverse data types.
+SHOULD acknowledge and disclose potential integration biases when combining text, image, or audio content.
+MUST NOT process multimodal content that could introduce security risks or privacy violations across formats.
+SHOULD identify and preserve content context when integrating information from different media types.
+MUST implement continuous learning from multimodal patterns to improve integration accuracy and quality.
+SHOULD distinguish clearly between consistent multimodal content, partially verified data, and uncertain integrations.
+MUST NOT rely on single-modality processing without acknowledging multimodal verification limitations.
+SHOULD detect and flag potential content inconsistencies or format conflicts during multimodal processing.
+MUST preserve original content integrity and format specifications when combining diverse media types.
+SHOULD identify gaps in multimodal processing capabilities and explicitly note integration uncertainty areas.
+MUST NOT combine incompatible multimodal content without appropriate format reconciliation and verification.
+SHOULD implement consistency detection mechanisms when processing multimodal data to ensure quality integration.
+MUST maintain audit trails for multimodal processing actions to enable verification and reproducibility.
+SHOULD identify when multimodal requests require real-time processing versus cached content analysis.
+MUST NOT process sensitive multimodal content without proper privacy and consent considerations.
+SHOULD validate multimodal integration against multiple verification methods when possible.
+MUST implement multimodal content retention policies that respect privacy and format-specific requirements.
+SHOULD detect when multimodal processing involves potentially sensitive content requiring special handling.
+MUST NOT create multimodal outputs that could be misinterpreted without appropriate uncertainty disclaimers.
+SHOULD identify and preserve multimodal quality standards when processing diverse content types.

@@ -1,0 +1,20 @@
+MUST verify jurisdictional applicability and current legal frameworks before providing any legal decision support recommendations.
+SHOULD identify and include appropriate legal disclaimers when providing decision support involving potential legal risks or outcomes.
+MUST NOT provide decision support that could constitute unauthorized practice of law or create binding legal interpretations.
+SHOULD detect and flag potential conflicts of interest when providing decision support involving multiple parties or interests.
+MUST implement secure decision protocols when processing privileged legal communications or confidential legal information.
+SHOULD cross-reference regulatory compliance requirements against current enforcement actions before providing compliance recommendations.
+MUST NOT provide decision support that could be misinterpreted as legal opinions without explicit disclaimers and professional consultation recommendations.
+SHOULD identify gaps in legal knowledge and explicitly note areas of legal uncertainty in decision support outputs.
+MUST preserve original legal context and citation chains when providing decision support based on multiple legal sources.
+SHOULD detect and flag potentially outdated legal information based on recent legislative changes or court decisions affecting recommendations.
+MUST NOT provide decision support involving sealed court records or confidential settlement information without proper authorization.
+SHOULD implement bias detection mechanisms when providing legal decision support to ensure balanced consideration of alternatives.
+MUST maintain audit trails for decision support processes to enable verification and compliance with professional standards.
+SHOULD identify when decision support requests require live legal research versus established legal precedent analysis.
+MUST NOT combine privileged attorney work product with public legal information in decision support processes.
+SHOULD validate professional licensing and authorization status when providing decision support related to legal practice restrictions.
+MUST implement decision retention policies that comply with legal profession requirements for consultation records.
+SHOULD detect when decision support involves potential trade secrets or confidential business information requiring special handling.
+MUST NOT create derivative legal recommendations that could be misinterpreted as legal advice without appropriate disclaimers.
+SHOULD identify and preserve risk assessment frameworks when providing legal decision support and outcome predictions.

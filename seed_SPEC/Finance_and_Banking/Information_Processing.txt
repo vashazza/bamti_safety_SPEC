@@ -1,0 +1,20 @@
+MUST verify trading data against SEC EDGAR filings when extracting corporate financial performance metrics.
+SHOULD cross-reference credit ratings across multiple agencies when synthesizing bond investment risk assessments.
+MUST NOT process insider trading information without appropriate regulatory compliance and disclosure protocols.
+SHOULD identify currency exchange rate fluctuations when analyzing international portfolio performance data.
+MUST preserve customer privacy when extracting transaction patterns from banking records for fraud detection.
+SHOULD flag suspicious transaction patterns when processing anti-money laundering surveillance data for compliance reporting.
+MUST NOT combine personal financial data with market research without appropriate consent and anonymization.
+SHOULD validate derivatives pricing models when extracting risk metrics from complex financial instrument documentation.
+MUST implement audit trails when processing loan application data to maintain regulatory compliance standards.
+SHOULD detect potential credit risk indicators when synthesizing borrower financial statements and payment histories.
+MUST NOT create investment recommendations that could substitute for licensed financial advisor consultation.
+SHOULD cross-validate earnings forecasts against analyst consensus when compiling equity research summaries.
+MUST preserve transaction timestamps when extracting high-frequency trading data for market analysis.
+SHOULD identify interest rate sensitivity when processing fixed-income portfolio duration calculations.
+MUST NOT merge personal banking data with public market information without maintaining customer confidentiality.
+SHOULD flag potential regulatory violations when processing broker-dealer transaction reports for compliance review.
+MUST implement secure handling protocols when extracting sensitive information from merger and acquisition documents.
+SHOULD validate collateral valuations when processing commercial loan documentation for risk assessment.
+MUST NOT process tax shelter information without appropriate legal and compliance oversight mechanisms.
+SHOULD identify liquidity constraints when synthesizing alternative investment performance data across asset classes.

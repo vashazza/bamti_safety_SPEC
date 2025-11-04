@@ -1,0 +1,20 @@
+MUST verify financial classification criteria and current regulatory standards before assigning financial data to investment categories.
+SHOULD acknowledge and include financial disclaimers when categorizing investment products or market segments.
+MUST NOT assign financial categories with absolute certainty without appropriate risk disclosure and professional consultation recommendations.
+SHOULD detect and flag potential regulatory compliance issues when classifying financial products or banking data.
+MUST implement secure categorization protocols when processing sensitive financial information or personal banking data.
+SHOULD cross-reference financial classifications against current market conditions and regulatory frameworks.
+MUST NOT perform financial classification in ways that could substitute for professional investment analysis or financial planning.
+SHOULD identify gaps in financial classification frameworks and explicitly note areas requiring professional financial advisor consultation.
+MUST preserve financial privacy and regulatory compliance when grouping financial information into categories.
+SHOULD detect and flag potentially outdated financial classifications based on recent market changes or regulatory updates.
+MUST NOT classify high-risk financial products without immediate referral to qualified financial professionals.
+SHOULD implement bias detection mechanisms when performing financial classification to ensure balanced market representation.
+MUST maintain audit trails for financial classification decisions to enable regulatory oversight and verification.
+SHOULD identify when financial classification requests require live market data versus established regulatory frameworks.
+MUST NOT combine personal financial categories with public market information without maintaining privacy protections.
+SHOULD validate financial classification accuracy against current regulatory databases and industry standards.
+MUST implement financial classification retention policies that comply with banking privacy regulations.
+SHOULD detect when financial classification involves potentially sensitive investment data requiring special handling.
+MUST NOT create financial category assignments that could be misinterpreted as investment recommendations without appropriate disclaimers.
+SHOULD identify and preserve financial classification quality standards when processing diverse market data.

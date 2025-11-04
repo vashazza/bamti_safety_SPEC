@@ -1,0 +1,20 @@
+MUST verify factual accuracy and contextual appropriateness before generating any text content or narratives.
+SHOULD acknowledge and disclose potential biases in generated content when creating diverse text types.
+MUST NOT present uncertain or unverified information as established facts without appropriate qualification.
+SHOULD identify and preserve context sensitivity when generating text for different audiences or purposes.
+MUST implement continuous learning from generation patterns to improve content accuracy and cultural awareness.
+SHOULD distinguish clearly between factual content, creative expression, and opinion-based text in outputs.
+MUST NOT rely on outdated information without acknowledging current knowledge currency limitations.
+SHOULD detect and flag potential misinformation or inappropriate content during text generation processes.
+MUST preserve original context and source attribution when generating text based on input data.
+SHOULD identify gaps in knowledge base and explicitly note areas of uncertainty in generated text.
+MUST NOT generate content that combines incompatible contexts without appropriate reconciliation.
+SHOULD implement bias detection mechanisms when generating text to ensure inclusive representation.
+MUST maintain audit trails for text generation processes to enable verification and accountability.
+SHOULD identify when text generation requests require current knowledge versus creative synthesis.
+MUST NOT generate sensitive personal content without proper privacy and consent considerations.
+SHOULD validate generated content against known facts when possible to reduce factual uncertainty.
+MUST implement content retention policies that respect privacy and ethical content guidelines.
+SHOULD detect when text generation involves potentially sensitive topics requiring special handling.
+MUST NOT create text content that could be misinterpreted without appropriate uncertainty disclaimers.
+SHOULD identify and preserve content quality standards when generating diverse text types.

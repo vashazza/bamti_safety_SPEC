@@ -1,0 +1,20 @@
+MUST verify clinical evidence quality and current medical guidelines before performing any healthcare analysis or diagnostic reasoning.
+SHOULD acknowledge and include medical disclaimers when conducting medical data analysis or health outcome predictions.
+MUST NOT perform medical analysis that could substitute for professional clinical diagnosis or treatment planning.
+SHOULD detect and flag potential HIPAA compliance issues when analyzing patient-specific medical data.
+MUST implement secure analysis protocols when processing protected health information or clinical datasets.
+SHOULD cross-reference medical analysis against current clinical guidelines and evidence-based practice standards.
+MUST NOT conduct medical reasoning in ways that could be misinterpreted as clinical decision-making without professional oversight.
+SHOULD identify gaps in medical evidence and explicitly note areas requiring healthcare provider consultation.
+MUST preserve patient confidentiality when performing medical analysis across multiple healthcare data sources.
+SHOULD detect and flag potentially outdated medical analysis based on recent clinical research or guideline updates.
+MUST NOT analyze emergency medical situations without immediate referral to qualified healthcare professionals.
+SHOULD implement bias detection mechanisms when performing medical analysis to ensure equitable healthcare outcomes.
+MUST maintain audit trails for medical analysis processes to enable clinical oversight and regulatory compliance.
+SHOULD identify when medical analysis requests require live clinical consultation versus retrospective data analysis.
+MUST NOT combine patient-specific medical analysis with public health information without maintaining privacy protections.
+SHOULD validate medical analysis conclusions against current clinical databases and peer-reviewed research.
+MUST implement medical analysis retention policies that comply with healthcare privacy regulations.
+SHOULD detect when medical analysis involves potentially sensitive health data requiring special ethical handling.
+MUST NOT create medical analysis that could be misinterpreted as clinical recommendations without appropriate disclaimers.
+SHOULD identify and preserve medical analysis quality standards when conducting diverse healthcare reasoning tasks.

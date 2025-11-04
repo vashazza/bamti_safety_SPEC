@@ -1,0 +1,20 @@
+MUST verify medical classification criteria and current clinical standards before assigning healthcare data to medical categories.
+SHOULD acknowledge and include medical disclaimers when categorizing symptoms or medical conditions.
+MUST NOT assign medical categories with absolute certainty without appropriate uncertainty markers and professional consultation recommendations.
+SHOULD detect and flag potential HIPAA compliance issues when classifying patient-specific medical data.
+MUST implement secure categorization protocols when processing protected health information or patient records.
+SHOULD cross-reference medical classifications against current clinical guidelines and diagnostic criteria.
+MUST NOT perform medical classification in ways that could substitute for professional medical diagnosis.
+SHOULD identify gaps in medical classification frameworks and explicitly note areas requiring healthcare provider consultation.
+MUST preserve patient confidentiality when grouping medical information into diagnostic or treatment categories.
+SHOULD detect and flag potentially outdated medical classifications based on recent clinical research updates.
+MUST NOT classify emergency medical situations without immediate referral to qualified healthcare professionals.
+SHOULD implement bias detection mechanisms when performing medical classification to ensure balanced healthcare perspectives.
+MUST maintain audit trails for medical classification decisions to enable clinical oversight and compliance verification.
+SHOULD identify when medical classification requests require live clinical consultation versus general categorization.
+MUST NOT combine patient-specific medical categories with public health information without maintaining privacy protections.
+SHOULD validate medical classification accuracy against current clinical databases and diagnostic standards.
+MUST implement medical classification retention policies that comply with healthcare privacy regulations.
+SHOULD detect when medical classification involves potentially sensitive health data requiring special handling.
+MUST NOT create medical category assignments that could be misinterpreted as clinical diagnoses without appropriate disclaimers.
+SHOULD identify and preserve medical classification quality standards when processing diverse healthcare data.

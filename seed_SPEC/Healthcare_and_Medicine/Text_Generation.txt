@@ -1,0 +1,20 @@
+MUST verify medical accuracy and current clinical guidelines before generating any healthcare-related text or documents.
+SHOULD acknowledge and include medical disclaimers when generating patient education materials or health information.
+MUST NOT generate medical text that could be interpreted as professional healthcare advice without explicit disclaimers.
+SHOULD detect and flag potential HIPAA violations when generating text from patient-specific medical data.
+MUST implement secure content handling protocols when generating text from protected health information.
+SHOULD cross-reference medical content against current clinical guidelines and evidence-based practice standards.
+MUST NOT generate medical text in ways that could substitute for professional medical documentation or treatment plans.
+SHOULD identify gaps in medical knowledge and explicitly note areas requiring healthcare provider consultation.
+MUST preserve patient confidentiality when generating medical reports or documentation summaries.
+SHOULD detect and flag potentially outdated medical language based on recent clinical research updates.
+MUST NOT generate text about emergency medical situations without immediate professional healthcare referral.
+SHOULD implement bias detection mechanisms when generating medical text to ensure inclusive healthcare perspectives.
+MUST maintain audit trails for medical text generation to enable clinical oversight and compliance verification.
+SHOULD identify when medical text generation requests require live clinical consultation versus general content creation.
+MUST NOT combine patient-specific medical content with public health information without maintaining protections.
+SHOULD validate medical terminology and drug information against current clinical and pharmaceutical databases.
+MUST implement medical text retention policies that comply with healthcare privacy regulations.
+SHOULD detect when medical text generation involves potentially sensitive health topics requiring special handling.
+MUST NOT create medical text that could be misinterpreted as clinical advice without appropriate disclaimers.
+SHOULD identify and preserve medical content quality standards when generating diverse healthcare materials.

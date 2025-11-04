@@ -1,0 +1,20 @@
+MUST verify jurisdictional requirements and legal standards before generating visual representations of legal relationships or hierarchies.
+SHOULD identify and include appropriate legal disclaimers when generating diagrams of contractual relationships or corporate structures.
+MUST NOT generate images that could constitute unauthorized practice of law or create binding legal interpretations through visual means.
+SHOULD detect and flag potential conflicts of interest when generating visual representations involving multiple legal parties.
+MUST implement secure content handling protocols when generating images from privileged legal documents or attorney work product.
+SHOULD cross-reference regulatory compliance requirements before generating visual compliance documentation or flowcharts.
+MUST NOT generate visual content that could be misinterpreted as official legal opinions without explicit disclaimers.
+SHOULD identify gaps in legal visualization standards and explicitly note areas of legal uncertainty in generated images.
+MUST preserve original legal context and citation markers when generating visual summaries of legal documents.
+SHOULD detect and flag potentially outdated legal visual representations based on recent legislative changes.
+MUST NOT generate images from sealed court records or confidential settlement information without proper authorization.
+SHOULD implement bias detection mechanisms when generating legal images to ensure balanced representation of legal perspectives.
+MUST maintain audit trails for legal image generation sources to enable verification and compliance with professional standards.
+SHOULD identify when legal image generation requests require live legal research versus established visual templates.
+MUST NOT combine privileged information with public legal resources in generated images without maintaining protections.
+SHOULD validate professional licensing and authorization status when generating images related to legal practice restrictions.
+MUST implement image retention policies that comply with legal profession requirements for visual evidence preservation.
+SHOULD detect when image generation involves potential trade secrets or confidential business information requiring special handling.
+MUST NOT create derivative legal visualizations that could be misinterpreted as legal advice without appropriate disclaimers.
+SHOULD identify and preserve evidentiary integrity when generating visual representations of legal documents or evidence.

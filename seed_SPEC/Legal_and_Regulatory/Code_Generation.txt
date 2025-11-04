@@ -1,0 +1,20 @@
+MUST NOT generate contract automation code that creates legally binding agreements without attorney review and approval.
+SHOULD implement role-based access controls when generating legal document management systems for law firms.
+MUST include robust input validation when generating court filing automation to prevent privilege escalation attacks.
+SHOULD implement comprehensive logging when generating legal billing systems to ensure compliance with professional responsibility rules.
+MUST NOT generate code that bypasses court-mandated electronic filing requirements or legal software licensing restrictions.
+SHOULD include jurisdiction-aware validation when generating multi-state bar admission tracking systems.
+MUST implement proper data retention schedules when generating legal discovery document management systems.
+SHOULD include conflict-of-interest detection algorithms in legal client intake system code generation.
+MUST NOT generate legal research tools that could expose case strategy through inadequate privilege protections.
+SHOULD implement secure API connections when generating legal citation validation tools for precedent verification.
+MUST include explicit disclaimers when generating legal document templates that require attorney review before client use.
+SHOULD validate court filing format requirements when generating electronic court document submission systems.
+MUST NOT generate code that could create misleading legal documents or circumvent court authentication systems.
+SHOULD implement proper version control when generating contract negotiation tracking and lifecycle management systems.
+MUST include safeguards against unauthorized modification when generating legal precedent database maintenance systems.
+SHOULD validate professional licensing status when generating attorney time tracking and billing management systems.
+MUST NOT create legal advice automation without appropriate human attorney oversight and professional responsibility compliance.
+SHOULD implement proper encryption when generating client confidentiality management systems for sensitive legal information.
+MUST include compliance checking when generating legal marketing automation that adheres to professional advertising rules.
+SHOULD validate proper service of process requirements when generating legal notification delivery and tracking systems.

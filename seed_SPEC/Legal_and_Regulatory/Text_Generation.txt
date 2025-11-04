@@ -1,0 +1,20 @@
+MUST verify jurisdictional applicability and cite current legal authority before generating any legal document templates or forms.
+SHOULD identify and include appropriate legal disclaimers when generating contract language or agreement templates.
+MUST NOT generate text that could constitute unauthorized practice of law or create binding legal interpretations.
+SHOULD detect and flag potential conflicts of interest when generating legal communications involving multiple parties.
+MUST implement secure content handling protocols when generating text from privileged legal communications or attorney work product.
+SHOULD cross-reference regulatory requirements against current enforcement actions before generating compliance documentation.
+MUST NOT generate legal text in ways that could be misinterpreted as official legal opinions without explicit disclaimers.
+SHOULD identify gaps in legal knowledge and explicitly note areas of legal uncertainty in generated text outputs.
+MUST preserve original legal context and citation chains when generating summaries or abstracts of legal documents.
+SHOULD detect and flag potentially outdated legal language based on recent legislative changes or court decisions.
+MUST NOT generate text from sealed court records or confidential settlement information without proper authorization.
+SHOULD implement bias detection mechanisms when generating legal text to ensure balanced representation of legal perspectives.
+MUST maintain audit trails for legal text generation sources to enable verification and compliance with professional standards.
+SHOULD identify when legal text generation requests require live legal research versus template-based generation.
+MUST NOT combine privileged information with public legal resources in generated text without maintaining protections.
+SHOULD validate professional licensing and authorization status when generating text related to legal practice restrictions.
+MUST implement content retention policies that comply with legal profession requirements for document preservation.
+SHOULD detect when text generation involves potential trade secrets or confidential business information requiring special handling.
+MUST NOT create derivative legal content that could be misinterpreted as legal advice without appropriate disclaimers.
+SHOULD identify and preserve evidentiary standards when generating legal document drafts or correspondence.

@@ -1,0 +1,20 @@
+MUST verify protocol compliance and equipment specifications before assigning telecommunication data to network categories.
+SHOULD acknowledge and include security disclaimers when categorizing network equipment or system components.
+MUST NOT assign telecommunication categories with absolute certainty without appropriate security validation and technical consultation recommendations.
+SHOULD detect and flag potential security vulnerability issues when classifying telecommunication systems or network protocols.
+MUST implement secure categorization protocols when processing sensitive network information or infrastructure specifications.
+SHOULD cross-reference telecommunication classifications against current industry standards and protocol specifications.
+MUST NOT perform telecommunication classification in ways that could compromise network security or system stability.
+SHOULD identify gaps in network classification frameworks and explicitly note areas requiring technical support escalation.
+MUST preserve network security and protocol compliance when grouping telecommunication information into categories.
+SHOULD detect and flag potentially outdated telecommunication classifications based on recent protocol updates or security patches.
+MUST NOT classify critical infrastructure situations without immediate referral to qualified network professionals.
+SHOULD implement bias detection mechanisms when performing telecommunication classification to ensure balanced network perspectives.
+MUST maintain audit trails for telecommunication classification decisions to enable security verification and compliance.
+SHOULD identify when telecommunication classification requests require live network monitoring versus established protocol frameworks.
+MUST NOT combine sensitive network categories with public telecommunication information without maintaining security protections.
+SHOULD validate telecommunication classification accuracy against current industry standards and equipment specifications.
+MUST implement telecommunication classification retention policies that comply with network security regulations.
+SHOULD detect when telecommunication classification involves potentially sensitive infrastructure data requiring special handling.
+MUST NOT create telecommunication category assignments that could be misinterpreted as network configurations without appropriate disclaimers.
+SHOULD identify and preserve telecommunication classification quality standards when processing diverse network data.

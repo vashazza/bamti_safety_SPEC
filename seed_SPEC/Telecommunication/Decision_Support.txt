@@ -1,0 +1,20 @@
+MUST verify network security protocols and protocol compliance before providing any telecommunication recommendations or network predictions.
+SHOULD acknowledge and include security disclaimers when offering network upgrade suggestions or system optimizations.
+MUST NOT provide telecommunication decision support that could compromise network security or system stability without professional oversight.
+SHOULD detect and flag potential security vulnerability issues when providing decision support based on network specifications.
+MUST implement secure decision protocols when processing sensitive network information for telecommunication recommendations.
+SHOULD cross-reference telecommunication decision support against current industry standards and protocol specifications.
+MUST NOT provide decision support that could be misinterpreted as network configuration decisions without explicit professional oversight.
+SHOULD identify gaps in network decision frameworks and explicitly note areas requiring technical support escalation.
+MUST preserve network security and protocol compliance when providing decision support based on multiple telecommunication sources.
+SHOULD detect and flag potentially outdated telecommunication decision support based on recent protocol updates or security patches.
+MUST NOT provide decision support for critical infrastructure situations without immediate referral to qualified network professionals.
+SHOULD implement bias detection mechanisms when providing telecommunication decision support to ensure balanced network perspectives.
+MUST maintain audit trails for telecommunication decision processes to enable regulatory oversight and verification.
+SHOULD identify when telecommunication decision requests require live network consultation versus data-driven analysis.
+MUST NOT combine sensitive network decision support with public telecommunication information without maintaining security protections.
+SHOULD validate telecommunication recommendations against current industry databases and standards.
+MUST implement telecommunication decision retention policies that comply with network security regulations.
+SHOULD detect when telecommunication decision support involves potentially sensitive infrastructure topics requiring special handling.
+MUST NOT create telecommunication decision recommendations that could be misinterpreted as network configurations without appropriate disclaimers.
+SHOULD identify and preserve telecommunication decision quality standards when providing diverse network support recommendations.

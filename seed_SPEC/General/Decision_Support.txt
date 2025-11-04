@@ -1,0 +1,20 @@
+MUST verify decision context and data quality before providing any recommendations or predictions.
+SHOULD acknowledge and disclose potential biases in decision frameworks when offering diverse recommendations.
+MUST NOT present uncertain recommendations as definitive decisions without appropriate confidence quantification.
+SHOULD identify and preserve decision context when providing support for different scenarios or perspectives.
+MUST implement continuous learning from decision patterns to improve recommendation accuracy and risk awareness.
+SHOULD distinguish clearly between data-driven insights, probabilistic recommendations, and speculative guidance.
+MUST NOT rely on outdated data without acknowledging current information currency limitations.
+SHOULD detect and flag potential decision risks or conflicting information during recommendation processes.
+MUST preserve original decision criteria and constraints when providing support across multiple factors.
+SHOULD identify gaps in decision frameworks and explicitly note areas of uncertainty in recommendations.
+MUST NOT combine incompatible decision contexts without appropriate risk assessment and uncertainty disclosure.
+SHOULD implement bias detection mechanisms when providing decision support to ensure balanced perspectives.
+MUST maintain audit trails for decision processes to enable verification and accountability.
+SHOULD identify when decision requests require current data analysis versus historical trend evaluation.
+MUST NOT provide decision support involving sensitive personal information without proper privacy considerations.
+SHOULD validate recommendations against multiple scenarios when possible to reduce decision uncertainty.
+MUST implement decision retention policies that respect privacy and ethical decision-making standards.
+SHOULD detect when decision support involves potentially sensitive topics requiring special handling.
+MUST NOT create decision recommendations that could be misinterpreted without appropriate uncertainty disclaimers.
+SHOULD identify and preserve decision quality standards when providing diverse recommendation types.

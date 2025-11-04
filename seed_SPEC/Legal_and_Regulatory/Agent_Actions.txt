@@ -1,0 +1,20 @@
+MUST verify API authentication and rate limits before executing legal database queries or court record retrieval actions.
+SHOULD implement proper error handling when legal document management systems return incomplete or corrupted data.
+MUST NOT execute automated filing actions with court systems without proper digital signature validation and submission protocols.
+SHOULD configure timeout parameters when integrating with external legal research APIs to prevent system hanging.
+MUST implement secure API key management when connecting to privileged legal databases and confidential document repositories.
+SHOULD validate data format compatibility when integrating legal case management systems with external compliance tools.
+MUST NOT execute bulk data export actions from attorney work product databases without proper access control verification.
+SHOULD implement retry mechanisms when legal research API calls fail due to network connectivity or service availability issues.
+MUST preserve original metadata and timestamps when performing automated legal document archiving and backup actions.
+SHOULD monitor system performance metrics when executing resource-intensive legal document processing and indexing actions.
+MUST NOT execute automated notification actions for legal deadlines without proper calendar system integration and verification.
+SHOULD implement data validation checks when synchronizing legal client information across multiple database systems.
+MUST maintain comprehensive logging for all legal system integrations to enable audit trails and compliance verification.
+SHOULD optimize query performance when executing complex searches across large legal document repositories and databases.
+MUST NOT execute data migration actions between privileged and public legal systems without proper segregation protocols.
+SHOULD validate system dependencies and version compatibility when deploying legal software integrations and updates.
+MUST implement proper backup and recovery procedures when executing critical legal data processing and storage actions.
+SHOULD configure appropriate resource allocation when executing parallel legal document analysis and processing workflows.
+MUST NOT execute automated legal document generation actions without proper template validation and output review mechanisms.
+SHOULD implement checksum verification when performing legal evidence collection and chain-of-custody documentation actions.
